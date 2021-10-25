@@ -26,18 +26,19 @@ select
                 ss_sold_date_sk = d_date_sk and
                 d_year = 2002 and
                 d_moy between 4 and 4+3) and
-   (exists (select *
-            from web_sales,date_dim
-            where c.c_customer_sk = ws_bill_customer_sk and
-                  ws_sold_date_sk = d_date_sk and
-                  d_year = 2002 and
-                  d_moy between 4 ANd 4+3) or 
-    exists (select * 
-            from catalog_sales,date_dim
-            where c.c_customer_sk = cs_ship_customer_sk and
-                  cs_sold_date_sk = d_date_sk and
-                  d_year = 2002 and
-                  d_moy between 4 and 4+3))
+   exists (select *
+          from (
+             select ws_bill_customer_sk as customer_sk, d_year,d_moy
+             from web_sales, date_dim where ws_sold_date_sk = d_date_sk
+              and d_year = 2002 and
+                  d_moy between 4 and 4+3
+             union all
+             select cs_ship_customer_sk as customer_sk, d_year, d_moy
+             from catalog_sales, date_dim where cs_sold_date_sk = d_date_sk
+              and d_year = 2002 and
+                  d_moy between 4 and 4+3
+	     ) x
+            where c.c_customer_sk = customer_sk)
  group by cd_gender,
           cd_marital_status,
           cd_education_status,

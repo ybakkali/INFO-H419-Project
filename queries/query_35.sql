@@ -29,18 +29,21 @@ select
                 ss_sold_date_sk = d_date_sk and
                 d_year = 1999 and
                 d_qoy < 4) and
-   (exists (select *
+   exists (select * from
+	   (select ws_bill_customer_sk customsk
             from web_sales,date_dim
-            where c.c_customer_sk = ws_bill_customer_sk and
+            where 
                   ws_sold_date_sk = d_date_sk and
                   d_year = 1999 and
-                  d_qoy < 4) or 
-    exists (select * 
+                  d_qoy < 4
+	    union all 
+    	    select cs_ship_customer_sk customsk
             from catalog_sales,date_dim
-            where c.c_customer_sk = cs_ship_customer_sk and
+            where 
                   cs_sold_date_sk = d_date_sk and
                   d_year = 1999 and
-                  d_qoy < 4))
+                  d_qoy < 4)x 
+           where x.customsk = c.c_customer_sk)
  group by ca_state,
           cd_gender,
           cd_marital_status,
