@@ -34,8 +34,8 @@
 -- Gradient Systems
 --
 
-CREATE DATABASE IF NOT EXISTS benchmark;
-use benchmark;
+CREATE DATABASE IF NOT EXISTS TPC_DS;
+use TPC_DS;
 
 create table dbgen_version
 (
