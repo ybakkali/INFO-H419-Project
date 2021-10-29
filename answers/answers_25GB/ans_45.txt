@@ -1,0 +1,104 @@
++------------+---------------------+---------------------+
+| ca_zip     | ca_county           | sum(ws_sales_price) |
++------------+---------------------+---------------------+
+| 02254      | Knox County         | 96.32               |
+| 04283      | Androscoggin County | 11.96               |
+| 04424      | Salem County        | 18.94               |
+| 06404      | Coos County         | 68.92               |
+| 07571      | Grafton County      | 13.18               |
+| 08244      | Caledonia County    | 2.36                |
+| 08614      | Passaic County      | 4.92                |
+| 09483      | NULL                | 6.08                |
+| 09532      | Kennebec County     | 51.26               |
+| 09991      | Sullivan County     | 41.21               |
+| 11757      | Snyder County       | 44.21               |
+| 12293      | Lawrence County     | 63.56               |
+| 14462      | Chautauqua County   | 17.01               |
+| 15752      | Erie County         | 29.48               |
+| 16192      | Wyoming County      | 118.60              |
+| 17683      | York County         | 0.00                |
+| 17746      | Lehigh County       | 109.92              |
+| 18370      | Rockland County     | 49.31               |
+| 20001      | Transylvania County | 63.73               |
+| 20069      | Grant County        | 0.00                |
+| 20411      | Johnston County     | 62.58               |
+| 20499      | Sussex County       | 42.22               |
+| 21521      | Richmond County     | 10.34               |
+| 21675      | Franklin city       | 41.28               |
+| 21749      | Grant County        | 14.40               |
+| 22219      | Jackson County      | 0.00                |
+| 23511      | Bland County        | 119.80              |
+| 23511      | Botetourt County    | 1.84                |
+| 23524      | Vance County        | 53.11               |
+| 24107      | Albemarle County    | 7.04                |
+| 24107      | Augusta County      | 8.78                |
+| 24107      | Floyd County        | 18.23               |
+| 24593      | Braxton County      | 14.81               |
+| 24593      | Guilford County     | 23.52               |
+| 25124      | Emporia city        | 2.91                |
+| 25804      | Danville city       | 12.68               |
+| 26668      | Guilford County     | 173.39              |
+| 27057      | Caldwell County     | 69.91               |
+| 28014      | Buena Vista city    | 37.72               |
+| 28059      | Vance County        | 75.12               |
+| 28354      | Lancaster County    | 79.84               |
+| 28587      | Clifton Forge city  | 196.78              |
+| 28721      | Chesterfield County | 13.30               |
+| 28877      | Louisa County       | 84.81               |
+| 28909      | Chowan County       | 93.96               |
+| 29089      | Lancaster County    | 23.75               |
+| 29101      | Morgan County       | 58.68               |
+| 29231      | Harrison County     | 32.99               |
+| 29303      | Mineral County      | 21.27               |
+| 29303      | Nelson County       | 30.22               |
+| 29843      | Madison County      | 14.89               |
+| 30069      | Cocke County        | 101.02              |
+| 30162      | Houston County      | 13.39               |
+| 30399      | Ben Hill County     | 11.61               |
+| 30411      | Brevard County      | 53.94               |
+| 30499      | Putnam County       | 58.31               |
+| 30534      | Tattnall County     | 9.08                |
+| 30540      | Gilmer County       | 16.68               |
+| 30766      | Choctaw County      | 9.07                |
+| 31423      | Shelby County       | 0.00                |
+| 31711      | Treutlen County     | 9.45                |
+| 31904      | Bibb County         | 12.65               |
+| 31904      | Telfair County      | 193.89              |
+| 32808      | Floyd County        | 0.91                |
+| 32808      | Hendry County       | 38.92               |
+| 32812      | Effingham County    | 101.11              |
+| 32812      | Jefferson County    | 0.39                |
+| 32898      | Marshall County     | 26.16               |
+| 34107      | Henry County        | 56.28               |
+| 34136      | Douglas County      | 45.59               |
+| 34136      | Hernando County     | 9.12                |
+| 34854      | Washington County   | 17.18               |
+| 34975      | Rockdale County     | 51.79               |
+| 35124      | Dickson County      | 61.99               |
+| 35985      | NULL                | 72.10               |
+| 36098      | Cocke County        | 42.13               |
+| 36115      | Newton County       | 5.34                |
+| 37389      | Barbour County      | 45.72               |
+| 37683      | Dougherty County    | 1.67                |
+| 37752      | Lee County          | 6.32                |
+| 38095      | Glades County       | 12.94               |
+| 38354      | Gilmer County       | 148.67              |
+| 38877      | Warren County       | 19.67               |
+| 39003      | Okeechobee County   | 4.46                |
+| 39145      | Twiggs County       | 41.19               |
+| 39303      | Coffee County       | 70.16               |
+| 39310      | Grady County        | 56.89               |
+| 39391      | Indian River County | 61.32               |
+| 40150      | Fayette County      | 163.72              |
+| 40150      | Menifee County      | 24.13               |
+| 40399      | Taylor County       | 78.90               |
+| 40534      | Mason County        | 129.67              |
+| 40587      | Bullitt County      | 151.92              |
+| 40631      | Pulaski County      | 135.46              |
+| 41675      | Cass County         | 23.49               |
+| 43394      | Franklin County     | 60.52               |
+| 43394      | Green County        | 36.09               |
+| 44098      | Whitley County      | 18.36               |
+| 44190      | Jasper County       | 52.91               |
+| 45752      | Iron County         | 89.11               |
++------------+---------------------+---------------------+

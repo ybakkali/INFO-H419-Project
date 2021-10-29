@@ -1,0 +1,94 @@
++---------------------------------+--------------------------------+---------------+---------+------------+------------+-------------+-----------+
+| substr(w_warehouse_name, 1, 20) | sm_type                        | cc_name       | 30 days | 31-60 days | 61-90 days | 91-120 days | >120 days |
++---------------------------------+--------------------------------+---------------+---------+------------+------------+-------------+-----------+
+| Bad cards must make.            | EXPRESS                        | Mid Atlantic  | 30895   | 31514      | 31916      | 0           | 0         |
+| Bad cards must make.            | EXPRESS                        | NY Metro      | 30877   | 31691      | 31913      | 0           | 0         |
+| Bad cards must make.            | EXPRESS                        | North Midwest | 30676   | 32278      | 32009      | 0           | 0         |
+| Bad cards must make.            | LIBRARY                        | Mid Atlantic  | 23135   | 23645      | 24049      | 0           | 0         |
+| Bad cards must make.            | LIBRARY                        | NY Metro      | 23234   | 23885      | 24005      | 0           | 0         |
+| Bad cards must make.            | LIBRARY                        | North Midwest | 23474   | 23941      | 24186      | 0           | 0         |
+| Bad cards must make.            | NEXT DAY                       | Mid Atlantic  | 30541   | 31877      | 31458      | 0           | 0         |
+| Bad cards must make.            | NEXT DAY                       | NY Metro      | 30663   | 32029      | 31973      | 0           | 0         |
+| Bad cards must make.            | NEXT DAY                       | North Midwest | 30981   | 31905      | 32096      | 0           | 0         |
+| Bad cards must make.            | OVERNIGHT                      | Mid Atlantic  | 23197   | 24140      | 23758      | 0           | 0         |
+| Bad cards must make.            | OVERNIGHT                      | NY Metro      | 23152   | 23912      | 23928      | 0           | 0         |
+| Bad cards must make.            | OVERNIGHT                      | North Midwest | 23284   | 23865      | 23838      | 0           | 0         |
+| Bad cards must make.            | REGULAR                        | Mid Atlantic  | 22791   | 23774      | 23794      | 0           | 0         |
+| Bad cards must make.            | REGULAR                        | NY Metro      | 22719   | 23862      | 23805      | 0           | 0         |
+| Bad cards must make.            | REGULAR                        | North Midwest | 23434   | 23899      | 24198      | 0           | 0         |
+| Bad cards must make.            | TWO DAY                        | Mid Atlantic  | 23253   | 23779      | 24243      | 0           | 0         |
+| Bad cards must make.            | TWO DAY                        | NY Metro      | 22926   | 24221      | 23995      | 0           | 0         |
+| Bad cards must make.            | TWO DAY                        | North Midwest | 23179   | 24261      | 24074      | 0           | 0         |
+| Conventional childr             | EXPRESS                        | Mid Atlantic  | 30607   | 31568      | 31995      | 0           | 0         |
+| Conventional childr             | EXPRESS                        | NY Metro      | 30840   | 31578      | 32032      | 0           | 0         |
+| Conventional childr             | EXPRESS                        | North Midwest | 30801   | 31978      | 32313      | 0           | 0         |
+| Conventional childr             | LIBRARY                        | Mid Atlantic  | 22874   | 23590      | 23779      | 0           | 0         |
+| Conventional childr             | LIBRARY                        | NY Metro      | 23203   | 23784      | 23715      | 0           | 0         |
+| Conventional childr             | LIBRARY                        | North Midwest | 23285   | 24025      | 24142      | 0           | 0         |
+| Conventional childr             | NEXT DAY                       | Mid Atlantic  | 31037   | 32154      | 31628      | 0           | 0         |
+| Conventional childr             | NEXT DAY                       | NY Metro      | 30313   | 31869      | 32138      | 0           | 0         |
+| Conventional childr             | NEXT DAY                       | North Midwest | 31414   | 32020      | 31877      | 0           | 0         |
+| Conventional childr             | OVERNIGHT                      | Mid Atlantic  | 23212   | 24097      | 24056      | 0           | 0         |
+| Conventional childr             | OVERNIGHT                      | NY Metro      | 23351   | 23874      | 23805      | 0           | 0         |
+| Conventional childr             | OVERNIGHT                      | North Midwest | 23413   | 24213      | 23980      | 0           | 0         |
+| Conventional childr             | REGULAR                        | Mid Atlantic  | 23177   | 23907      | 23786      | 0           | 0         |
+| Conventional childr             | REGULAR                        | NY Metro      | 22860   | 23824      | 24080      | 0           | 0         |
+| Conventional childr             | REGULAR                        | North Midwest | 23021   | 23902      | 23927      | 0           | 0         |
+| Conventional childr             | TWO DAY                        | Mid Atlantic  | 23164   | 23758      | 23963      | 0           | 0         |
+| Conventional childr             | TWO DAY                        | NY Metro      | 22733   | 23718      | 24225      | 0           | 0         |
+| Conventional childr             | TWO DAY                        | North Midwest | 23077   | 23976      | 23965      | 0           | 0         |
+| Doors canno                     | EXPRESS                        | Mid Atlantic  | 30917   | 31791      | 31960      | 0           | 0         |
+| Doors canno                     | EXPRESS                        | NY Metro      | 30720   | 32169      | 31792      | 0           | 0         |
+| Doors canno                     | EXPRESS                        | North Midwest | 31084   | 31857      | 31762      | 0           | 0         |
+| Doors canno                     | LIBRARY                        | Mid Atlantic  | 23240   | 23933      | 23922      | 0           | 0         |
+| Doors canno                     | LIBRARY                        | NY Metro      | 22960   | 23809      | 23763      | 0           | 0         |
+| Doors canno                     | LIBRARY                        | North Midwest | 23132   | 23934      | 24157      | 0           | 0         |
+| Doors canno                     | NEXT DAY                       | Mid Atlantic  | 30995   | 32028      | 31650      | 0           | 0         |
+| Doors canno                     | NEXT DAY                       | NY Metro      | 30773   | 31935      | 32053      | 0           | 0         |
+| Doors canno                     | NEXT DAY                       | North Midwest | 30964   | 31840      | 31886      | 0           | 0         |
+| Doors canno                     | OVERNIGHT                      | Mid Atlantic  | 23002   | 23932      | 23912      | 0           | 0         |
+| Doors canno                     | OVERNIGHT                      | NY Metro      | 23399   | 23912      | 23758      | 0           | 0         |
+| Doors canno                     | OVERNIGHT                      | North Midwest | 23265   | 23948      | 24193      | 0           | 0         |
+| Doors canno                     | REGULAR                        | Mid Atlantic  | 23025   | 23915      | 23801      | 0           | 0         |
+| Doors canno                     | REGULAR                        | NY Metro      | 23223   | 24033      | 23967      | 0           | 0         |
+| Doors canno                     | REGULAR                        | North Midwest | 22919   | 24288      | 23939      | 0           | 0         |
+| Doors canno                     | TWO DAY                        | Mid Atlantic  | 23127   | 24030      | 23670      | 0           | 0         |
+| Doors canno                     | TWO DAY                        | NY Metro      | 23179   | 24148      | 23832      | 0           | 0         |
+| Doors canno                     | TWO DAY                        | North Midwest | 22933   | 24178      | 23878      | 0           | 0         |
+| Important issues liv            | EXPRESS                        | Mid Atlantic  | 30871   | 31844      | 31698      | 0           | 0         |
+| Important issues liv            | EXPRESS                        | NY Metro      | 30790   | 31970      | 31562      | 0           | 0         |
+| Important issues liv            | EXPRESS                        | North Midwest | 30677   | 31779      | 31649      | 0           | 0         |
+| Important issues liv            | LIBRARY                        | Mid Atlantic  | 22728   | 23430      | 23799      | 0           | 0         |
+| Important issues liv            | LIBRARY                        | NY Metro      | 22970   | 24139      | 24194      | 0           | 0         |
+| Important issues liv            | LIBRARY                        | North Midwest | 23142   | 23825      | 23843      | 0           | 0         |
+| Important issues liv            | NEXT DAY                       | Mid Atlantic  | 30788   | 31636      | 32075      | 0           | 0         |
+| Important issues liv            | NEXT DAY                       | NY Metro      | 30790   | 31969      | 31852      | 0           | 0         |
+| Important issues liv            | NEXT DAY                       | North Midwest | 30959   | 31703      | 31915      | 0           | 0         |
+| Important issues liv            | OVERNIGHT                      | Mid Atlantic  | 23076   | 23815      | 23797      | 0           | 0         |
+| Important issues liv            | OVERNIGHT                      | NY Metro      | 23149   | 23822      | 23947      | 0           | 0         |
+| Important issues liv            | OVERNIGHT                      | North Midwest | 23266   | 23966      | 23975      | 0           | 0         |
+| Important issues liv            | REGULAR                        | Mid Atlantic  | 22858   | 24003      | 23831      | 0           | 0         |
+| Important issues liv            | REGULAR                        | NY Metro      | 23117   | 23968      | 23815      | 0           | 0         |
+| Important issues liv            | REGULAR                        | North Midwest | 23241   | 23925      | 23992      | 0           | 0         |
+| Important issues liv            | TWO DAY                        | Mid Atlantic  | 23051   | 23861      | 23957      | 0           | 0         |
+| Important issues liv            | TWO DAY                        | NY Metro      | 23085   | 23925      | 24012      | 0           | 0         |
+| Important issues liv            | TWO DAY                        | North Midwest | 22887   | 23982      | 24167      | 0           | 0         |
+| NULL                            | EXPRESS                        | Mid Atlantic  | 31079   | 31735      | 32020      | 0           | 0         |
+| NULL                            | EXPRESS                        | NY Metro      | 30816   | 31921      | 31915      | 0           | 0         |
+| NULL                            | EXPRESS                        | North Midwest | 30965   | 31921      | 31943      | 0           | 0         |
+| NULL                            | LIBRARY                        | Mid Atlantic  | 22911   | 23742      | 23958      | 0           | 0         |
+| NULL                            | LIBRARY                        | NY Metro      | 23111   | 23723      | 23965      | 0           | 0         |
+| NULL                            | LIBRARY                        | North Midwest | 23170   | 23607      | 23879      | 0           | 0         |
+| NULL                            | NEXT DAY                       | Mid Atlantic  | 30887   | 32111      | 31785      | 0           | 0         |
+| NULL                            | NEXT DAY                       | NY Metro      | 30552   | 31934      | 31550      | 0           | 0         |
+| NULL                            | NEXT DAY                       | North Midwest | 30832   | 32138      | 31815      | 0           | 0         |
+| NULL                            | OVERNIGHT                      | Mid Atlantic  | 23137   | 23900      | 23935      | 0           | 0         |
+| NULL                            | OVERNIGHT                      | NY Metro      | 23186   | 23831      | 24062      | 0           | 0         |
+| NULL                            | OVERNIGHT                      | North Midwest | 23472   | 23924      | 23983      | 0           | 0         |
+| NULL                            | REGULAR                        | Mid Atlantic  | 22874   | 23618      | 23799      | 0           | 0         |
+| NULL                            | REGULAR                        | NY Metro      | 23070   | 23628      | 23615      | 0           | 0         |
+| NULL                            | REGULAR                        | North Midwest | 23165   | 24305      | 23987      | 0           | 0         |
+| NULL                            | TWO DAY                        | Mid Atlantic  | 23101   | 23838      | 24103      | 0           | 0         |
+| NULL                            | TWO DAY                        | NY Metro      | 22732   | 23844      | 24209      | 0           | 0         |
+| NULL                            | TWO DAY                        | North Midwest | 23033   | 23876      | 24081      | 0           | 0         |
++---------------------------------+--------------------------------+---------------+---------+------------+------------+-------------+-----------+

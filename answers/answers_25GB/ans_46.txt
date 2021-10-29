@@ -1,0 +1,104 @@
++--------------------------------+----------------------+-----------------+-----------------+------------------+----------+-----------+
+| c_last_name                    | c_first_name         | ca_city         | bought_city     | ss_ticket_number | amt      | profit    |
++--------------------------------+----------------------+-----------------+-----------------+------------------+----------+-----------+
+| Aaron                          | Billy                | Mount Zion      | Green Acres     | 2789529          | 3563.55  | -9422.68  |
+| Aaron                          | Brandon              | Highland        | Clifton         | 3149496          | 85.29    | -7487.08  |
+| Aaron                          | Brandon              | Highland        | Summit          | 5897057          | 9629.13  | -16968.83 |
+| Aaron                          | Christina            | Newtown         | Lakewood        | 520782           | 3197.92  | -7281.15  |
+| Aaron                          | Christina            | Newtown         | Pleasant Grove  | 2089398          | 0.00     | -4413.47  |
+| Aaron                          | Freddie              | Lenox           | White Oak       | 2589592          | 14845.74 | -11173.93 |
+| Aaron                          | Genevieve            | Plainview       | Georgetown      | 3569822          | 3033.54  | -20893.50 |
+| Aaron                          | George               | Salem           | Oakwood         | 1355770          | 3560.77  | -5236.27  |
+| Aaron                          | Georgia              | Chestnut Ridge  | Amherst         | 5310170          | 203.20   | -4685.19  |
+| Aaron                          | Georgia              | Chestnut Ridge  | Hillcrest       | 3425976          | 961.22   | -11825.76 |
+| Aaron                          | Henry                | Antioch         | Oakland         | 3613579          | 2827.12  | -4155.28  |
+| Aaron                          | John                 | Shelby          | Enterprise      | 3112776          | 7035.35  | -14553.85 |
+| Aaron                          | John                 | Shelby          | Green Acres     | 2842009          | 2277.32  | -10481.87 |
+| Aaron                          | Jon                  | Riverdale       | Brownsville     | 5702592          | 4535.56  | -11830.64 |
+| Aaron                          | Jon                  | Riverdale       | Riverside       | 2193743          | 8062.00  | -10769.55 |
+| Aaron                          | Joseph               | Clinton         | Forest Hills    | 4683149          | 3002.10  | -7844.50  |
+| Aaron                          | Joyce                | Wilson          | Bethel          | 5134814          | 1412.23  | -21212.76 |
+| Aaron                          | Joyce                | Wilson          | Georgetown      | 881807           | 3053.63  | -9007.51  |
+| Aaron                          | Larry                | Midway          | Belmont         | 2310324          | 1155.84  | -4650.50  |
+| Aaron                          | Larry                | Midway          | Shady Grove     | 170287           | 935.85   | -5287.90  |
+| Aaron                          | Larry                | Midway          | Spring Hill     | 293935           | 4539.27  | -11726.81 |
+| Aaron                          | Margaret             | Union Hill      | Salem           | 365191           | 9.39     | -11228.71 |
+| Aaron                          | Margaret             | Union Hill      | Yorktown        | 1712098          | 400.55   | -14025.47 |
+| Aaron                          | Martha               | Five Points     | Deerfield       | 1677360          | 1414.94  | -7596.81  |
+| Aaron                          | Michael              | Florence        | Marion          | 2576753          | 39.92    | -13348.30 |
+| Aaron                          | Michael              | Mount Olive     | Woodlawn        | 4446685          | 2421.40  | -14394.41 |
+| Aaron                          | Robert               | Delmar          | Concord         | 5071486          | 1074.79  | -8273.84  |
+| Aaron                          | Robert               | Delmar          | Glendale        | 2841193          | 2380.92  | -13108.32 |
+| Aaron                          | Robert               | Delmar          | Oakdale         | 4511602          | 2801.35  | -10319.13 |
+| Aaron                          | Robert               | Providence      | Highland Park   | 5220978          | 175.39   | -6267.93  |
+| Aaron                          | Ruby                 | Liberty         | Denmark         | 3133601          | 9383.90  | -8571.78  |
+| Aaron                          | Ruby                 | Liberty         | Forest Hills    | 5805370          | 1338.71  | -2066.62  |
+| Aaron                          | Ruby                 | Liberty         | Providence      | 5057468          | 1090.58  | -2681.26  |
+| Aaron                          | Ruth                 | Plainview       | Carpenter       | 936291           | 0.00     | -12566.14 |
+| Aaron                          | Ruth                 | Plainview       | Macedonia       | 600597           | 6533.69  | -10092.94 |
+| Aaron                          | Sam                  | Greenfield      | Glenwood        | 5902845          | 0.00     | -5928.56  |
+| Aaron                          | Tommie               | Sunnyside       | Harmony         | 3063826          | 7489.67  | -3828.29  |
+| Aaron                          | Tony                 | Stratford       | Riceville       | 2336958          | 1574.07  | -12512.04 |
+| Aaron                          | Ursula               | Glendale        | Centerville     | 1890518          | 3190.77  | -9138.15  |
+| Aaron                          | Ursula               | Glendale        | Greenville      | 5536727          | 5693.10  | -25358.37 |
+| Aaron                          | Ursula               | Glendale        | Rosewood        | 5111616          | 501.50   | -23781.41 |
+| Aaron                          | Ursula               | Glendale        | Summit          | 4183307          | 1009.16  | -13321.25 |
+| Aaron                          | NULL                 | Pleasant Valley | Forest Hills    | 4905708          | 4696.16  | -13148.05 |
+| Aaron                          | NULL                 | Somerville      | Frogtown        | 5563238          | 2279.31  | -13714.73 |
+| Aaron                          | NULL                 | Somerville      | Wildwood        | 2125547          | 737.29   | -7147.36  |
+| Abbott                         | Aaron                | Saint Clair     | Five Forks      | 2162685          | 93.79    | -12305.65 |
+| Abbott                         | Alan                 | Concord         | Buena Vista     | 5060390          | 3577.08  | -12482.81 |
+| Abbott                         | Alan                 | Concord         | Glendale        | 996435           | 0.00     | -5622.73  |
+| Abbott                         | Andres               | Liberty         | Lebanon         | 732921           | 2835.00  | -3432.58  |
+| Abbott                         | Angela               | Bath            | Pinecrest       | 4983499          | 2926.97  | -12727.14 |
+| Abbott                         | Anna                 | Liberty         | Shiloh          | 774352           | 732.89   | -16730.52 |
+| Abbott                         | Anna                 | Liberty         | Woodville       | 1419637          | 2650.06  | 12854.32  |
+| Abbott                         | Anthony              | Arlington       | Mount Pleasant  | 1759111          | 7897.22  | -8093.75  |
+| Abbott                         | Anthony              | Arlington       | Stringtown      | 3565629          | 0.00     | -9840.16  |
+| Abbott                         | Arnoldo              | Highland        | Hamilton        | 5103994          | 808.95   | -10817.36 |
+| Abbott                         | Arnoldo              | Highland        | Murray          | 1093155          | 1170.22  | 1300.81   |
+| Abbott                         | Barbara              | Unionville      | Concord         | 445809           | 138.04   | -18123.07 |
+| Abbott                         | Barbara              | Unionville      | Springfield     | 2361716          | 7941.32  | -10709.39 |
+| Abbott                         | Bernard              | Shady Grove     | Centerville     | 5195988          | 388.44   | -19923.38 |
+| Abbott                         | Bernard              | Shady Grove     | Georgetown      | 208783           | 540.74   | -16247.24 |
+| Abbott                         | Bernard              | Shady Grove     | New Town        | 5755102          | 595.57   | -5577.00  |
+| Abbott                         | Brianna              | Oakwood         | Mountain View   | 2590219          | 1708.46  | -3922.70  |
+| Abbott                         | Bryan                | Stringtown      | Woodland        | 2953325          | 53.42    | -9044.26  |
+| Abbott                         | Caitlin              | Ashland         | Oak Grove       | 1239             | 0.00     | -10991.95 |
+| Abbott                         | Caitlin              | Ashland         | Shiloh          | 56847            | 14.73    | -492.99   |
+| Abbott                         | Carole               | Sulphur Springs | Oak Ridge       | 584003           | 25.40    | -4219.00  |
+| Abbott                         | Carolyn              | Fairfield       | Montezuma       | 3566979          | 831.62   | -17410.56 |
+| Abbott                         | Carolyn              | Fairfield       | Spring Hill     | 5753177          | 647.89   | -7282.78  |
+| Abbott                         | Chad                 | Mount Vernon    | Antioch         | 5363756          | 5374.03  | -3103.85  |
+| Abbott                         | Christopher          | Harmony         | Cedar Grove     | 3869522          | 327.22   | 744.71    |
+| Abbott                         | Christopher          | Harmony         | Lakeview        | 3806731          | 805.61   | -11261.16 |
+| Abbott                         | Christopher          | Harmony         | Oak Hill        | 3213583          | 221.20   | -10109.26 |
+| Abbott                         | Clement              | Bridgeport      | Stringtown      | 736731           | 2820.05  | -18063.97 |
+| Abbott                         | Darron               | Stringtown      | Oak Ridge       | 5938232          | 4172.45  | -15975.29 |
+| Abbott                         | David                | Maple Grove     | Georgetown      | 1421432          | 5600.57  | -17843.62 |
+| Abbott                         | David                | Maple Grove     | Mount Vernon    | 4396081          | 357.33   | -6289.20  |
+| Abbott                         | David                | Riverdale       | Tyler           | 563283           | 2024.53  | -18732.85 |
+| Abbott                         | Dennis               | Wilson          | Mount Zion      | 1564509          | 5369.24  | -17406.58 |
+| Abbott                         | Dennis               | Wilson          | Spring Valley   | 4116769          | 613.01   | -14048.13 |
+| Abbott                         | Dominic              | Marion          | Newport         | 3575548          | 500.95   | -10596.37 |
+| Abbott                         | Don                  | Liberty         | Sunnyside       | 2210533          | 2882.53  | -9582.02  |
+| Abbott                         | Donald               | Oak Ridge       | Macedonia       | 2306658          | 948.09   | -15273.35 |
+| Abbott                         | Donald               | Sawyer          | Pleasant Valley | 2405409          | 1150.61  | -11539.32 |
+| Abbott                         | Elizabeth            | White Oak       | Riverview       | 5149074          | 400.45   | -3802.31  |
+| Abbott                         | Frederick            | Green Acres     | Pleasant Valley | 5113217          | 2039.19  | -15814.19 |
+| Abbott                         | Garry                | Mount Pleasant  | Wilson          | 4607969          | 4.25     | -10067.83 |
+| Abbott                         | Geneva               | Louisville      | Highland Park   | 585476           | 548.91   | -17392.28 |
+| Abbott                         | Grace                | Forest Hills    | Mount Pleasant  | 1093414          | 0.00     | -6953.56  |
+| Abbott                         | Harriet              | Wesley          | Newtown         | 893510           | 6715.42  | -8339.31  |
+| Abbott                         | Heath                | Wilson          | Harmon          | 1953254          | 13893.68 | -15689.35 |
+| Abbott                         | Inez                 | Cedar Grove     | Glenwood        | 3801820          | 6125.91  | -10647.60 |
+| Abbott                         | Inez                 | Cedar Grove     | Pine Grove      | 2753466          | 902.72   | -17875.51 |
+| Abbott                         | James                | Pleasant Valley | Avery           | 1300847          | 2002.75  | -6206.80  |
+| Abbott                         | James                | Riverview       | Clifton         | 2930890          | 251.41   | -9323.83  |
+| Abbott                         | James                | Riverview       | Glendale        | 1305419          | 2294.47  | -7813.55  |
+| Abbott                         | Jeffrey              | Pine Grove      | Springfield     | 4745029          | 1338.34  | -10292.41 |
+| Abbott                         | Jeremy               | Belmont         | Forest Hills    | 1701060          | 3348.55  | 4463.31   |
+| Abbott                         | Karen                | Pleasant Hill   | Five Forks      | 2049812          | 8928.57  | -16697.65 |
+| Abbott                         | Karen                | Pleasant Hill   | New Hope        | 3085907          | 2916.90  | -9070.17  |
+| Abbott                         | Kathleen             | Highland        | Springdale      | 393762           | 0.00     | -1031.80  |
++--------------------------------+----------------------+-----------------+-----------------+------------------+----------+-----------+

@@ -1,0 +1,104 @@
++----------+----------------------------------------------------+---------------+----------------------------------------------------+-----------+
+| brand_id | brand                                              | i_manufact_id | i_manufact                                         | ext_price |
++----------+----------------------------------------------------+---------------+----------------------------------------------------+-----------+
+| 4002002  | importoedu pack #2                                 | 748           | eingeseation                                       | 324666.38 |
+| 7012007  | importonameless #7                                 | 449           | n steseese                                         | 317136.43 |
+| 6007007  | brandcorp #7                                       | 662           | ablecallycally                                     | 315967.06 |
+| 3002002  | importoexporti #2                                  | 215           | antioughtable                                      | 313966.81 |
+| 3001001  | amalgexporti #1                                    | 18            | eingought                                          | 303885.17 |
+| 3003001  | exportiexporti #1                                  | 220           | barableable                                        | 303411.65 |
+| 2003001  | exportiimporto #1                                  | 160           | barcallyought                                      | 300480.76 |
+| 2001001  | amalgimporto #1                                    | 129           | n stableought                                      | 296496.06 |
+| 6006001  | corpcorp #1                                        | 268           | eingcallyable                                      | 291464.34 |
+| 2001001  | amalgimporto #1                                    | 157           | ationantiought                                     | 289699.63 |
+| 3004002  | edu packexporti #2                                 | 83            | prieing                                            | 289284.09 |
+| 10002008 | importounivamalg #8                                | 271           | oughtationable                                     | 288444.46 |
+| 5001002  | amalgscholar #2                                    | 276           | callyationable                                     | 285129.17 |
+| 5003002  | exportischolar #2                                  | 172           | ableationought                                     | 283152.94 |
+| 8002007  | importonameless #7                                 | 562           | ablecallyanti                                      | 281037.13 |
+| 2003001  | exportiimporto #1                                  | 325           | antiablepri                                        | 278529.04 |
+| 6015006  | scholarbrand #6                                    | 294           | esen stable                                        | 276961.97 |
+| 6005007  | scholarcorp #7                                     | 34            | esepri                                             | 276823.11 |
+| 2002001  | importoimporto #1                                  | 157           | ationantiought                                     | 276621.94 |
+| 9008005  | namelessmaxi #5                                    | 34            | esepri                                             | 276540.48 |
+| 6009005  | maxicorp #5                                        | 474           | eseationese                                        | 276473.59 |
+| 6011007  | amalgbrand #7                                      | 284           | eseeingable                                        | 275548.43 |
+| 10010011 | univamalgamalg #11                                 | 97            | ationn st                                          | 275471.47 |
+| 10007015 | brandunivamalg #15                                 | 56            | callyanti                                          | 274906.39 |
+| 8002001  | importonameless #1                                 | 631           | oughtprically                                      | 274825.57 |
+| 1002001  | importoamalg #1                                    | 876           | callyationeing                                     | 274779.09 |
+| 1004001  | edu packamalg #1                                   | 622           | ableablecally                                      | 274467.44 |
+| 4001001  | amalgedu pack #1                                   | 167           | ationcallyought                                    | 274397.47 |
+| 7014007  | edu packnameless #7                                | 934           | eseprin st                                         | 274072.19 |
+| 1004002  | edu packamalg #2                                   | 345           | antiesepri                                         | 273745.06 |
+| 1003001  | exportiamalg #1                                    | 151           | oughtantiought                                     | 272170.47 |
+| 4004002  | edu packedu pack #2                                | 204           | esebarable                                         | 271248.77 |
+| 2002001  | importoimporto #1                                  | 692           | ablen stcally                                      | 268018.96 |
+| 1004001  | edu packamalg #1                                   | 462           | ablecallyese                                       | 267872.88 |
+| 1003002  | exportiamalg #2                                    | 19            | n stought                                          | 267844.31 |
+| 8014002  | edu packmaxi #2                                    | 257           | ationantiable                                      | 267482.77 |
+| 10013001 | exportiamalgamalg #1                               | 262           | ablecallyable                                      | 267292.66 |
+| 3004002  | edu packexporti #2                                 | 173           | priationought                                      | 265987.14 |
+| 4002001  | importoedu pack #1                                 | 534           | eseprianti                                         | 264730.70 |
+| 10013002 | exportiamalgamalg #2                               | 60            | barcally                                           | 264690.27 |
+| 8004005  | edu packnameless #5                                | 172           | ableationought                                     | 263522.50 |
+| 3004001  | edu packexporti #1                                 | 357           | ationantipri                                       | 263473.67 |
+| 10011002 | amalgamalgamalg #2                                 | 859           | n stantieing                                       | 262443.04 |
+| 6016001  | corpbrand #1                                       | 664           | esecallycally                                      | 262264.16 |
+| 10001009 | amalgunivamalg #9                                  | 142           | ableeseought                                       | 260269.77 |
+| 4001001  | amalgedu pack #1                                   | 590           | barn stanti                                        | 260045.22 |
+| 1002001  | importoamalg #1                                    | 127           | ationableought                                     | 259706.38 |
+| 3002001  | importoexporti #1                                  | 83            | prieing                                            | 259174.92 |
+| 10002014 | importounivamalg #14                               | 714           | eseoughtation                                      | 258866.64 |
+| 7012009  | importonameless #9                                 | 31            | oughtpri                                           | 258849.61 |
+| 2002002  | importoimporto #2                                  | 237           | ationpriable                                       | 258552.17 |
+| 10015004 | scholaramalgamalg #4                               | 545           | antieseanti                                        | 258009.21 |
+| 8001002  | amalgnameless #2                                   | 609           | n stbarcally                                       | 257945.39 |
+| 9015002  | scholarunivamalg #2                                | 495           | antin stese                                        | 257498.62 |
+| 10008003 | namelessunivamalg #3                               | 453           | priantiese                                         | 256563.35 |
+| 8001001  | amalgnameless #1                                   | 329           | n stablepri                                        | 256333.41 |
+| 7008002  | namelessbrand #2                                   | 610           | baroughtcally                                      | 256021.13 |
+| 1003001  | exportiamalg #1                                    | 108           | eingbarought                                       | 255693.31 |
+| 9008011  | namelessmaxi #11                                   | 476           | callyationese                                      | 255531.21 |
+| 1003001  | exportiamalg #1                                    | 570           | barationanti                                       | 255120.70 |
+| 7007007  | brandbrand #7                                      | 140           | bareseought                                        | 255064.46 |
+| 9015008  | scholarunivamalg #8                                | 474           | eseationese                                        | 254783.92 |
+| 9011011  | amalgunivamalg #11                                 | 751           | oughtantiation                                     | 253823.39 |
+| 10007009 | brandunivamalg #9                                  | 182           | ableeingought                                      | 253477.03 |
+| 2001001  | amalgimporto #1                                    | 139           | n stpriought                                       | 253409.36 |
+| 9015003  | scholarunivamalg #3                                | 300           | barbarpri                                          | 253370.35 |
+| 1001002  | amalgamalg #2                                      | 21            | oughtable                                          | 252107.61 |
+| 1003001  | exportiamalg #1                                    | 233           | pripriable                                         | 251846.27 |
+| 4004001  | edu packedu pack #1                                | 183           | prieingought                                       | 251761.25 |
+| 9015005  | scholarunivamalg #5                                | 54            | eseanti                                            | 251340.80 |
+| 4004001  | edu packedu pack #1                                | 854           | eseantieing                                        | 251045.29 |
+| 4001002  | amalgedu pack #2                                   | 5             | anti                                               | 250835.02 |
+| 8011007  | amalgmaxi #7                                       | 291           | oughtn stable                                      | 250420.56 |
+| 2004001  | edu packimporto #1                                 | 222           | ableableable                                       | 249970.88 |
+| 7003005  | exportibrand #5                                    | 118           | eingoughtought                                     | 249370.50 |
+| 5003001  | exportischolar #1                                  | 71            | oughtation                                         | 249006.52 |
+| 4003001  | exportiedu pack #1                                 | 144           | eseeseought                                        | 248430.04 |
+| 2002002  | importoimporto #2                                  | 426           | callyableese                                       | 248251.94 |
+| 5003002  | exportischolar #2                                  | 323           | priablepri                                         | 247826.34 |
+| 2002002  | importoimporto #2                                  | 301           | oughtbarpri                                        | 247583.58 |
+| 10011005 | amalgamalgamalg #5                                 | 231           | oughtpriable                                       | 246916.04 |
+| 10006008 | corpunivamalg #8                                   | 359           | n stantipri                                        | 245828.91 |
+| 7010003  | univnameless #3                                    | 78            | eingation                                          | 245466.54 |
+| 7014006  | edu packnameless #6                                | 649           | n stesecally                                       | 245063.09 |
+| 2002002  | importoimporto #2                                  | 312           | ableoughtpri                                       | 244623.47 |
+| 8005003  | scholarnameless #3                                 | 159           | n stantiought                                      | 244209.64 |
+| 4004001  | edu packedu pack #1                                | 32            | ablepri                                            | 243547.30 |
+| 1004001  | edu packamalg #1                                   | 569           | n stcallyanti                                      | 243279.55 |
+| 2001001  | amalgimporto #1                                    | 472           | ableationese                                       | 243077.27 |
+| 8016010  | corpmaxi #10                                       | 345           | antiesepri                                         | 242876.56 |
+| 3002002  | importoexporti #2                                  | 36            | callypri                                           | 242425.78 |
+| 10004007 | edu packunivamalg #7                               | 543           | prieseanti                                         | 242337.50 |
+| 2002002  | importoimporto #2                                  | 608           | eingbarcally                                       | 241964.71 |
+| 6005008  | scholarcorp #8                                     | 210           | baroughtable                                       | 241824.86 |
+| 10012014 | importoamalgamalg #14                              | 581           | oughteinganti                                      | 241756.09 |
+| 7006005  | corpbrand #5                                       | 181           | oughteingought                                     | 240819.66 |
+| 2001001  | amalgimporto #1                                    | 279           | n stationable                                      | 240596.20 |
+| 4004002  | edu packedu pack #2                                | 417           | ationoughtese                                      | 240492.36 |
+| 1002001  | importoamalg #1                                    | 75            | antiation                                          | 239846.13 |
+| 5001002  | amalgscholar #2                                    | 52            | ableanti                                           | 239438.69 |
++----------+----------------------------------------------------+---------------+----------------------------------------------------+-----------+

@@ -1,0 +1,93 @@
++--------+----------+----------------------------------------------------+-----------+
+| d_year | brand_id | brand                                              | sum_agg   |
++--------+----------+----------------------------------------------------+-----------+
+| 1998   | 3003001  | exportiexporti #1                                  | 557537.38 |
+| 1998   | 10003008 | exportiunivamalg #8                                | 396255.86 |
+| 1998   | 3001001  | amalgexporti #1                                    | 339242.39 |
+| 1998   | 8004005  | edu packnameless #5                                | 311072.50 |
+| 1998   | 4003001  | exportiedu pack #1                                 | 271752.99 |
+| 1998   | 6007005  | brandcorp #5                                       | 260183.95 |
+| 1998   | 9016005  | corpunivamalg #5                                   | 245787.10 |
+| 1998   | 8015001  | scholarmaxi #1                                     | 241425.51 |
+| 1998   | 10012017 | importoamalgamalg #17                              | 237907.34 |
+| 1998   | 2001001  | amalgimporto #1                                    | 232761.32 |
+| 1998   | 4002001  | importoedu pack #1                                 | 229242.03 |
+| 1998   | 1002001  | importoamalg #1                                    | 223222.04 |
+| 1998   | 4001002  | amalgedu pack #2                                   | 220817.00 |
+| 1998   | 5003001  | exportischolar #1                                  | 218986.18 |
+| 1998   | 10014017 | edu packamalgamalg #17                             | 217552.42 |
+| 1998   | 5004001  | edu packscholar #1                                 | 187174.26 |
+| 1999   | 10003008 | exportiunivamalg #8                                | 496930.13 |
+| 1999   | 3003001  | exportiexporti #1                                  | 482509.56 |
+| 1999   | 10012017 | importoamalgamalg #17                              | 283132.47 |
+| 1999   | 4002001  | importoedu pack #1                                 | 277651.36 |
+| 1999   | 3001001  | amalgexporti #1                                    | 272063.46 |
+| 1999   | 9016005  | corpunivamalg #5                                   | 263945.01 |
+| 1999   | 4001002  | amalgedu pack #2                                   | 262518.71 |
+| 1999   | 6007005  | brandcorp #5                                       | 245516.73 |
+| 1999   | 4003001  | exportiedu pack #1                                 | 241495.51 |
+| 1999   | 8004005  | edu packnameless #5                                | 241426.03 |
+| 1999   | 5003001  | exportischolar #1                                  | 237936.31 |
+| 1999   | 2001001  | amalgimporto #1                                    | 233843.45 |
+| 1999   | 1002001  | importoamalg #1                                    | 231918.06 |
+| 1999   | 8015001  | scholarmaxi #1                                     | 231465.40 |
+| 1999   | 10014017 | edu packamalgamalg #17                             | 220599.87 |
+| 1999   | 5004001  | edu packscholar #1                                 | 158809.24 |
+| 2000   | 3001001  | amalgexporti #1                                    | 315387.67 |
+| 2000   | 5001001  | importoexporti #2                                  | 289029.03 |
+| 2000   | 8004005  | edu packnameless #5                                | 283918.32 |
+| 2000   | 6007005  | exporticorp #6                                     | 274678.13 |
+| 2000   | 10012017 | importoamalgamalg #17                              | 272397.30 |
+| 2000   | 4001002  | amalgedu pack #2                                   | 263416.91 |
+| 2000   | 6015004  | scholarbrand #4                                    | 254746.14 |
+| 2000   | 4003002  | exportiedu pack #2                                 | 254384.16 |
+| 2000   | 10003008 | exportiunivamalg #8                                | 250140.75 |
+| 2000   | 1004001  | corpunivamalg #12                                  | 242052.52 |
+| 2000   | 5004001  | edu packscholar #1                                 | 234882.96 |
+| 2000   | 4002001  | importoedu pack #1                                 | 230206.05 |
+| 2000   | 1002001  | importoamalg #1                                    | 227068.48 |
+| 2000   | 9016005  | edu packimporto #2                                 | 219735.88 |
+| 2000   | 10014017 | edu packexporti #2                                 | 217757.03 |
+| 2000   | 3003001  | exportiexporti #1                                  | 210503.62 |
+| 2000   | 5003001  | exportischolar #1                                  | 199126.57 |
+| 2000   | 6012004  | importobrand #4                                    | 192360.11 |
+| 2000   | 4001001  | importoimporto #2                                  | 179137.47 |
+| 2001   | 9016005  | edu packimporto #2                                 | 322097.52 |
+| 2001   | 8004005  | amalgedu pack #2                                   | 319231.45 |
+| 2001   | 3002002  | importoexporti #2                                  | 306549.48 |
+| 2001   | 4003001  | exportiimporto #2                                  | 304297.78 |
+| 2001   | 10014017 | edu packexporti #2                                 | 296558.55 |
+| 2001   | 5003001  | maxiunivamalg #9                                   | 283337.48 |
+| 2001   | 5004001  | importocorp #8                                     | 281194.14 |
+| 2001   | 6012004  | importobrand #4                                    | 279816.96 |
+| 2001   | 4003002  | exportiedu pack #2                                 | 277977.56 |
+| 2001   | 10003008 | exportiunivamalg #8                                | 277395.41 |
+| 2001   | 6007005  | exporticorp #6                                     | 263071.33 |
+| 2001   | 4001001  | importoimporto #2                                  | 260186.36 |
+| 2001   | 5001001  | importoexporti #2                                  | 252795.15 |
+| 2001   | 2003002  | exportiimporto #2                                  | 251054.82 |
+| 2001   | 5003002  | exportischolar #2                                  | 230135.85 |
+| 2001   | 5003001  | brandcorp #2                                       | 220204.34 |
+| 2001   | 6015004  | scholarbrand #4                                    | 217609.14 |
+| 2001   | 4001002  | amalgedu pack #2                                   | 203208.05 |
+| 2001   | 1004001  | corpunivamalg #12                                  | 191653.14 |
+| 2002   | 5003001  | maxiunivamalg #9                                   | 320478.54 |
+| 2002   | 4001001  | namelessmaxi #1                                    | 307543.59 |
+| 2002   | 8004005  | amalgedu pack #2                                   | 296400.32 |
+| 2002   | 10001015 | exportiunivamalg #1                                | 292372.88 |
+| 2002   | 6007005  | importonameless #9                                 | 287308.22 |
+| 2002   | 5003002  | exportischolar #2                                  | 284343.00 |
+| 2002   | 6015004  | importoscholar #1                                  | 281134.80 |
+| 2002   | 3004001  | edu packexporti #1                                 | 273151.78 |
+| 2002   | 6008005  | namelesscorp #5                                    | 265811.15 |
+| 2002   | 8004007  | edu packnameless #7                                | 263008.63 |
+| 2002   | 9014011  | edu packimporto #1                                 | 261955.84 |
+| 2002   | 2004001  | exportibrand #9                                    | 260430.45 |
+| 2002   | 5004001  | importocorp #8                                     | 259481.22 |
+| 2002   | 10003008 | exportiunivamalg #8                                | 251529.29 |
+| 2002   | 3002002  | importoexporti #2                                  | 245739.72 |
+| 2002   | 4003001  | exportiimporto #2                                  | 243281.80 |
+| 2002   | 2003002  | exportiimporto #2                                  | 237746.22 |
+| 2002   | 4001002  | amalgedu pack #2                                   | 200109.77 |
+| 2002   | 5003001  | brandcorp #2                                       | 168895.70 |
++--------+----------+----------------------------------------------------+-----------+

@@ -1,0 +1,104 @@
++--------------------------------+----------------------+-----------------+-----------------+------------------+----------------+--------------+------------+
+| c_last_name                    | c_first_name         | ca_city         | bought_city     | ss_ticket_number | extended_price | extended_tax | list_price |
++--------------------------------+----------------------+-----------------+-----------------+------------------+----------------+--------------+------------+
+| Aaron                          | Ruth                 | Plainview       | Macedonia       | 600597           | 37123.23       | 1092.00      | 61701.30   |
+| Aaron                          | Margaret             | Union Hill      | Yorktown        | 1712098          | 14608.32       | 516.05       | 43201.95   |
+| Abbott                         | Arnoldo              | Highland        | Elwood          | 28991            | 15086.64       | 748.06       | 27332.46   |
+| Abbott                         | Graciela             | Hamilton        | Newport         | 944875           | 33287.86       | 1170.05      | 75891.09   |
+| Abbott                         | Bernice              | Murphy          | Pleasant Valley | 1142189          | 18698.50       | 869.48       | 26995.22   |
+| Abbott                         | Calvin               | Midway          | Mount Zion      | 1824473          | 8202.74        | 313.27       | 20149.14   |
+| Abbott                         | Rafael               | Arlington       | Greenfield      | 2017499          | 15337.42       | 540.21       | 37878.53   |
+| Abbott                         | Michael              | Arlington       | Oak Ridge       | 2759608          | 29982.02       | 1245.90      | 86324.10   |
+| Abbott                         | Harriet              | Wesley          | Fairview        | 3786682          | 14901.21       | 824.59       | 31246.89   |
+| Abbott                         | Michael              | Arlington       | Kingston        | 3786833          | 17700.10       | 613.88       | 38708.64   |
+| Abbott                         | Lina                 | Woodlawn        | Five Points     | 4505024          | 22298.94       | 882.82       | 46529.77   |
+| Abbott                         | Angela               | Hamilton        | Macedonia       | 4529891          | 32113.05       | 1548.54      | 55085.02   |
+| Abbott                         | Rosie                | Mountain View   | Bunker Hill     | 5946296          | 24492.57       | 416.83       | 45411.23   |
+| Abel                           | Aura                 | Blair           | Greenfield      | 787240           | 23932.06       | 1155.26      | 58354.04   |
+| Abel                           | Jackie               | Walnut Grove    | Riverside       | 1904867          | 13678.15       | 522.91       | 45352.18   |
+| Abel                           | Marion               | Lakeside        | Lake Forest     | 3132691          | 23672.19       | 850.49       | 39999.14   |
+| Abel                           | David                | Oak Grove       | Springfield     | 3161667          | 14169.72       | 934.53       | 27932.32   |
+| Abel                           | Diana                | Unionville      | Pleasant Hill   | 4130639          | 13439.25       | 623.08       | 26053.30   |
+| Abel                           | Aura                 | Blair           | Lakeside        | 4197421          | 9877.22        | 573.36       | 19105.68   |
+| Abell                          | Ernestine            | Buena Vista     | Lakewood        | 589021           | 19862.42       | 900.65       | 54305.88   |
+| Abell                          | Jason                | Pleasant Grove  | Cedar Grove     | 1385130          | 34376.37       | 1030.68      | 56704.84   |
+| Abner                          | Andrew               | Shady Grove     | Mount Vernon    | 5643066          | 19732.23       | 708.85       | 47119.02   |
+| Abney                          | Clara                | Woodville       | Freeport        | 5998031          | 18119.24       | 497.98       | 33751.01   |
+| Abraham                        | Bobbi                | Brownsville     | Five Forks      | 3633123          | 11807.62       | 526.70       | 24707.21   |
+| Abraham                        | Ruby                 | Riverside       | Spring Hill     | 4259475          | 13098.02       | 620.14       | 26484.67   |
+| Abrams                         | Bryan                | Fisher          | Plainview       | 4799999          | 21139.00       | 966.53       | 57823.58   |
+| Abreu                          | Jeffrey              | Glendale        | Forest Hills    | 122840           | 44226.80       | 1719.42      | 78027.77   |
+| Abreu                          | Richard              | Bridgeport      | Springdale      | 1226660          | 27717.73       | 934.02       | 69241.72   |
+| Abreu                          | Joseph               | Greenville      | Pleasant Hill   | 1344621          | 29758.92       | 1167.02      | 77911.23   |
+| Acevedo                        | Kevin                | Five Points     | Forest Hills    | 960738           | 13245.56       | 806.61       | 31243.42   |
+| Acevedo                        | Jessica              | Arlington       | Flint           | 1634944          | 24743.24       | 335.56       | 46963.37   |
+| Acevedo                        | Gloria               | Arlington       | Highland        | 2479569          | 34229.45       | 1513.70      | 74145.32   |
+| Acevedo                        | Alfredo              | Lakeview        | Ashland         | 2802426          | 10899.07       | 416.53       | 21557.26   |
+| Acevedo                        | John                 | Marion          | Plainview       | 3358103          | 44669.27       | 2073.58      | 66139.44   |
+| Acker                          | Daniel               | Bridgeport      | Salem           | 3462026          | 24680.22       | 1110.76      | 39603.70   |
+| Acker                          | Jonathan             | Lebanon         | Crossroads      | 5599052          | 20515.39       | 401.62       | 54829.06   |
+| Ackerman                       | Inez                 | Sulphur Springs | Edgewood        | 1858378          | 20276.30       | 1273.26      | 38771.72   |
+| Ackerman                       | Clarice              | Roy             | Edgewood        | 2546977          | 36416.40       | 1411.89      | 55070.39   |
+| Ackerman                       | James                | Greenfield      | Barnes          | 2575467          | 30988.14       | 825.29       | 49077.04   |
+| Ackerman                       | Walter               | Five Forks      | Mount Pleasant  | 3585168          | 21622.60       | 1125.88      | 51424.29   |
+| Ackley                         | Vincent              | Mount Zion      | Maple Grove     | 3717741          | 3473.48        | 64.36        | 32071.30   |
+| Acosta                         | Brian                | Woodland        | Valley View     | 2012334          | 13629.79       | 295.35       | 42289.27   |
+| Acosta                         | Dane                 | Greenville      | Waterloo        | 2179934          | 24104.11       | 1132.63      | 41383.20   |
+| Acosta                         | Scott                | Farmington      | Bunker Hill     | 2695076          | 19235.07       | 589.29       | 45467.89   |
+| Acosta                         | Russell              | Ashland         | Marion          | 4979399          | 20989.57       | 1058.94      | 41534.87   |
+| Acosta                         | NULL                 | Concord         | Buena Vista     | 5476173          | 24372.67       | 507.27       | 39587.09   |
+| Acuna                          | Adam                 | Lebanon         | Greenwood       | 536179           | 8949.48        | 604.42       | 17730.45   |
+| Acuna                          | Michael              | Plainview       | Oakdale         | 5040249          | 25143.22       | 1040.20      | 51985.62   |
+| Adair                          | Kenneth              | Walnut Grove    | Mount Pleasant  | 280727           | 15035.04       | 688.18       | 28322.25   |
+| Adair                          | Hilda                | Blair           | Fairfield       | 1233631          | 26849.29       | 769.54       | 38996.59   |
+| Adair                          | George               | Riverview       | Jamestown       | 1934271          | 19621.85       | 342.79       | 39660.65   |
+| Adame                          | Wayne                | Marion          | White Oak       | 4482107          | 10115.09       | 344.40       | 18120.21   |
+| Adams                          | Michael              | Liberty         | Lakeside        | 30217            | 19773.14       | 1190.92      | 36632.82   |
+| Adams                          | Casey                | Springdale      | Lewisburg       | 59312            | 10849.68       | 645.57       | 29513.07   |
+| Adams                          | Brenda               | Little River    | Highland Park   | 272390           | 11436.04       | 452.57       | 20844.21   |
+| Adams                          | Delia                | White Oak       | Enterprise      | 433324           | 12666.73       | 683.44       | 23692.86   |
+| Adams                          | Patrick              | Walnut Grove    | Clinton         | 626954           | 31212.94       | 1383.26      | 53304.74   |
+| Adams                          | Joyce                | Wildwood        | Union           | 696089           | 20718.77       | 451.32       | 48269.02   |
+| Adams                          | Katie                | Oneida          | Harmony         | 801510           | 22387.50       | 353.92       | 42160.90   |
+| Adams                          | Kathy                | Vienna          | Greenwood       | 901370           | 20426.49       | 830.43       | 36577.80   |
+| Adams                          | Debbra               | Riverside       | White Oak       | 984116           | 23397.33       | 723.16       | 45702.91   |
+| Adams                          | Charles              | Midway          | Ashland         | 1041962          | 39623.37       | 1851.23      | 59468.02   |
+| Adams                          | Joseph               | Riverview       | Spring Valley   | 1050537          | 12007.47       | 859.38       | 29470.32   |
+| Adams                          | Brenda               | Little River    | Mount Olive     | 1139132          | 23424.06       | 847.79       | 47997.13   |
+| Adams                          | Normand              | Friendship      | Plainview       | 1245204          | 20862.74       | 702.11       | 34685.36   |
+| Adams                          | Samuel               | Kingston        | Mount Vernon    | 1345322          | 15465.07       | 666.39       | 25831.06   |
+| Adams                          | Kathleen             | Farmington      | Pleasant Valley | 1370452          | 11930.65       | 505.90       | 50406.52   |
+| Adams                          | Juan                 | Woodland        | Post Oak        | 1471307          | 17242.97       | 894.02       | 34564.53   |
+| Adams                          | Raul                 | Union Hill      | Liberty         | 1519997          | 29098.16       | 1485.99      | 51621.74   |
+| Adams                          | Kenneth              | Philadelphia    | Shady Grove     | 1923242          | 25517.41       | 1067.56      | 39722.69   |
+| Adams                          | Rupert               | Plainview       | Lincoln         | 1964797          | 9967.32        | 189.96       | 21142.08   |
+| Adams                          | Joann                | Wilson          | Marion          | 2035772          | 28052.14       | 903.54       | 41857.89   |
+| Adams                          | Joann                | Newport         | Fairfield       | 2066030          | 32747.27       | 1195.65      | 51757.22   |
+| Adams                          | Stanley              | Pleasant Hill   | Arlington       | 2487527          | 8495.12        | 406.14       | 22745.06   |
+| Adams                          | Christopher          | Fairview        | Bunker Hill     | 2637849          | 19049.31       | 347.27       | 39900.68   |
+| Adams                          | Truman               | Maple Grove     | Ashland         | 2763169          | 26254.39       | 1186.80      | 45612.66   |
+| Adams                          | Michael              | Greenville      | Georgetown      | 2817130          | 30491.66       | 982.76       | 58248.95   |
+| Adams                          | Rita                 | Bay View        | Spring Hill     | 2884993          | 19642.82       | 818.68       | 45944.79   |
+| Adams                          | NULL                 | Waterloo        | Snug Harbor     | 2885140          | 41417.04       | 2050.07      | 53999.36   |
+| Adams                          | Catherine            | Farmington      | Pleasant Grove  | 2907162          | 18971.52       | 786.26       | 42153.24   |
+| Adams                          | Linda                | Belmont         | Arlington       | 2941031          | 7674.39        | 205.97       | 37307.84   |
+| Adams                          | Oscar                | Allison         | Newport         | 2988163          | 13206.51       | 269.21       | 38261.21   |
+| Adams                          | Jennifer             | Shiloh          | Brookville      | 3119086          | 16893.59       | 453.17       | 48847.07   |
+| Adams                          | Christine            | Arlington       | Vance           | 3235279          | 12500.06       | 453.28       | 26092.94   |
+| Adams                          | Jonathon             | Eastwood        | Harmony         | 3313967          | 10251.67       | 400.97       | 28642.05   |
+| Adams                          | Kenneth              | Oakland         | Wildwood        | 3313969          | 6419.81        | 217.66       | 21210.15   |
+| Adams                          | Evelyn               | Plainview       | Maple Hill      | 3383783          | 18565.05       | 815.88       | 28951.48   |
+| Adams                          | Joanne               | Woodland        | Clinton         | 3394430          | 19243.65       | 992.50       | 33629.67   |
+| Adams                          | Sherri               | Springdale      | Red Hill        | 3737240          | 15366.40       | 874.62       | 22192.30   |
+| Adams                          | Don                  | Farmington      | Salem           | 3779644          | 41487.73       | 1884.14      | 71440.11   |
+| Adams                          | Olivia               | Antioch         | Pine Grove      | 3897050          | 11555.43       | 676.81       | 19482.80   |
+| Adams                          | Susan                | Wilson          | Midway          | 3947533          | 41036.41       | 989.47       | 57764.92   |
+| Adams                          | Janie                | Walnut Grove    | Lakeside        | 4056017          | 9097.44        | 192.84       | 31514.11   |
+| Adams                          | Brenda               | Centerville     | Oak Grove       | 4141343          | 22733.44       | 716.89       | 48897.06   |
+| Adams                          | Wesley               | Jamestown       | Lakeside        | 4256673          | 17157.25       | 1054.67      | 32822.51   |
+| Adams                          | Laura                | Plainview       | Concord         | 4258484          | 16055.61       | 731.37       | 33340.83   |
+| Adams                          | Ashlee               | Franklin        | Mount Zion      | 4340320          | 22168.31       | 297.20       | 38962.17   |
+| Adams                          | Carlos               | Lucas           | Oak Hill        | 4414434          | 27441.29       | 1408.81      | 55125.00   |
+| Adams                          | Johnnie              | Union           | Lakeside        | 4459412          | 35420.76       | 1641.52      | 68840.33   |
+| Adams                          | Edward               | Enterprise      | Lakewood        | 4478711          | 15681.26       | 1127.55      | 30074.93   |
++--------------------------------+----------------------+-----------------+-----------------+------------------+----------------+--------------+------------+

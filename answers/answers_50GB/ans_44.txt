@@ -1,0 +1,14 @@
++-----+----------------------------------------------------+----------------------------------------------------+
+| rnk | best_performing                                    | worst_performing                                   |
++-----+----------------------------------------------------+----------------------------------------------------+
+| 1   | antiablecallyationable                             | barn stantiation                                   |
+| 2   | ationeseoughtationought                            | eseableantiableanti                                |
+| 3   | n stn steingn stese                                | callycallyableableanti                             |
+| 4   | callyn steseeinganti                               | callyeseationantianti                              |
+| 5   | prieingbaroughtpri                                 | ablebareingoughtese                                |
+| 6   | oughteseeingeing                                   | ableantiableoughtanti                              |
+| 7   | eingationableationanti                             | barn stbarn st                                     |
+| 8   | esecallycallyought                                 | eingoughtoughtationese                             |
+| 9   | n stn stableantipri                                | eingpripriese                                      |
+| 10  | eingn stantioughtanti                              | bareingeingable                                    |
++-----+----------------------------------------------------+----------------------------------------------------+

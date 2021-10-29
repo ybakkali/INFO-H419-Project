@@ -1,0 +1,21 @@
++--------------+------------------+-----------+-----------+-----------+-----------+-----------+-----------+-----------+
+| s_store_name | s_store_id       | sun_sales | mon_sales | tue_sales | wed_sales | thu_sales | fri_sales | sat_sales |
++--------------+------------------+-----------+-----------+-----------+-----------+-----------+-----------+-----------+
+| able         | AAAAAAAAMFAAAAAA | NULL      | NULL      | NULL      | 581193.63 | NULL      | NULL      | NULL      |
+| anti         | AAAAAAAAFFAAAAAA | NULL      | NULL      | NULL      | 566490.13 | NULL      | NULL      | NULL      |
+| ation        | AAAAAAAABGAAAAAA | NULL      | NULL      | NULL      | 543529.23 | NULL      | NULL      | NULL      |
+| ation        | AAAAAAAADEAAAAAA | NULL      | NULL      | NULL      | 552013.88 | NULL      | NULL      | NULL      |
+| ation        | AAAAAAAAFCAAAAAA | NULL      | NULL      | NULL      | 563768.47 | NULL      | NULL      | NULL      |
+| bar          | AAAAAAAAKAAAAAAA | NULL      | NULL      | NULL      | 567882.07 | NULL      | NULL      | NULL      |
+| cally        | AAAAAAAAGFAAAAAA | NULL      | NULL      | NULL      | 570071.91 | NULL      | NULL      | NULL      |
+| cally        | AAAAAAAAMEAAAAAA | NULL      | NULL      | NULL      | 546806.21 | NULL      | NULL      | NULL      |
+| cally        | AAAAAAAAOCAAAAAA | NULL      | NULL      | NULL      | 579563.94 | NULL      | NULL      | NULL      |
+| eing         | AAAAAAAACGAAAAAA | NULL      | NULL      | NULL      | 548697.63 | NULL      | NULL      | NULL      |
+| eing         | AAAAAAAAEEAAAAAA | NULL      | NULL      | NULL      | 549599.37 | NULL      | NULL      | NULL      |
+| eing         | AAAAAAAAKDAAAAAA | NULL      | NULL      | NULL      | 563295.48 | NULL      | NULL      | NULL      |
+| ese          | AAAAAAAAEAAAAAAA | NULL      | NULL      | NULL      | 569766.37 | NULL      | NULL      | NULL      |
+| n st         | AAAAAAAABDAAAAAA | NULL      | NULL      | NULL      | 576590.62 | NULL      | NULL      | NULL      |
+| ought        | AAAAAAAALFAAAAAA | NULL      | NULL      | NULL      | 579627.42 | NULL      | NULL      | NULL      |
+| ought        | AAAAAAAANDAAAAAA | NULL      | NULL      | NULL      | 575417.46 | NULL      | NULL      | NULL      |
+| ought        | AAAAAAAAPBAAAAAA | NULL      | NULL      | NULL      | 598143.14 | NULL      | NULL      | NULL      |
++--------------+------------------+-----------+-----------+-----------+-----------+-----------+-----------+-----------+

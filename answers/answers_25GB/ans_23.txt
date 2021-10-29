@@ -1,0 +1,26 @@
++------------+
+| sum(sales) |
++------------+
+| 944106.75  |
++------------+
++--------------------------------+----------------------+-----------+
+| c_last_name                    | c_first_name         | sales     |
++--------------------------------+----------------------+-----------+
+| Beers                          | Anthony              | 50345.32  |
+| Carroll                        | Floyd                | 101830.40 |
+| Dailey                         | Jessica              | 46907.46  |
+| Dobson                         | Reuben               | 43016.98  |
+| Fournier                       | Brandon              | 26883.08  |
+| Godfrey                        | Maurine              | 11868.27  |
+| Godfrey                        | Maurine              | 65401.90  |
+| James                          | Javier               | 64067.16  |
+| Johnson                        | Helen                | 93427.53  |
+| Johnson                        | Samantha             | 79919.69  |
+| Martinez                       | Claudia              | 38886.95  |
+| Mcdaniel                       | Alana                | 19579.38  |
+| Mcginnis                       | Anthony              | 50450.19  |
+| Mclain                         | Helen                | 58936.43  |
+| Monahan                        | Randal               | 92301.76  |
+| Wagner                         | Emily                | 58312.27  |
+| Wagner                         | Terry                | 41971.98  |
++--------------------------------+----------------------+-----------+

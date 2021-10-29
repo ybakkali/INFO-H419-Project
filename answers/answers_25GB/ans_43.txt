@@ -1,0 +1,18 @@
++--------------+------------------+-----------+-----------+-----------+------------+-----------+-----------+-----------+
+| s_store_name | s_store_id       | sun_sales | mon_sales | tue_sales | wed_sales  | thu_sales | fri_sales | sat_sales |
++--------------+------------------+-----------+-----------+-----------+------------+-----------+-----------+-----------+
+| able         | AAAAAAAAACAAAAAA | NULL      | NULL      | NULL      | 2277351.20 | NULL      | NULL      | NULL      |
+| able         | AAAAAAAACAAAAAAA | NULL      | NULL      | NULL      | 2270087.57 | NULL      | NULL      | NULL      |
+| able         | AAAAAAAAEDAAAAAA | NULL      | NULL      | NULL      | 2275486.88 | NULL      | NULL      | NULL      |
+| able         | AAAAAAAAODAAAAAA | NULL      | NULL      | NULL      | 2319814.46 | NULL      | NULL      | NULL      |
+| ation        | AAAAAAAAFCAAAAAA | NULL      | NULL      | NULL      | 2254942.73 | NULL      | NULL      | NULL      |
+| bar          | AAAAAAAAEBAAAAAA | NULL      | NULL      | NULL      | 2269411.77 | NULL      | NULL      | NULL      |
+| bar          | AAAAAAAAICAAAAAA | NULL      | NULL      | NULL      | 2289355.25 | NULL      | NULL      | NULL      |
+| cally        | AAAAAAAAABAAAAAA | NULL      | NULL      | NULL      | 2231958.34 | NULL      | NULL      | NULL      |
+| eing         | AAAAAAAAGCAAAAAA | NULL      | NULL      | NULL      | 2218862.62 | NULL      | NULL      | NULL      |
+| eing         | AAAAAAAAIAAAAAAA | NULL      | NULL      | NULL      | 2290103.25 | NULL      | NULL      | NULL      |
+| ese          | AAAAAAAACCAAAAAA | NULL      | NULL      | NULL      | 2329101.20 | NULL      | NULL      | NULL      |
+| ese          | AAAAAAAAOAAAAAAA | NULL      | NULL      | NULL      | 2223986.02 | NULL      | NULL      | NULL      |
+| n st         | AAAAAAAABDAAAAAA | NULL      | NULL      | NULL      | 2215002.09 | NULL      | NULL      | NULL      |
+| pri          | AAAAAAAALCAAAAAA | NULL      | NULL      | NULL      | 2257359.25 | NULL      | NULL      | NULL      |
++--------------+------------------+-----------+-----------+-----------+------------+-----------+-----------+-----------+

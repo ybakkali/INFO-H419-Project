@@ -1,0 +1,104 @@
++---------------------------------+--------------------------------+-------------------+---------+------------+------------+-------------+-----------+
+| substr(w_warehouse_name, 1, 20) | sm_type                        | cc_name           | 30 days | 31-60 days | 61-90 days | 91-120 days | >120 days |
++---------------------------------+--------------------------------+-------------------+---------+------------+------------+-------------+-----------+
+| Bad cards must make.            | EXPRESS                        | California        | 26422   | 26874      | 27060      | 0           | 0         |
+| Bad cards must make.            | EXPRESS                        | Mid Atlantic      | 26806   | 27535      | 27380      | 0           | 0         |
+| Bad cards must make.            | EXPRESS                        | NY Metro          | 26607   | 27235      | 27632      | 0           | 0         |
+| Bad cards must make.            | EXPRESS                        | North Midwest     | 26442   | 26834      | 27459      | 0           | 0         |
+| Bad cards must make.            | EXPRESS                        | Pacific Northwest | 26086   | 27131      | 27503      | 0           | 0         |
+| Bad cards must make.            | LIBRARY                        | California        | 19670   | 20362      | 20559      | 0           | 0         |
+| Bad cards must make.            | LIBRARY                        | Mid Atlantic      | 19651   | 20502      | 20446      | 0           | 0         |
+| Bad cards must make.            | LIBRARY                        | NY Metro          | 20029   | 20223      | 20680      | 0           | 0         |
+| Bad cards must make.            | LIBRARY                        | North Midwest     | 19522   | 20205      | 20570      | 0           | 0         |
+| Bad cards must make.            | LIBRARY                        | Pacific Northwest | 19993   | 20352      | 20482      | 0           | 0         |
+| Bad cards must make.            | NEXT DAY                       | California        | 26313   | 26940      | 27715      | 0           | 0         |
+| Bad cards must make.            | NEXT DAY                       | Mid Atlantic      | 26673   | 27587      | 27337      | 0           | 0         |
+| Bad cards must make.            | NEXT DAY                       | NY Metro          | 26370   | 27334      | 27485      | 0           | 0         |
+| Bad cards must make.            | NEXT DAY                       | North Midwest     | 26615   | 27220      | 26973      | 0           | 0         |
+| Bad cards must make.            | NEXT DAY                       | Pacific Northwest | 26390   | 27310      | 27447      | 0           | 0         |
+| Bad cards must make.            | OVERNIGHT                      | California        | 19873   | 20293      | 20268      | 0           | 0         |
+| Bad cards must make.            | OVERNIGHT                      | Mid Atlantic      | 19837   | 20700      | 20446      | 0           | 0         |
+| Bad cards must make.            | OVERNIGHT                      | NY Metro          | 19873   | 20606      | 20487      | 0           | 0         |
+| Bad cards must make.            | OVERNIGHT                      | North Midwest     | 19718   | 20509      | 20623      | 0           | 0         |
+| Bad cards must make.            | OVERNIGHT                      | Pacific Northwest | 19441   | 20605      | 20390      | 0           | 0         |
+| Bad cards must make.            | REGULAR                        | California        | 19776   | 20534      | 20601      | 0           | 0         |
+| Bad cards must make.            | REGULAR                        | Mid Atlantic      | 20116   | 20648      | 20504      | 0           | 0         |
+| Bad cards must make.            | REGULAR                        | NY Metro          | 19553   | 20541      | 20284      | 0           | 0         |
+| Bad cards must make.            | REGULAR                        | North Midwest     | 19722   | 20600      | 20368      | 0           | 0         |
+| Bad cards must make.            | REGULAR                        | Pacific Northwest | 19731   | 20565      | 20667      | 0           | 0         |
+| Bad cards must make.            | TWO DAY                        | California        | 19641   | 20755      | 20505      | 0           | 0         |
+| Bad cards must make.            | TWO DAY                        | Mid Atlantic      | 19934   | 20498      | 20823      | 0           | 0         |
+| Bad cards must make.            | TWO DAY                        | NY Metro          | 19766   | 20414      | 20607      | 0           | 0         |
+| Bad cards must make.            | TWO DAY                        | North Midwest     | 19832   | 20420      | 20247      | 0           | 0         |
+| Bad cards must make.            | TWO DAY                        | Pacific Northwest | 19839   | 20601      | 20830      | 0           | 0         |
+| Conventional childr             | EXPRESS                        | California        | 26244   | 27197      | 27236      | 0           | 0         |
+| Conventional childr             | EXPRESS                        | Mid Atlantic      | 26451   | 27333      | 27314      | 0           | 0         |
+| Conventional childr             | EXPRESS                        | NY Metro          | 26272   | 27041      | 27506      | 0           | 0         |
+| Conventional childr             | EXPRESS                        | North Midwest     | 26465   | 27679      | 27247      | 0           | 0         |
+| Conventional childr             | EXPRESS                        | Pacific Northwest | 26456   | 26689      | 27565      | 0           | 0         |
+| Conventional childr             | LIBRARY                        | California        | 19620   | 20381      | 20431      | 0           | 0         |
+| Conventional childr             | LIBRARY                        | Mid Atlantic      | 19849   | 20571      | 20435      | 0           | 0         |
+| Conventional childr             | LIBRARY                        | NY Metro          | 19770   | 20455      | 20480      | 0           | 0         |
+| Conventional childr             | LIBRARY                        | North Midwest     | 20047   | 20413      | 20297      | 0           | 0         |
+| Conventional childr             | LIBRARY                        | Pacific Northwest | 19805   | 20661      | 20475      | 0           | 0         |
+| Conventional childr             | NEXT DAY                       | California        | 26127   | 26730      | 27310      | 0           | 0         |
+| Conventional childr             | NEXT DAY                       | Mid Atlantic      | 26847   | 27383      | 27433      | 0           | 0         |
+| Conventional childr             | NEXT DAY                       | NY Metro          | 26542   | 27403      | 27405      | 0           | 0         |
+| Conventional childr             | NEXT DAY                       | North Midwest     | 26358   | 27283      | 27225      | 0           | 0         |
+| Conventional childr             | NEXT DAY                       | Pacific Northwest | 26345   | 27112      | 27230      | 0           | 0         |
+| Conventional childr             | OVERNIGHT                      | California        | 19695   | 20244      | 20555      | 0           | 0         |
+| Conventional childr             | OVERNIGHT                      | Mid Atlantic      | 20054   | 20349      | 20566      | 0           | 0         |
+| Conventional childr             | OVERNIGHT                      | NY Metro          | 19600   | 20383      | 20604      | 0           | 0         |
+| Conventional childr             | OVERNIGHT                      | North Midwest     | 19896   | 20265      | 20448      | 0           | 0         |
+| Conventional childr             | OVERNIGHT                      | Pacific Northwest | 19879   | 20687      | 20187      | 0           | 0         |
+| Conventional childr             | REGULAR                        | California        | 19465   | 20207      | 20592      | 0           | 0         |
+| Conventional childr             | REGULAR                        | Mid Atlantic      | 19747   | 20209      | 20591      | 0           | 0         |
+| Conventional childr             | REGULAR                        | NY Metro          | 19903   | 20416      | 20667      | 0           | 0         |
+| Conventional childr             | REGULAR                        | North Midwest     | 19753   | 20454      | 20583      | 0           | 0         |
+| Conventional childr             | REGULAR                        | Pacific Northwest | 19800   | 20304      | 20441      | 0           | 0         |
+| Conventional childr             | TWO DAY                        | California        | 19776   | 20285      | 20427      | 0           | 0         |
+| Conventional childr             | TWO DAY                        | Mid Atlantic      | 19878   | 20345      | 20841      | 0           | 0         |
+| Conventional childr             | TWO DAY                        | NY Metro          | 19852   | 20233      | 20483      | 0           | 0         |
+| Conventional childr             | TWO DAY                        | North Midwest     | 19635   | 20694      | 20886      | 0           | 0         |
+| Conventional childr             | TWO DAY                        | Pacific Northwest | 19860   | 20606      | 20682      | 0           | 0         |
+| Doors canno                     | EXPRESS                        | California        | 26153   | 27482      | 27372      | 0           | 0         |
+| Doors canno                     | EXPRESS                        | Mid Atlantic      | 26572   | 27447      | 27278      | 0           | 0         |
+| Doors canno                     | EXPRESS                        | NY Metro          | 26348   | 27517      | 27415      | 0           | 0         |
+| Doors canno                     | EXPRESS                        | North Midwest     | 26224   | 27061      | 27287      | 0           | 0         |
+| Doors canno                     | EXPRESS                        | Pacific Northwest | 26250   | 27270      | 27548      | 0           | 0         |
+| Doors canno                     | LIBRARY                        | California        | 19582   | 20373      | 20489      | 0           | 0         |
+| Doors canno                     | LIBRARY                        | Mid Atlantic      | 19852   | 20490      | 20761      | 0           | 0         |
+| Doors canno                     | LIBRARY                        | NY Metro          | 19860   | 20367      | 20562      | 0           | 0         |
+| Doors canno                     | LIBRARY                        | North Midwest     | 19802   | 20582      | 20659      | 0           | 0         |
+| Doors canno                     | LIBRARY                        | Pacific Northwest | 19807   | 20325      | 20685      | 0           | 0         |
+| Doors canno                     | NEXT DAY                       | California        | 26357   | 27244      | 27256      | 0           | 0         |
+| Doors canno                     | NEXT DAY                       | Mid Atlantic      | 26293   | 27428      | 27430      | 0           | 0         |
+| Doors canno                     | NEXT DAY                       | NY Metro          | 26575   | 27242      | 27160      | 0           | 0         |
+| Doors canno                     | NEXT DAY                       | North Midwest     | 26609   | 27126      | 27131      | 0           | 0         |
+| Doors canno                     | NEXT DAY                       | Pacific Northwest | 26386   | 27401      | 27410      | 0           | 0         |
+| Doors canno                     | OVERNIGHT                      | California        | 19777   | 20449      | 20514      | 0           | 0         |
+| Doors canno                     | OVERNIGHT                      | Mid Atlantic      | 19936   | 20404      | 20501      | 0           | 0         |
+| Doors canno                     | OVERNIGHT                      | NY Metro          | 19857   | 20409      | 20328      | 0           | 0         |
+| Doors canno                     | OVERNIGHT                      | North Midwest     | 19681   | 20582      | 20503      | 0           | 0         |
+| Doors canno                     | OVERNIGHT                      | Pacific Northwest | 19910   | 20415      | 20432      | 0           | 0         |
+| Doors canno                     | REGULAR                        | California        | 19609   | 20416      | 20432      | 0           | 0         |
+| Doors canno                     | REGULAR                        | Mid Atlantic      | 20178   | 20342      | 20340      | 0           | 0         |
+| Doors canno                     | REGULAR                        | NY Metro          | 19952   | 20624      | 20515      | 0           | 0         |
+| Doors canno                     | REGULAR                        | North Midwest     | 19532   | 20428      | 20522      | 0           | 0         |
+| Doors canno                     | REGULAR                        | Pacific Northwest | 19581   | 20437      | 20514      | 0           | 0         |
+| Doors canno                     | TWO DAY                        | California        | 19721   | 20359      | 20267      | 0           | 0         |
+| Doors canno                     | TWO DAY                        | Mid Atlantic      | 19773   | 20403      | 20486      | 0           | 0         |
+| Doors canno                     | TWO DAY                        | NY Metro          | 19995   | 20447      | 20627      | 0           | 0         |
+| Doors canno                     | TWO DAY                        | North Midwest     | 19826   | 20399      | 20500      | 0           | 0         |
+| Doors canno                     | TWO DAY                        | Pacific Northwest | 19743   | 20505      | 20416      | 0           | 0         |
+| Important issues liv            | EXPRESS                        | California        | 26514   | 27298      | 27242      | 0           | 0         |
+| Important issues liv            | EXPRESS                        | Mid Atlantic      | 26468   | 27439      | 27299      | 0           | 0         |
+| Important issues liv            | EXPRESS                        | NY Metro          | 26389   | 27435      | 27291      | 0           | 0         |
+| Important issues liv            | EXPRESS                        | North Midwest     | 26238   | 27554      | 27125      | 0           | 0         |
+| Important issues liv            | EXPRESS                        | Pacific Northwest | 26654   | 27466      | 27686      | 0           | 0         |
+| Important issues liv            | LIBRARY                        | California        | 19610   | 20387      | 20556      | 0           | 0         |
+| Important issues liv            | LIBRARY                        | Mid Atlantic      | 19907   | 20750      | 20720      | 0           | 0         |
+| Important issues liv            | LIBRARY                        | NY Metro          | 19809   | 20263      | 20802      | 0           | 0         |
+| Important issues liv            | LIBRARY                        | North Midwest     | 19651   | 20246      | 20249      | 0           | 0         |
+| Important issues liv            | LIBRARY                        | Pacific Northwest | 19542   | 20226      | 20392      | 0           | 0         |
++---------------------------------+--------------------------------+-------------------+---------+------------+------------+-------------+-----------+

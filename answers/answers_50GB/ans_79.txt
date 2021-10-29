@@ -1,0 +1,104 @@
++--------------------------------+----------------------+-----------------------+------------------+----------+-----------+
+| c_last_name                    | c_first_name         | substr(s_city, 1, 30) | ss_ticket_number | amt      | profit    |
++--------------------------------+----------------------+-----------------------+------------------+----------+-----------+
+| Aaron                          | Aaron                | Oak Grove             | 4157786          | 1207.07  | -11365.66 |
+| Aaron                          | Aaron                | Oak Grove             | 8112658          | 5083.57  | -10456.42 |
+| Aaron                          | Aaron                | Riverside             | 1570949          | 0.00     | -10294.64 |
+| Aaron                          | Aaron                | Riverside             | 2717297          | 4194.13  | -6359.62  |
+| Aaron                          | Barbara              | Midway                | 8285048          | 101.52   | -21618.42 |
+| Aaron                          | Barbara              | Oak Grove             | 10039378         | 12038.30 | -20590.80 |
+| Aaron                          | Barbara              | Oak Grove             | 4885450          | 281.02   | -9324.06  |
+| Aaron                          | Bradley              | Midway                | 4181431          | 4238.50  | -11305.90 |
+| Aaron                          | Brian                | Midway                | 9447108          | 4075.31  | -15118.17 |
+| Aaron                          | Brian                | Midway                | 8893624          | 4120.41  | -6680.40  |
+| Aaron                          | Brian                | Pleasant Hill         | 3500508          | 3755.14  | -11758.78 |
+| Aaron                          | Carrie               | Riverside             | 10746127         | 34.13    | -12021.02 |
+| Aaron                          | Charles              | Five Points           | 7157566          | 10581.46 | -26327.49 |
+| Aaron                          | Charles              | Five Points           | 8038361          | 1920.79  | -8548.57  |
+| Aaron                          | Charles              | Five Points           | 5691639          | 2238.16  | -3235.61  |
+| Aaron                          | Charles              | Pleasant Hill         | 1284521          | 1121.82  | -3569.77  |
+| Aaron                          | Charles              | Riverside             | 4051946          | 3736.12  | -157.03   |
+| Aaron                          | Charlie              | Five Points           | 2503918          | 3129.07  | -20237.84 |
+| Aaron                          | Charlie              | Midway                | 3678394          | 142.59   | 5866.58   |
+| Aaron                          | Charlie              | Oak Grove             | 10150626         | 0.00     | -11439.50 |
+| Aaron                          | Charlie              | Oak Grove             | 9219891          | 554.75   | -10968.66 |
+| Aaron                          | Charlie              | Oak Grove             | 5331752          | 0.00     | -3324.33  |
+| Aaron                          | Chase                | Pleasant Hill         | 1248467          | 194.55   | -6226.55  |
+| Aaron                          | Chase                | Riverside             | 744097           | 5211.15  | -4776.61  |
+| Aaron                          | Dale                 | Pleasant Hill         | 8073571          | 113.74   | -6458.98  |
+| Aaron                          | Delia                | Oak Grove             | 11930315         | 355.74   | -999.93   |
+| Aaron                          | Delia                | Riverside             | 1019080          | 2.73     | -6013.76  |
+| Aaron                          | Doris                | Mount Pleasant        | 3614883          | 96.60    | -13900.16 |
+| Aaron                          | Doris                | Mount Pleasant        | 547886           | 3541.91  | -10968.08 |
+| Aaron                          | Doris                | Riverside             | 2144620          | 934.36   | -6185.04  |
+| Aaron                          | Elizabeth            | Fairview              | 368133           | 501.49   | -8477.37  |
+| Aaron                          | Elizabeth            | Riverside             | 4718819          | 159.91   | -5664.45  |
+| Aaron                          | Elmer                | Midway                | 10143514         | 0.00     | -7144.52  |
+| Aaron                          | Emily                | Five Points           | 11422807         | 0.00     | -5327.03  |
+| Aaron                          | Frank                | Midway                | 9367866          | 2398.97  | -1329.46  |
+| Aaron                          | Frank                | Mount Pleasant        | 1480439          | 0.00     | 2095.34   |
+| Aaron                          | Gabrielle            | Five Points           | 5131123          | 3211.48  | -10852.60 |
+| Aaron                          | Genevieve            | Oak Grove             | 11538288         | 2263.25  | -11553.38 |
+| Aaron                          | Genevieve            | Oak Grove             | 426049           | 2683.76  | -2225.48  |
+| Aaron                          | Georgia              | Oak Grove             | 6587400          | 1939.37  | -5119.55  |
+| Aaron                          | Georgia              | Oak Grove             | 3580728          | 260.60   | -486.76   |
+| Aaron                          | Guy                  | Midway                | 2484807          | 418.07   | -20400.71 |
+| Aaron                          | Hazel                | Fairview              | 709996           | 7660.65  | -10834.42 |
+| Aaron                          | Hazel                | Oak Grove             | 10588737         | 1146.31  | -7788.23  |
+| Aaron                          | Henry                | Oak Grove             | 2734199          | 58.17    | 5982.22   |
+| Aaron                          | Jana                 | Riverside             | 26839            | 930.16   | -8040.67  |
+| Aaron                          | Jimmie               | Pleasant Hill         | 3467180          | 0.00     | -13175.51 |
+| Aaron                          | John                 | Five Points           | 8734771          | 8763.31  | -7873.50  |
+| Aaron                          | Jon                  | Oak Grove             | 317098           | 2061.26  | -22900.50 |
+| Aaron                          | Joseph               | Five Points           | 11877209         | 0.17     | -8943.57  |
+| Aaron                          | Joseph               | Pleasant Hill         | 6520712          | 418.67   | -5857.33  |
+| Aaron                          | Joyce                | Fairview              | 175135           | 1506.79  | -11556.25 |
+| Aaron                          | Justin               | Five Points           | 1872992          | 5868.27  | -17187.66 |
+| Aaron                          | Kent                 | Pleasant Hill         | 669964           | 31.05    | 6346.29   |
+| Aaron                          | Laurie               | Fairview              | 11737235         | 2506.41  | -18482.13 |
+| Aaron                          | Lynda                | Riverside             | 1226165          | 2399.26  | -11950.32 |
+| Aaron                          | Lynda                | Riverside             | 8175459          | 0.00     | -6752.59  |
+| Aaron                          | Margaret             | Mount Pleasant        | 8799994          | 451.28   | -21141.65 |
+| Aaron                          | Margaret             | Oak Grove             | 346592           | 583.92   | -4559.23  |
+| Aaron                          | Margaret             | Pleasant Hill         | 1976129          | 0.00     | -9280.95  |
+| Aaron                          | Martha               | Riverside             | 3588807          | 359.78   | -4644.63  |
+| Aaron                          | Matthew              | Oak Grove             | 3507275          | 1102.99  | -14498.51 |
+| Aaron                          | Matthew              | Riverside             | 1212824          | 7741.19  | -17907.70 |
+| Aaron                          | Michael              | Midway                | 3564836          | 514.37   | -15235.55 |
+| Aaron                          | Michael              | Pleasant Hill         | 5171609          | 552.56   | -13592.92 |
+| Aaron                          | Michael              | Riverside             | 2480813          | 483.36   | -10225.16 |
+| Aaron                          | Mildred              | Fairview              | 3530621          | 4700.30  | -19032.59 |
+| Aaron                          | Neil                 | Riverside             | 6929946          | 28.53    | -22546.95 |
+| Aaron                          | Philip               | Oak Grove             | 9328715          | 163.57   | -9896.14  |
+| Aaron                          | Richard              | Mount Pleasant        | 6411179          | 4079.56  | -27889.82 |
+| Aaron                          | Robert               | Fairview              | 8107504          | 1457.63  | -18236.35 |
+| Aaron                          | Robert               | Mount Pleasant        | 7759231          | 0.00     | -10991.82 |
+| Aaron                          | Robert               | Mount Pleasant        | 7759231          | NULL     | NULL      |
+| Aaron                          | Robert               | Oak Grove             | 9709621          | 588.66   | -3619.97  |
+| Aaron                          | Robert               | Oak Grove             | 8239043          | 1646.33  | -3495.78  |
+| Aaron                          | Robert               | Pleasant Hill         | 4696528          | 1161.61  | -8556.36  |
+| Aaron                          | Roberta              | Pleasant Hill         | 3631947          | 1687.21  | -7910.98  |
+| Aaron                          | Rose                 | Five Points           | 8238887          | 0.00     | -10820.09 |
+| Aaron                          | Ruby                 | Riverside             | 4612731          | 3864.77  | -17603.07 |
+| Aaron                          | Russell              | Mount Pleasant        | 5509166          | 447.12   | -2430.74  |
+| Aaron                          | Ruth                 | Fairview              | 547477           | 3015.94  | -9899.37  |
+| Aaron                          | Sam                  | Pleasant Hill         | 4287464          | 299.75   | -4866.39  |
+| Aaron                          | Samuel               | Pleasant Hill         | 10796098         | 3729.87  | -16288.33 |
+| Aaron                          | Suzann               | Mount Pleasant        | 2346167          | 2035.45  | -17063.83 |
+| Aaron                          | Sylvia               | Midway                | 6063992          | 509.26   | -15007.36 |
+| Aaron                          | Sylvia               | Mount Pleasant        | 6804567          | 2591.51  | -18369.90 |
+| Aaron                          | Sylvia               | Mount Pleasant        | 3147931          | 6.19     | -1644.78  |
+| Aaron                          | Tony                 | Midway                | 6953183          | 3891.06  | -10373.30 |
+| Aaron                          | Tony                 | Riverside             | 867793           | 6342.08  | -16282.42 |
+| Aaron                          | Tony                 | Riverside             | 430427           | 2331.15  | -7977.32  |
+| Aaron                          | Troy                 | Five Points           | 5775361          | 5873.45  | -3325.64  |
+| Aaron                          | Troy                 | Oak Grove             | 2821981          | 13.78    | -1459.03  |
+| Aaron                          | Ursula               | Mount Pleasant        | 3093181          | 1573.06  | -12423.01 |
+| Aaron                          | Ursula               | Riverside             | 8157151          | 940.71   | 3296.58   |
+| Aaron                          | Velma                | Fairview              | 11695315         | 1610.28  | -8325.80  |
+| Aaron                          | Velma                | Five Points           | 7891424          | 189.75   | -7741.55  |
+| Aaron                          | NULL                 | Midway                | 2403471          | 1017.77  | -10753.07 |
+| Aaron                          | NULL                 | Midway                | 3031374          | 415.50   | -1249.83  |
+| Aaron                          | NULL                 | Oak Grove             | 3656717          | 226.29   | -11976.61 |
+| Aaron                          | NULL                 | Riverside             | 11016142         | 7680.80  | -14481.32 |
++--------------------------------+----------------------+-----------------------+------------------+----------+-----------+

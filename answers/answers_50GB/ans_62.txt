@@ -1,0 +1,104 @@
++---------------------------------+--------------------------------+----------+---------+------------+------------+-------------+-----------+
+| substr(w_warehouse_name, 1, 20) | sm_type                        | web_name | 30 days | 31-60 days | 61-90 days | 91-120 days | >120 days |
++---------------------------------+--------------------------------+----------+---------+------------+------------+-------------+-----------+
+| Bad cards must make.            | EXPRESS                        | site_0   | 12777   | 12803      | 12741      | 12800       | 0         |
+| Bad cards must make.            | EXPRESS                        | site_1   | 12694   | 12668      | 12756      | 12866       | 0         |
+| Bad cards must make.            | EXPRESS                        | site_2   | 12737   | 12986      | 12871      | 12778       | 0         |
+| Bad cards must make.            | EXPRESS                        | site_3   | 12850   | 12803      | 12625      | 12753       | 0         |
+| Bad cards must make.            | LIBRARY                        | site_0   | 9641    | 9475       | 9730       | 9498        | 0         |
+| Bad cards must make.            | LIBRARY                        | site_1   | 9493    | 9754       | 9726       | 9532        | 0         |
+| Bad cards must make.            | LIBRARY                        | site_2   | 9557    | 9699       | 9487       | 9537        | 0         |
+| Bad cards must make.            | LIBRARY                        | site_3   | 9411    | 9541       | 9707       | 9629        | 0         |
+| Bad cards must make.            | NEXT DAY                       | site_0   | 12824   | 12739      | 12915      | 12779       | 0         |
+| Bad cards must make.            | NEXT DAY                       | site_1   | 12769   | 12662      | 12796      | 12894       | 0         |
+| Bad cards must make.            | NEXT DAY                       | site_2   | 12652   | 12714      | 12963      | 12691       | 0         |
+| Bad cards must make.            | NEXT DAY                       | site_3   | 12655   | 12866      | 12828      | 12744       | 0         |
+| Bad cards must make.            | OVERNIGHT                      | site_0   | 9639    | 9663       | 9619       | 9474        | 0         |
+| Bad cards must make.            | OVERNIGHT                      | site_1   | 9683    | 9601       | 9698       | 9491        | 0         |
+| Bad cards must make.            | OVERNIGHT                      | site_2   | 9624    | 9585       | 9579       | 9720        | 0         |
+| Bad cards must make.            | OVERNIGHT                      | site_3   | 9584    | 9537       | 9596       | 9574        | 0         |
+| Bad cards must make.            | REGULAR                        | site_0   | 9612    | 9649       | 9696       | 9676        | 0         |
+| Bad cards must make.            | REGULAR                        | site_1   | 9475    | 9505       | 9311       | 9595        | 0         |
+| Bad cards must make.            | REGULAR                        | site_2   | 9695    | 9468       | 9597       | 9423        | 0         |
+| Bad cards must make.            | REGULAR                        | site_3   | 9484    | 9585       | 9743       | 9697        | 0         |
+| Bad cards must make.            | TWO DAY                        | site_0   | 9445    | 9693       | 9584       | 9749        | 0         |
+| Bad cards must make.            | TWO DAY                        | site_1   | 9531    | 9484       | 9461       | 9585        | 0         |
+| Bad cards must make.            | TWO DAY                        | site_2   | 9495    | 9660       | 9647       | 9451        | 0         |
+| Bad cards must make.            | TWO DAY                        | site_3   | 9616    | 9520       | 9617       | 9648        | 0         |
+| Conventional childr             | EXPRESS                        | site_0   | 13010   | 12956      | 12742      | 12928       | 0         |
+| Conventional childr             | EXPRESS                        | site_1   | 12758   | 12801      | 12905      | 12788       | 0         |
+| Conventional childr             | EXPRESS                        | site_2   | 12999   | 12561      | 12616      | 12786       | 0         |
+| Conventional childr             | EXPRESS                        | site_3   | 12747   | 12714      | 12677      | 13069       | 0         |
+| Conventional childr             | LIBRARY                        | site_0   | 9529    | 9631       | 9735       | 9446        | 0         |
+| Conventional childr             | LIBRARY                        | site_1   | 9782    | 9586       | 9568       | 9573        | 0         |
+| Conventional childr             | LIBRARY                        | site_2   | 9513    | 9644       | 9485       | 9582        | 0         |
+| Conventional childr             | LIBRARY                        | site_3   | 9832    | 9557       | 9618       | 9603        | 0         |
+| Conventional childr             | NEXT DAY                       | site_0   | 12737   | 12942      | 12830      | 12637       | 0         |
+| Conventional childr             | NEXT DAY                       | site_1   | 12797   | 12871      | 12899      | 12702       | 0         |
+| Conventional childr             | NEXT DAY                       | site_2   | 12892   | 12819      | 12724      | 12678       | 0         |
+| Conventional childr             | NEXT DAY                       | site_3   | 12691   | 12666      | 13007      | 12820       | 0         |
+| Conventional childr             | OVERNIGHT                      | site_0   | 9471    | 9660       | 9491       | 9651        | 0         |
+| Conventional childr             | OVERNIGHT                      | site_1   | 9782    | 9611       | 9613       | 9516        | 0         |
+| Conventional childr             | OVERNIGHT                      | site_2   | 9551    | 9439       | 9745       | 9602        | 0         |
+| Conventional childr             | OVERNIGHT                      | site_3   | 9471    | 9598       | 9742       | 9579        | 0         |
+| Conventional childr             | REGULAR                        | site_0   | 9651    | 9533       | 9642       | 9604        | 0         |
+| Conventional childr             | REGULAR                        | site_1   | 9787    | 9473       | 9464       | 9672        | 0         |
+| Conventional childr             | REGULAR                        | site_2   | 9555    | 9701       | 9532       | 9530        | 0         |
+| Conventional childr             | REGULAR                        | site_3   | 9508    | 9576       | 9615       | 9596        | 0         |
+| Conventional childr             | TWO DAY                        | site_0   | 9621    | 9821       | 9678       | 9760        | 0         |
+| Conventional childr             | TWO DAY                        | site_1   | 9806    | 9640       | 9673       | 9574        | 0         |
+| Conventional childr             | TWO DAY                        | site_2   | 9333    | 9504       | 9459       | 9693        | 0         |
+| Conventional childr             | TWO DAY                        | site_3   | 9662    | 9727       | 9510       | 9724        | 0         |
+| Doors canno                     | EXPRESS                        | site_0   | 12696   | 12603      | 12661      | 12973       | 0         |
+| Doors canno                     | EXPRESS                        | site_1   | 12662   | 12788      | 12779      | 13060       | 0         |
+| Doors canno                     | EXPRESS                        | site_2   | 12834   | 12679      | 12684      | 12786       | 0         |
+| Doors canno                     | EXPRESS                        | site_3   | 12602   | 12775      | 12881      | 12608       | 0         |
+| Doors canno                     | LIBRARY                        | site_0   | 9504    | 9575       | 9691       | 9549        | 0         |
+| Doors canno                     | LIBRARY                        | site_1   | 9738    | 9716       | 9640       | 9670        | 0         |
+| Doors canno                     | LIBRARY                        | site_2   | 9586    | 9518       | 9658       | 9747        | 0         |
+| Doors canno                     | LIBRARY                        | site_3   | 9671    | 9461       | 9500       | 9492        | 0         |
+| Doors canno                     | NEXT DAY                       | site_0   | 12710   | 12745      | 12580      | 12661       | 0         |
+| Doors canno                     | NEXT DAY                       | site_1   | 12718   | 12722      | 12997      | 12945       | 0         |
+| Doors canno                     | NEXT DAY                       | site_2   | 12771   | 12678      | 12757      | 12899       | 0         |
+| Doors canno                     | NEXT DAY                       | site_3   | 12909   | 12806      | 12869      | 12909       | 0         |
+| Doors canno                     | OVERNIGHT                      | site_0   | 9637    | 9520       | 9431       | 9505        | 0         |
+| Doors canno                     | OVERNIGHT                      | site_1   | 9509    | 9367       | 9590       | 9489        | 0         |
+| Doors canno                     | OVERNIGHT                      | site_2   | 9617    | 9433       | 9573       | 9669        | 0         |
+| Doors canno                     | OVERNIGHT                      | site_3   | 9519    | 9595       | 9588       | 9505        | 0         |
+| Doors canno                     | REGULAR                        | site_0   | 9674    | 9634       | 9531       | 9588        | 0         |
+| Doors canno                     | REGULAR                        | site_1   | 9668    | 9732       | 9526       | 9773        | 0         |
+| Doors canno                     | REGULAR                        | site_2   | 9536    | 9584       | 9504       | 9720        | 0         |
+| Doors canno                     | REGULAR                        | site_3   | 9688    | 9451       | 9543       | 9756        | 0         |
+| Doors canno                     | TWO DAY                        | site_0   | 9656    | 9576       | 9552       | 9714        | 0         |
+| Doors canno                     | TWO DAY                        | site_1   | 9635    | 9694       | 9579       | 9749        | 0         |
+| Doors canno                     | TWO DAY                        | site_2   | 9474    | 9589       | 9659       | 9578        | 0         |
+| Doors canno                     | TWO DAY                        | site_3   | 9464    | 9761       | 9690       | 9569        | 0         |
+| Important issues liv            | EXPRESS                        | site_0   | 12831   | 12939      | 12828      | 12836       | 0         |
+| Important issues liv            | EXPRESS                        | site_1   | 12779   | 12679      | 12797      | 12877       | 0         |
+| Important issues liv            | EXPRESS                        | site_2   | 12981   | 12757      | 12825      | 12785       | 0         |
+| Important issues liv            | EXPRESS                        | site_3   | 12704   | 12780      | 12798      | 12789       | 0         |
+| Important issues liv            | LIBRARY                        | site_0   | 9805    | 9782       | 9749       | 9557        | 0         |
+| Important issues liv            | LIBRARY                        | site_1   | 9793    | 9564       | 9777       | 9614        | 0         |
+| Important issues liv            | LIBRARY                        | site_2   | 9533    | 9558       | 9757       | 9544        | 0         |
+| Important issues liv            | LIBRARY                        | site_3   | 9751    | 9736       | 9484       | 9656        | 0         |
+| Important issues liv            | NEXT DAY                       | site_0   | 12755   | 12725      | 12960      | 12779       | 0         |
+| Important issues liv            | NEXT DAY                       | site_1   | 12848   | 13008      | 12641      | 12886       | 0         |
+| Important issues liv            | NEXT DAY                       | site_2   | 12754   | 12763      | 12917      | 12832       | 0         |
+| Important issues liv            | NEXT DAY                       | site_3   | 12780   | 12803      | 12898      | 12872       | 0         |
+| Important issues liv            | OVERNIGHT                      | site_0   | 9566    | 9637       | 9654       | 9762        | 0         |
+| Important issues liv            | OVERNIGHT                      | site_1   | 9520    | 9595       | 9627       | 9617        | 0         |
+| Important issues liv            | OVERNIGHT                      | site_2   | 9651    | 9662       | 9586       | 9650        | 0         |
+| Important issues liv            | OVERNIGHT                      | site_3   | 9258    | 9567       | 9596       | 9869        | 0         |
+| Important issues liv            | REGULAR                        | site_0   | 9574    | 9704       | 9653       | 9604        | 0         |
+| Important issues liv            | REGULAR                        | site_1   | 9572    | 9642       | 9686       | 9516        | 0         |
+| Important issues liv            | REGULAR                        | site_2   | 9621    | 9536       | 9528       | 9639        | 0         |
+| Important issues liv            | REGULAR                        | site_3   | 9671    | 9618       | 9711       | 9536        | 0         |
+| Important issues liv            | TWO DAY                        | site_0   | 9658    | 9469       | 9562       | 9540        | 0         |
+| Important issues liv            | TWO DAY                        | site_1   | 9490    | 9477       | 9514       | 9634        | 0         |
+| Important issues liv            | TWO DAY                        | site_2   | 9650    | 9629       | 9630       | 9572        | 0         |
+| Important issues liv            | TWO DAY                        | site_3   | 9518    | 9701       | 9630       | 9632        | 0         |
+| Local, mass universi            | EXPRESS                        | site_0   | 12697   | 12792      | 12834      | 12630       | 0         |
+| Local, mass universi            | EXPRESS                        | site_1   | 12957   | 12744      | 12676      | 12770       | 0         |
+| Local, mass universi            | EXPRESS                        | site_2   | 12678   | 12972      | 12743      | 12777       | 0         |
+| Local, mass universi            | EXPRESS                        | site_3   | 12862   | 12668      | 12820      | 12658       | 0         |
++---------------------------------+--------------------------------+----------+---------+------------+------------+-------------+-----------+

@@ -1,0 +1,29 @@
++--------------+------------------+-----------+-----------+-----------+------------+-----------+-----------+-----------+
+| s_store_name | s_store_id       | sun_sales | mon_sales | tue_sales | wed_sales  | thu_sales | fri_sales | sat_sales |
++--------------+------------------+-----------+-----------+-----------+------------+-----------+-----------+-----------+
+| able         | AAAAAAAAMFAAAAAA | NULL      | NULL      | NULL      | 1998099.67 | NULL      | NULL      | NULL      |
+| anti         | AAAAAAAADHAAAAAA | NULL      | NULL      | NULL      | 2025266.36 | NULL      | NULL      | NULL      |
+| anti         | AAAAAAAAFFAAAAAA | NULL      | NULL      | NULL      | 1954842.85 | NULL      | NULL      | NULL      |
+| ation        | AAAAAAAABGAAAAAA | NULL      | NULL      | NULL      | 1953437.27 | NULL      | NULL      | NULL      |
+| ation        | AAAAAAAADEAAAAAA | NULL      | NULL      | NULL      | 1986968.26 | NULL      | NULL      | NULL      |
+| ation        | AAAAAAAAFCAAAAAA | NULL      | NULL      | NULL      | 1991637.39 | NULL      | NULL      | NULL      |
+| bar          | AAAAAAAAKAAAAAAA | NULL      | NULL      | NULL      | 2005064.20 | NULL      | NULL      | NULL      |
+| bar          | AAAAAAAAMIAAAAAA | NULL      | NULL      | NULL      | 2024448.27 | NULL      | NULL      | NULL      |
+| bar          | AAAAAAAAOGAAAAAA | NULL      | NULL      | NULL      | 2027831.33 | NULL      | NULL      | NULL      |
+| cally        | AAAAAAAAGFAAAAAA | NULL      | NULL      | NULL      | 2009633.14 | NULL      | NULL      | NULL      |
+| cally        | AAAAAAAAIIAAAAAA | NULL      | NULL      | NULL      | 2008989.49 | NULL      | NULL      | NULL      |
+| cally        | AAAAAAAAKGAAAAAA | NULL      | NULL      | NULL      | 1986075.17 | NULL      | NULL      | NULL      |
+| cally        | AAAAAAAAMEAAAAAA | NULL      | NULL      | NULL      | 1971129.79 | NULL      | NULL      | NULL      |
+| cally        | AAAAAAAAOCAAAAAA | NULL      | NULL      | NULL      | 1976377.23 | NULL      | NULL      | NULL      |
+| eing         | AAAAAAAACGAAAAAA | NULL      | NULL      | NULL      | 2036550.72 | NULL      | NULL      | NULL      |
+| eing         | AAAAAAAAEEAAAAAA | NULL      | NULL      | NULL      | 2039081.89 | NULL      | NULL      | NULL      |
+| eing         | AAAAAAAAKDAAAAAA | NULL      | NULL      | NULL      | 2039704.62 | NULL      | NULL      | NULL      |
+| ese          | AAAAAAAAEAAAAAAA | NULL      | NULL      | NULL      | 2015226.21 | NULL      | NULL      | NULL      |
+| ese          | AAAAAAAAGIAAAAAA | NULL      | NULL      | NULL      | 1982780.14 | NULL      | NULL      | NULL      |
+| ese          | AAAAAAAAMHAAAAAA | NULL      | NULL      | NULL      | 2032774.90 | NULL      | NULL      | NULL      |
+| n st         | AAAAAAAABDAAAAAA | NULL      | NULL      | NULL      | 1991647.45 | NULL      | NULL      | NULL      |
+| ought        | AAAAAAAALFAAAAAA | NULL      | NULL      | NULL      | 2013880.14 | NULL      | NULL      | NULL      |
+| ought        | AAAAAAAANDAAAAAA | NULL      | NULL      | NULL      | 1991047.75 | NULL      | NULL      | NULL      |
+| ought        | AAAAAAAAPBAAAAAA | NULL      | NULL      | NULL      | 2022451.76 | NULL      | NULL      | NULL      |
+| pri          | AAAAAAAAFIAAAAAA | NULL      | NULL      | NULL      | 2039506.83 | NULL      | NULL      | NULL      |
++--------------+------------------+-----------+-----------+-----------+------------+-----------+-----------+-----------+

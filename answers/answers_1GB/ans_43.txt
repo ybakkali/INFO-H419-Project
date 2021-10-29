@@ -1,0 +1,10 @@
++--------------+------------------+-----------+-----------+-----------+-----------+-----------+-----------+-----------+
+| s_store_name | s_store_id       | sun_sales | mon_sales | tue_sales | wed_sales | thu_sales | fri_sales | sat_sales |
++--------------+------------------+-----------+-----------+-----------+-----------+-----------+-----------+-----------+
+| able         | AAAAAAAACAAAAAAA | NULL      | NULL      | NULL      | 513998.92 | NULL      | NULL      | NULL      |
+| ation        | AAAAAAAAHAAAAAAA | NULL      | NULL      | NULL      | 510779.71 | NULL      | NULL      | NULL      |
+| bar          | AAAAAAAAKAAAAAAA | NULL      | NULL      | NULL      | 498368.24 | NULL      | NULL      | NULL      |
+| eing         | AAAAAAAAIAAAAAAA | NULL      | NULL      | NULL      | 447624.87 | NULL      | NULL      | NULL      |
+| ese          | AAAAAAAAEAAAAAAA | NULL      | NULL      | NULL      | 490049.12 | NULL      | NULL      | NULL      |
+| ought        | AAAAAAAABAAAAAAA | NULL      | NULL      | NULL      | 483466.92 | NULL      | NULL      | NULL      |
++--------------+------------------+-----------+-----------+-----------+-----------+-----------+-----------+-----------+

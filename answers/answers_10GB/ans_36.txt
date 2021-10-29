@@ -1,0 +1,104 @@
++--------------+----------------------------------------------------+----------------------------------------------------+--------------+--------------------+
+| gross_margin | i_category                                         | i_class                                            | lochierarchy | rank_within_parent |
++--------------+----------------------------------------------------+----------------------------------------------------+--------------+--------------------+
+| -0.433412    | NULL                                               | NULL                                               | 2            | 1                  |
+| -0.435520    | Men                                                | NULL                                               | 1            | 1                  |
+| -0.435486    | Books                                              | NULL                                               | 1            | 2                  |
+| -0.434972    | Electronics                                        | NULL                                               | 1            | 3                  |
+| -0.433942    | Children                                           | NULL                                               | 1            | 4                  |
+| -0.432957    | Women                                              | NULL                                               | 1            | 5                  |
+| -0.432727    | Home                                               | NULL                                               | 1            | 6                  |
+| -0.432514    | Sports                                             | NULL                                               | 1            | 7                  |
+| -0.432387    | Jewelry                                            | NULL                                               | 1            | 8                  |
+| -0.432186    | Music                                              | NULL                                               | 1            | 9                  |
+| -0.431647    | Shoes                                              | NULL                                               | 1            | 10                 |
+| -0.428321    | NULL                                               | NULL                                               | 1            | 11                 |
+| -0.464398    | Books                                              | NULL                                               | 0            | 1                  |
+| -0.443559    | Books                                              | self-help                                          | 0            | 2                  |
+| -0.442146    | Books                                              | science                                            | 0            | 3                  |
+| -0.441859    | Books                                              | parenting                                          | 0            | 4                  |
+| -0.441799    | Books                                              | travel                                             | 0            | 5                  |
+| -0.440966    | Books                                              | sports                                             | 0            | 6                  |
+| -0.440580    | Books                                              | reference                                          | 0            | 7                  |
+| -0.438069    | Books                                              | home repair                                        | 0            | 8                  |
+| -0.435108    | Books                                              | fiction                                            | 0            | 9                  |
+| -0.435077    | Books                                              | history                                            | 0            | 10                 |
+| -0.433991    | Books                                              | cooking                                            | 0            | 11                 |
+| -0.432908    | Books                                              | computers                                          | 0            | 12                 |
+| -0.429335    | Books                                              | arts                                               | 0            | 13                 |
+| -0.428551    | Books                                              | mystery                                            | 0            | 14                 |
+| -0.428484    | Books                                              | entertainments                                     | 0            | 15                 |
+| -0.427645    | Books                                              | business                                           | 0            | 16                 |
+| -0.426675    | Books                                              | romance                                            | 0            | 17                 |
+| -0.436845    | Children                                           | toddlers                                           | 0            | 1                  |
+| -0.435476    | Children                                           | infants                                            | 0            | 2                  |
+| -0.433301    | Children                                           | school-uniforms                                    | 0            | 3                  |
+| -0.429956    | Children                                           | newborn                                            | 0            | 4                  |
+| -0.429154    | Children                                           | NULL                                               | 0            | 5                  |
+| -0.443835    | Electronics                                        | portable                                           | 0            | 1                  |
+| -0.443822    | Electronics                                        | karoke                                             | 0            | 2                  |
+| -0.439846    | Electronics                                        | camcorders                                         | 0            | 3                  |
+| -0.438855    | Electronics                                        | audio                                              | 0            | 4                  |
+| -0.437740    | Electronics                                        | monitors                                           | 0            | 5                  |
+| -0.436637    | Electronics                                        | wireless                                           | 0            | 6                  |
+| -0.436432    | Electronics                                        | scanners                                           | 0            | 7                  |
+| -0.436349    | Electronics                                        | stereo                                             | 0            | 8                  |
+| -0.435844    | Electronics                                        | automotive                                         | 0            | 9                  |
+| -0.435783    | Electronics                                        | personal                                           | 0            | 10                 |
+| -0.434414    | Electronics                                        | memory                                             | 0            | 11                 |
+| -0.432351    | Electronics                                        | cameras                                            | 0            | 12                 |
+| -0.431210    | Electronics                                        | musical                                            | 0            | 13                 |
+| -0.430520    | Electronics                                        | televisions                                        | 0            | 14                 |
+| -0.426568    | Electronics                                        | dvd/vcr players                                    | 0            | 15                 |
+| -0.423018    | Electronics                                        | disk drives                                        | 0            | 16                 |
+| -0.331495    | Electronics                                        | NULL                                               | 0            | 17                 |
+| -0.486840    | Home                                               | NULL                                               | 0            | 1                  |
+| -0.445793    | Home                                               | accent                                             | 0            | 2                  |
+| -0.444461    | Home                                               | paint                                              | 0            | 3                  |
+| -0.443019    | Home                                               | mattresses                                         | 0            | 4                  |
+| -0.441621    | Home                                               | blinds/shades                                      | 0            | 5                  |
+| -0.439375    | Home                                               | furniture                                          | 0            | 6                  |
+| -0.437083    | Home                                               | glassware                                          | 0            | 7                  |
+| -0.435975    | Home                                               | curtains/drapes                                    | 0            | 8                  |
+| -0.435352    | Home                                               | rugs                                               | 0            | 9                  |
+| -0.431897    | Home                                               | flatware                                           | 0            | 10                 |
+| -0.429064    | Home                                               | bathroom                                           | 0            | 11                 |
+| -0.428801    | Home                                               | lighting                                           | 0            | 12                 |
+| -0.426804    | Home                                               | kids                                               | 0            | 13                 |
+| -0.423626    | Home                                               | decor                                              | 0            | 14                 |
+| -0.421573    | Home                                               | tables                                             | 0            | 15                 |
+| -0.419452    | Home                                               | wallpaper                                          | 0            | 16                 |
+| -0.417415    | Home                                               | bedding                                            | 0            | 17                 |
+| -0.447538    | Jewelry                                            | custom                                             | 0            | 1                  |
+| -0.441112    | Jewelry                                            | earings                                            | 0            | 2                  |
+| -0.440209    | Jewelry                                            | gold                                               | 0            | 3                  |
+| -0.440179    | Jewelry                                            | jewelry boxes                                      | 0            | 4                  |
+| -0.437809    | Jewelry                                            | womens watch                                       | 0            | 5                  |
+| -0.437334    | Jewelry                                            | mens watch                                         | 0            | 6                  |
+| -0.437125    | Jewelry                                            | consignment                                        | 0            | 7                  |
+| -0.437021    | Jewelry                                            | loose stones                                       | 0            | 8                  |
+| -0.434201    | Jewelry                                            | birdal                                             | 0            | 9                  |
+| -0.429383    | Jewelry                                            | pendants                                           | 0            | 10                 |
+| -0.428328    | Jewelry                                            | rings                                              | 0            | 11                 |
+| -0.422796    | Jewelry                                            | semi-precious                                      | 0            | 12                 |
+| -0.421962    | Jewelry                                            | estate                                             | 0            | 13                 |
+| -0.420793    | Jewelry                                            | bracelets                                          | 0            | 14                 |
+| -0.420423    | Jewelry                                            | diamonds                                           | 0            | 15                 |
+| -0.416995    | Jewelry                                            | costume                                            | 0            | 16                 |
+| -0.414724    | Jewelry                                            | NULL                                               | 0            | 17                 |
+| -0.451354    | Men                                                | NULL                                               | 0            | 1                  |
+| -0.437340    | Men                                                | accessories                                        | 0            | 2                  |
+| -0.435982    | Men                                                | pants                                              | 0            | 3                  |
+| -0.435497    | Men                                                | shirts                                             | 0            | 4                  |
+| -0.433277    | Men                                                | sports-apparel                                     | 0            | 5                  |
+| -0.438931    | Music                                              | NULL                                               | 0            | 1                  |
+| -0.437029    | Music                                              | pop                                                | 0            | 2                  |
+| -0.434424    | Music                                              | country                                            | 0            | 3                  |
+| -0.433318    | Music                                              | classical                                          | 0            | 4                  |
+| -0.423549    | Music                                              | rock                                               | 0            | 5                  |
+| -0.437742    | Shoes                                              | athletic                                           | 0            | 1                  |
+| -0.433537    | Shoes                                              | womens                                             | 0            | 2                  |
+| -0.430820    | Shoes                                              | kids                                               | 0            | 3                  |
+| -0.425002    | Shoes                                              | mens                                               | 0            | 4                  |
+| -0.370016    | Shoes                                              | NULL                                               | 0            | 5                  |
++--------------+----------------------------------------------------+----------------------------------------------------+--------------+--------------------+

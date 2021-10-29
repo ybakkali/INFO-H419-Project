@@ -1,0 +1,104 @@
++------------------+------------------------------------------------------+
+| customer_id      | customername                                         |
++------------------+------------------------------------------------------+
+| AAAAAAAAAAGLEAAA | Watson                        , Daniel               |
+| AAAAAAAAAAGLEAAA | Watson                        , Daniel               |
+| AAAAAAAAAAGLEAAA | Watson                        , Daniel               |
+| AAAAAAAAAALEBAAA | Branson                       , William              |
+| AAAAAAAAAALEBAAA | Branson                       , William              |
+| AAAAAAAAAALEBAAA | Branson                       , William              |
+| AAAAAAAAAALEBAAA | Branson                       , William              |
+| AAAAAAAAAALEBAAA | Branson                       , William              |
+| AAAAAAAAAAPKBAAA | Fuqua                         , Lee                  |
+| AAAAAAAAAAPKBAAA | Fuqua                         , Lee                  |
+| AAAAAAAAAAPKBAAA | Fuqua                         , Lee                  |
+| AAAAAAAAAAPKBAAA | Fuqua                         , Lee                  |
+| AAAAAAAAABFCFAAA | Louis                         ,                      |
+| AAAAAAAAABOIEAAA | Brady                         , Lynne                |
+| AAAAAAAAABOIEAAA | Brady                         , Lynne                |
+| AAAAAAAAABOIEAAA | Brady                         , Lynne                |
+| AAAAAAAAABOIEAAA | Brady                         , Lynne                |
+| AAAAAAAAABOIEAAA | Brady                         , Lynne                |
+| AAAAAAAAACKIBAAA | Singleton                     , Christopher          |
+| AAAAAAAAACKIBAAA | Singleton                     , Christopher          |
+| AAAAAAAAADAFFAAA | Eskridge                      , Darlene              |
+| AAAAAAAAADAFFAAA | Eskridge                      , Darlene              |
+| AAAAAAAAADAFFAAA | Eskridge                      , Darlene              |
+| AAAAAAAAADAFFAAA | Eskridge                      , Darlene              |
+| AAAAAAAAADAFFAAA | Eskridge                      , Darlene              |
+| AAAAAAAAADAFFAAA | Eskridge                      , Darlene              |
+| AAAAAAAAADBOAAAA | Smith                         , Audrie               |
+| AAAAAAAAADBOAAAA | Smith                         , Audrie               |
+| AAAAAAAAADDECAAA | Smith                         , Anna                 |
+| AAAAAAAAADDECAAA | Smith                         , Anna                 |
+| AAAAAAAAADDECAAA | Smith                         , Anna                 |
+| AAAAAAAAADDECAAA | Smith                         , Anna                 |
+| AAAAAAAAADPKCAAA | Miles                         , In                   |
+| AAAAAAAAADPKCAAA | Miles                         , In                   |
+| AAAAAAAAADPKCAAA | Miles                         , In                   |
+| AAAAAAAAADPKCAAA | Miles                         , In                   |
+| AAAAAAAAAELNAAAA | Martin                        , Teresa               |
+| AAAAAAAAAELNAAAA | Martin                        , Teresa               |
+| AAAAAAAAAELNAAAA | Martin                        , Teresa               |
+| AAAAAAAAAFFHEAAA | ,                                                    |
+| AAAAAAAAAFFHEAAA | ,                                                    |
+| AAAAAAAAAFFHEAAA | ,                                                    |
+| AAAAAAAAAFFHEAAA | ,                                                    |
+| AAAAAAAAAFFHEAAA | ,                                                    |
+| AAAAAAAAAFJFBAAA | Roman                         , Bobby                |
+| AAAAAAAAAFJFBAAA | Roman                         , Bobby                |
+| AAAAAAAAAFJFBAAA | Roman                         , Bobby                |
+| AAAAAAAAAFJIEAAA | Smith                         , Janet                |
+| AAAAAAAAAFJIEAAA | Smith                         , Janet                |
+| AAAAAAAAAFJIEAAA | Smith                         , Janet                |
+| AAAAAAAAAGEDCAAA | Dorsey                        , Hans                 |
+| AAAAAAAAAGEDCAAA | Dorsey                        , Hans                 |
+| AAAAAAAAAGEDCAAA | Dorsey                        , Hans                 |
+| AAAAAAAAAGEDCAAA | Dorsey                        , Hans                 |
+| AAAAAAAAAGEGEAAA | Denton                        , Amy                  |
+| AAAAAAAAAGEGEAAA | Denton                        , Amy                  |
+| AAAAAAAAAGEGEAAA | Denton                        , Amy                  |
+| AAAAAAAAAGOLBAAA | Rice                          , Ana                  |
+| AAAAAAAAAGOLBAAA | Rice                          , Ana                  |
+| AAAAAAAAAGOLBAAA | Rice                          , Ana                  |
+| AAAAAAAAAGOLBAAA | Rice                          , Ana                  |
+| AAAAAAAAAHEAAAAA | Jenkins                       , Jason                |
+| AAAAAAAAAHEAAAAA | Jenkins                       , Jason                |
+| AAAAAAAAAHEAAAAA | Jenkins                       , Jason                |
+| AAAAAAAAAHEAAAAA | Jenkins                       , Jason                |
+| AAAAAAAAAHEAAAAA | Jenkins                       , Jason                |
+| AAAAAAAAAHEAAAAA | Jenkins                       , Jason                |
+| AAAAAAAAAHEAAAAA | Jenkins                       , Jason                |
+| AAAAAAAAAHEAAAAA | Jenkins                       , Jason                |
+| AAAAAAAAAHMGBAAA | Hargett                       , Walter               |
+| AAAAAAAAAHMGBAAA | Hargett                       , Walter               |
+| AAAAAAAAAHMGBAAA | Hargett                       , Walter               |
+| AAAAAAAAAHMGBAAA | Hargett                       , Walter               |
+| AAAAAAAAAHMGBAAA | Hargett                       , Walter               |
+| AAAAAAAAAICAAAAA | Leeper                        , Linda                |
+| AAAAAAAAAICAAAAA | Leeper                        , Linda                |
+| AAAAAAAAAICAAAAA | Leeper                        , Linda                |
+| AAAAAAAAAIFKAAAA | Dye                           , Joni                 |
+| AAAAAAAAAIFKAAAA | Dye                           , Joni                 |
+| AAAAAAAAAIFKAAAA | Dye                           , Joni                 |
+| AAAAAAAAAIFKAAAA | Dye                           , Joni                 |
+| AAAAAAAAAIFKAAAA | Dye                           , Joni                 |
+| AAAAAAAAAJNEBAAA | Hamilton                      , David                |
+| AAAAAAAAAJNEBAAA | Hamilton                      , David                |
+| AAAAAAAAALCNAAAA | Long                          , Joanie               |
+| AAAAAAAAALCNAAAA | Long                          , Joanie               |
+| AAAAAAAAALCNAAAA | Long                          , Joanie               |
+| AAAAAAAAALECDAAA | Dickens                       , Brandi               |
+| AAAAAAAAALECDAAA | Dickens                       , Brandi               |
+| AAAAAAAAALECDAAA | Dickens                       , Brandi               |
+| AAAAAAAAALECDAAA | Dickens                       , Brandi               |
+| AAAAAAAAAMFAFAAA | Hammond                       , Dana                 |
+| AAAAAAAAAMFAFAAA | Hammond                       , Dana                 |
+| AAAAAAAAAMFAFAAA | Hammond                       , Dana                 |
+| AAAAAAAAAMFAFAAA | Hammond                       , Dana                 |
+| AAAAAAAAAMIJCAAA | Rodriguez                     , Wayne                |
+| AAAAAAAAANJEBAAA | Johnson                       , Alice                |
+| AAAAAAAAANJEBAAA | Johnson                       , Alice                |
+| AAAAAAAAANJEBAAA | Johnson                       , Alice                |
+| AAAAAAAAANJEBAAA | Johnson                       , Alice                |
++------------------+------------------------------------------------------+

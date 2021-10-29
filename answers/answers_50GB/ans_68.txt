@@ -1,0 +1,104 @@
++--------------------------------+----------------------+-----------------+------------------+------------------+----------------+--------------+------------+
+| c_last_name                    | c_first_name         | ca_city         | bought_city      | ss_ticket_number | extended_price | extended_tax | list_price |
++--------------------------------+----------------------+-----------------+------------------+------------------+----------------+--------------+------------+
+| Aaron                          | Jon                  | Shore Acres     | Glendale         | 1770589          | 18204.00       | 574.82       | 43325.82   |
+| Aaron                          | Philip               | Lakeside        | Maple Grove      | 3723812          | 23964.14       | 1427.80      | 40173.44   |
+| Aaron                          | Charlie              | Allison         | Pine Valley      | 5331752          | 22450.04       | 1245.00      | 41848.15   |
+| Aaron                          | Martha               | Pleasant Valley | Mount Pleasant   | 6193333          | 18742.61       | 847.10       | 36354.02   |
+| Abbott                         | Brian                | Franklin        | Oakland          | 1590186          | 18938.49       | 311.98       | 46346.12   |
+| Abbott                         | Rodney               | Lebanon         | Wyoming          | 2526500          | 20326.27       | 890.20       | 43168.92   |
+| Abbott                         | Robert               | Oak Ridge       | Pleasant Grove   | 3049057          | 35648.06       | 1636.63      | 67718.77   |
+| Abbott                         | Robert               | Arlington       | Friendship       | 4328545          | 14417.60       | 602.46       | 21348.75   |
+| Abbott                         | Bryan                | Edgewood        | Wakefield        | 4364418          | 20852.88       | 484.98       | 36115.31   |
+| Abbott                         | Joseph               | Green Acres     | Riverview        | 4982707          | 14200.99       | 650.69       | 42765.63   |
+| Abbott                         | Katherine            | Jackson         | Oak Ridge        | 5585406          | 19628.27       | 1087.78      | 39819.60   |
+| Abbott                         | Denise               | Five Points     | Wildwood         | 6934838          | 23225.28       | 678.00       | 46432.45   |
+| Abbott                         | Michael              | Fairview        | Jamestown        | 7747835          | 12499.43       | 666.89       | 39780.80   |
+| Abbott                         | Peter                | Riley           | Woodlawn         | 8344743          | 3762.22        | 56.35        | 11769.95   |
+| Abbott                         | Samantha             | Franklin        | Whispering Pines | 9089572          | 6644.06        | 254.71       | 16483.13   |
+| Abbott                         | Timothy              | Lincoln         | Sutton           | 9637061          | 39859.21       | 1200.29      | 61982.87   |
+| Abbott                         | Zena                 | Jamestown       | Bridgeport       | 10977816         | 21443.38       | 1098.50      | 48661.42   |
+| Abel                           | Don                  | Enterprise      | Antioch          | 5271142          | 13536.80       | 813.50       | 26888.70   |
+| Abel                           | Jason                | Union           | Union Hill       | 10724970         | 9921.45        | 416.26       | 33380.28   |
+| Abell                          | Robert               | Franklin        | Riverside        | 8048140          | 15565.12       | 347.88       | 31175.24   |
+| Abell                          | Katherine            | Woodville       | Clifton          | 10212583         | 17326.41       | 824.21       | 44459.39   |
+| Abernathy                      | Timothy              | Woodland        | Highland         | 1337753          | 39168.68       | 1938.34      | 81017.05   |
+| Abernathy                      | Timothy              | Woodland        | Harmony          | 1609781          | 15842.33       | 221.54       | 38214.69   |
+| Abernathy                      | Robert               | Jamestown       | Friendship       | 4146130          | 31307.53       | 1746.29      | 54814.91   |
+| Abernathy                      | NULL                 | San Jose        | Waterloo         | 6963911          | 30603.31       | 1178.32      | 73250.47   |
+| Abernathy                      | Brian                | Rosebud         | Mount Pleasant   | 11366359         | 17249.61       | 863.88       | 29469.18   |
+| Abner                          | William              | Farmington      | Woodville        | 1837515          | 9498.25        | 518.92       | 35873.19   |
+| Abner                          | Denny                | Franklin        | Bridgeport       | 6759817          | 20372.25       | 793.42       | 29582.48   |
+| Abner                          | Joshua               | Union Hill      | Ellisville       | 8271345          | 18984.80       | 465.61       | 46690.36   |
+| Abney                          | Macy                 | Pierce          | Elba             | 9233484          | 17445.63       | 508.38       | 43704.33   |
+| Abney                          | Sandra               | Bethel          | State Line       | 9840119          | 21289.37       | 900.37       | 81578.48   |
+| Abraham                        | William              | Unionville      | Riverdale        | 361919           | 22722.30       | 882.93       | 49242.58   |
+| Abraham                        | Kenneth              | Sawyer          | Oakland          | 3178263          | 23403.42       | 1175.53      | 42569.72   |
+| Abraham                        | Randall              | Sumner          | Bridgeport       | 7002281          | 26925.63       | 1388.42      | 43397.18   |
+| Abraham                        | Raymond              | Buena Vista     | Springfield      | 9985801          | 6701.53        | 123.93       | 20103.23   |
+| Abraham                        | William              | Unionville      | Franklin         | 10351051         | 41742.32       | 1489.34      | 71169.73   |
+| Abrams                         | Bruce                | Union Hill      | Centerville      | 1343896          | 34797.69       | 1039.53      | 48188.27   |
+| Abrams                         | Robert               | Woodlawn        | Green Acres      | 2775144          | 43488.51       | 970.69       | 57177.23   |
+| Abrams                         | Tomas                | Spring Valley   | Summit           | 2972827          | 30178.00       | 635.93       | 66185.22   |
+| Abrams                         | Margie               | Liberty         | Garrison         | 4348764          | 20104.81       | 1091.22      | 45842.00   |
+| Abrams                         | Clayton              | Fairfield       | Forest Hills     | 6769800          | 23352.44       | 1415.99      | 33735.50   |
+| Abrams                         | Jack                 | Concord         | Cedar Grove      | 9731618          | 27982.14       | 2089.03      | 49969.37   |
+| Abrams                         | Paul                 | Pine Grove      | Lincoln          | 10426659         | 13549.39       | 424.22       | 30095.38   |
+| Abreu                          | John                 | Belmont         | Walnut Grove     | 6838901          | 25476.29       | 842.90       | 46051.18   |
+| Abreu                          | Dorothy              | Wilson          | Fairview         | 8423167          | 12397.81       | 565.29       | 23517.73   |
+| Abreu                          | Kristin              | Shiloh          | Greenville       | 8938847          | 21177.41       | 476.82       | 39898.56   |
+| Abreu                          | Julia                | Clifton         | Wayland          | 10675754         | 8782.57        | 661.54       | 26496.56   |
+| Abreu                          | James                | Pine Grove      | Florence         | 11609280         | 22522.56       | 361.37       | 44700.11   |
+| Acevedo                        | Dawn                 | Omega           | Arlington        | 1272198          | 20518.66       | 759.61       | 38123.14   |
+| Acevedo                        | Thomas               | Riverside       | Antioch          | 2669453          | 21396.20       | 834.00       | 38892.03   |
+| Acevedo                        | Trisha               | Farmington      | Lincoln          | 3498329          | 29586.49       | 2046.03      | 44423.64   |
+| Acevedo                        | Gloria               | Roxbury         | Franklin         | 3705141          | 14154.59       | 727.84       | 38612.13   |
+| Acevedo                        | Mike                 | Waterloo        | Riverside        | 4381154          | 43449.14       | 1180.87      | 76525.88   |
+| Acevedo                        | Jenny                | Cumberland      | Greenville       | 5217235          | 27062.52       | 762.20       | 41644.43   |
+| Acevedo                        | Phillip              | Maple Grove     | Clifton          | 5277104          | 15298.55       | 619.86       | 23100.59   |
+| Acevedo                        | Michael              | Hillcrest       | Valley View      | 7319597          | 10227.75       | 678.13       | 35578.92   |
+| Acevedo                        | Keena                | Buena Vista     | Riverdale        | 7399245          | 25939.53       | 929.18       | 38160.04   |
+| Acevedo                        | Tonya                | Whitney         | Lakewood         | 7844783          | 26611.38       | 968.51       | 43729.67   |
+| Acevedo                        | Dawn                 | Omega           | Woodville        | 8249812          | 11438.32       | 424.99       | 35651.92   |
+| Acevedo                        | Richard              | Spring Hill     | Mount Zion       | 11865236         | 12664.69       | 365.16       | 42565.77   |
+| Acker                          | Jon                  | Stringtown      | Kingston         | 339124           | 29272.30       | 1588.65      | 58266.31   |
+| Acker                          | Doris                | Oakdale         | Pleasant Valley  | 2101434          | 10761.36       | 167.18       | 28538.33   |
+| Acker                          | Steven               | Glendale        | Shiloh           | 3156038          | 24645.22       | 720.21       | 48751.98   |
+| Acker                          | Stephanie            | Canton          | Farmington       | 10054691         | 22898.39       | 972.32       | 44885.88   |
+| Acker                          | Kathy                | Wildwood        | Crossroads       | 10196355         | 16694.95       | 887.41       | 46423.01   |
+| Ackerman                       | John                 | Five Forks      | Elba             | 4068801          | 26944.39       | 1645.89      | 45614.21   |
+| Ackley                         | John                 | Murphy          | Plainview        | 3076806          | 21586.06       | 727.39       | 29236.21   |
+| Ackley                         | Brandee              | Buckingham      | Unionville       | 6451515          | 19990.12       | 718.50       | 40403.53   |
+| Ackley                         | Mack                 | Bridgeport      | Bunker Hill      | 10919481         | 13662.31       | 684.27       | 23536.01   |
+| Acosta                         | Tammy                | Spring Valley   | Fairview         | 1748416          | 17499.55       | 385.85       | 33238.38   |
+| Acosta                         | Robert               | Riverview       | Oakland          | 3049235          | 15523.01       | 614.76       | 38219.26   |
+| Acosta                         | Paul                 | Oak Ridge       | Brownsville      | 5010450          | 19963.98       | 1110.29      | 50765.28   |
+| Acosta                         | Sadie                | Five Points     | Enterprise       | 5415305          | 4461.90        | 136.76       | 18526.92   |
+| Acosta                         | Ruby                 | Spring Hill     | Jamestown        | 6064606          | 14108.73       | 819.46       | 30833.85   |
+| Acosta                         | Jacqueline           | Salem           | Lebanon          | 8161717          | 20980.02       | 863.05       | 55415.22   |
+| Acosta                         | Sophie               | Pine Grove      | Woodland Park    | 9531189          | 28325.51       | 1417.66      | 55950.25   |
+| Acosta                         | Lourdes              | Lee             | Stringtown       | 11560937         | 7977.75        | 484.13       | 17062.19   |
+| Adair                          | Juan                 | Clearview       | Sulphur Springs  | 2582529          | 12813.48       | 733.79       | 41971.75   |
+| Adair                          | Ashley               | Hamilton        | Newtown          | 4311865          | 14468.77       | 513.26       | 38738.61   |
+| Adair                          | Lisa                 | Farmington      | Bethel           | 10413262         | 23309.51       | 1035.41      | 54187.05   |
+| Adam                           | Vance                | Greenville      | Shiloh           | 2780202          | 30465.94       | 1447.82      | 50720.47   |
+| Adam                           | Gregory              | Kingston        | Riverdale        | 5430166          | 27868.13       | 1477.67      | 47637.81   |
+| Adam                           | Jeanette             | Lakeside        | Crossroads       | 5791725          | 18865.67       | 618.07       | 34076.33   |
+| Adam                           | Theodore             | Woodlawn        | Green Acres      | 7077088          | 23187.27       | 709.76       | 40767.82   |
+| Adam                           | Gerald               | Springdale      | Brownsville      | 9181085          | 20121.44       | 721.14       | 39386.66   |
+| Adame                          | Rita                 | Lebanon         | Saint Johns      | 2110142          | 24272.80       | 977.24       | 40848.52   |
+| Adame                          | Robert               | Maple Grove     | Acme             | 8827291          | 22346.97       | 1232.78      | 36221.93   |
+| Adame                          | Susan                | Oakland         | Bunker Hill      | 10455152         | 14247.06       | 487.95       | 38317.84   |
+| Adame                          | Gerardo              | Valley View     | Roscoe           | 10529323         | 26864.17       | 1328.81      | 54984.05   |
+| Adams                          | Eleanor              | Oak Hill        | Lakewood         | 471254           | 14407.32       | 302.30       | 32047.82   |
+| Adams                          | Hulda                | Spring Valley   | Mount Olive      | 813335           | 24318.48       | 786.45       | 48466.56   |
+| Adams                          | Sharon               | Bridgeport      | Clifton          | 836055           | 33091.78       | 1689.66      | 42221.91   |
+| Adams                          | Ryan                 | Greenwood       | Newtown          | 883084           | 31733.76       | 1149.83      | 38645.29   |
+| Adams                          | Jennifer             | Springfield     | Bunker Hill      | 1047497          | 25091.23       | 878.11       | 44587.11   |
+| Adams                          | Dayna                | Peru            | Richardson       | 1240059          | 7307.24        | 326.89       | 20195.82   |
+| Adams                          | Sean                 | Plainview       | Harmony          | 1362141          | 29594.07       | 1483.25      | 48264.12   |
+| Adams                          | Barbara              | Highland Park   | Belmont          | 1446632          | 10391.43       | 587.30       | 23474.44   |
+| Adams                          | Larry                | Farmington      | Marion           | 1508128          | 30039.81       | 881.54       | 48118.08   |
+| Adams                          | Adam                 | Plainview       | Nichols          | 1516787          | 23121.43       | 1133.86      | 44253.06   |
+| Adams                          | Daniela              | Montague        | Lakeside         | 1522639          | 19926.63       | 486.83       | 32040.04   |
++--------------------------------+----------------------+-----------------+------------------+------------------+----------------+--------------+------------+

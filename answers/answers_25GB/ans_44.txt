@@ -1,0 +1,14 @@
++-----+----------------------------------------------------+----------------------------------------------------+
+| rnk | best_performing                                    | worst_performing                                   |
++-----+----------------------------------------------------+----------------------------------------------------+
+| 1   | ablen stbareseought                                | eingationoughteseought                             |
+| 2   | priationantically                                  | callyeseprioughtought                              |
+| 3   | callyeseationpriable                               | callycallyablepriought                             |
+| 4   | antieingbaration                                   | esecallyeingpri                                    |
+| 5   | ationbarableeingable                               | esepriantibarpri                                   |
+| 6   | n stablen station                                  | eingbareingbarable                                 |
+| 7   | ablebarpriation                                    | eingationprieseable                                |
+| 8   | oughtbareseation                                   | eseesepriantiable                                  |
+| 9   | n steingantipri                                    | eseeinganticallyought                              |
+| 10  | ationantieingablepri                               | esebareingantiought                                |
++-----+----------------------------------------------------+----------------------------------------------------+

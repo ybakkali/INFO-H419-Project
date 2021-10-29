@@ -1,0 +1,104 @@
++------------+---------------------+---------------------+
+| ca_zip     | ca_county           | sum(ws_sales_price) |
++------------+---------------------+---------------------+
+| 00601      | Burlington County   | 12.75               |
+| 02349      | Litchfield County   | 7.80                |
+| 04889      | Litchfield County   | 119.51              |
+| 04938      | Coos County         | 133.52              |
+| 06404      | Cheshire County     | 155.84              |
+| 07134      | Windham County      | 108.69              |
+| 07214      | Windham County      | 0.75                |
+| 08740      | Atlantic County     | 32.77               |
+| 09532      | Essex County        | 51.12               |
+| 10587      | Franklin County     | 77.53               |
+| 13003      | Columbia County     | 4.87                |
+| 13003      | Somerset County     | 22.90               |
+| 14338      | Sussex County       | 52.43               |
+| 14462      | Seneca County       | 43.08               |
+| 15804      | NULL                | 5.82                |
+| 16557      | Sussex County       | 35.16               |
+| 16871      | Ontario County      | 1.23                |
+| 18048      | Oneida County       | 76.22               |
+| 19003      | Clinton County      | 63.06               |
+| 19303      | Madison County      | 50.11               |
+| 20162      | Onslow County       | 76.81               |
+| 20499      | Iredell County      | 51.65               |
+| 21209      | Rockingham County   | 118.38              |
+| 21521      | Warren County       | 17.19               |
+| 21654      | Wayne County        | 3.65                |
+| 21711      | Craig County        | 52.48               |
+| 21749      | Warren County       | 53.06               |
+| 21757      | Anderson County     | 4.66                |
+| 22293      | Culpeper County     | 229.44              |
+| 22808      | Davie County        | 23.48               |
+| 23451      | Arlington County    | 8.71                |
+| 23604      | Pamlico County      | 36.67               |
+| 23683      | Hampton city        | 46.73               |
+| 24136      | Saluda County       | 63.44               |
+| 25709      | Buena Vista city    | 16.35               |
+| 25709      | Mitchell County     | 96.98               |
+| 26192      | Patrick County      | 44.03               |
+| 26557      | Avery County        | 141.30              |
+| 26594      | Caldwell County     | 78.96               |
+| 26787      | Falls Church city   | 92.60               |
+| 26867      | Rutherford County   | 24.84               |
+| 26971      | Culpeper County     | 54.65               |
+| 27683      | Lee County          | 29.95               |
+| 28222      | Brooke County       | 38.83               |
+| 28354      | Clay County         | 46.23               |
+| 28567      | Wake County         | 76.24               |
+| 29231      | Newberry County     | 176.96              |
+| 29275      | Hertford County     | 36.55               |
+| 29310      | Culpeper County     | 8.43                |
+| 29431      | Pulaski County      | 59.27               |
+| 29431      | Washington County   | 14.72               |
+| 29532      | Garrett County      | 0.00                |
+| 29584      | Mathews County      | 100.12              |
+| 30069      | Crockett County     | 7.00                |
+| 30150      | Bullock County      | 31.85               |
+| 30191      | Levy County         | 41.11               |
+| 30411      | Elbert County       | 22.05               |
+| 32477      | Appling County      | 130.89              |
+| 33027      | Lee County          | 33.18               |
+| 33451      | NULL                | 49.24               |
+| 33604      | Upson County        | 16.61               |
+| 34107      | Schley County       | 10.01               |
+| 34136      | Dade County         | 29.81               |
+| 34136      | Harris County       | 142.73              |
+| 34136      | Union County        | 45.11               |
+| 34536      | Laurens County      | 49.05               |
+| 34854      | Long County         | 5.88                |
+| 35124      | Henderson County    | 138.29              |
+| 35817      | Carroll County      | 3.63                |
+| 35819      | Glascock County     | 57.71               |
+| 36060      | Douglas County      | 5.40                |
+| 36098      | Rabun County        | 22.82               |
+| 36192      | Dallas County       | 1.11                |
+| 37683      | Bradford County     | 28.35               |
+| 37752      | Greene County       | 109.85              |
+| 38252      | Indian River County | 32.81               |
+| 38354      | Campbell County     | 13.12               |
+| 38579      | Walker County       | 11.50               |
+| 38605      | Hardeman County     | 66.97               |
+| 38721      | Overton County      | 187.04              |
+| 38877      | Wilkinson County    | 35.74               |
+| 38994      | Obion County        | 63.94               |
+| 39003      | Montgomery County   | 95.41               |
+| 39101      | Sumter County       | 1.92                |
+| 39145      | NULL                | 37.83               |
+| 39303      | Osceola County      | 131.91              |
+| 39391      | Oconee County       | 30.40               |
+| 39584      | Union County        | 135.50              |
+| 39840      | Santa Rosa County   | 9.96                |
+| 40069      | Hardin County       | 0.60                |
+| 40631      | Clark County        | 57.73               |
+| 41087      | Kalkaska County     | 133.45              |
+| 41521      | Knox County         | 27.56               |
+| 41675      | Lorain County       | 34.89               |
+| 42291      | Oakland County      | 102.90              |
+| 42808      | Eaton County        | 4.24                |
+| 42812      | Hancock County      | 12.09               |
+| 42812      | Ohio County         | 70.98               |
+| 43451      | Cass County         | 4.51                |
+| 43511      | Champaign County    | 39.04               |
++------------+---------------------+---------------------+

@@ -1,0 +1,104 @@
++---------------------------------+--------------------------------+----------+---------+------------+------------+-------------+-----------+
+| substr(w_warehouse_name, 1, 20) | sm_type                        | web_name | 30 days | 31-60 days | 61-90 days | 91-120 days | >120 days |
++---------------------------------+--------------------------------+----------+---------+------------+------------+-------------+-----------+
+| Bad cards must make.            | EXPRESS                        | site_0   | 6716    | 6625       | 6786       | 6787        | 0         |
+| Bad cards must make.            | EXPRESS                        | site_1   | 6782    | 6679       | 6828       | 6846        | 0         |
+| Bad cards must make.            | EXPRESS                        | site_2   | 7348    | 7630       | 7200       | 7509        | 0         |
+| Bad cards must make.            | EXPRESS                        | site_3   | 7492    | 7308       | 7508       | 7340        | 0         |
+| Bad cards must make.            | EXPRESS                        | site_4   | 7216    | 7570       | 7344       | 7750        | 0         |
+| Bad cards must make.            | LIBRARY                        | site_0   | 5998    | 5937       | 6084       | 5873        | 0         |
+| Bad cards must make.            | LIBRARY                        | site_1   | 5174    | 5145       | 5259       | 5260        | 0         |
+| Bad cards must make.            | LIBRARY                        | site_2   | 4727    | 4393       | 4619       | 4368        | 0         |
+| Bad cards must make.            | LIBRARY                        | site_3   | 5088    | 5296       | 5102       | 5349        | 0         |
+| Bad cards must make.            | LIBRARY                        | site_4   | 5883    | 5975       | 6146       | 5977        | 0         |
+| Bad cards must make.            | NEXT DAY                       | site_0   | 6652    | 6764       | 6853       | 6690        | 0         |
+| Bad cards must make.            | NEXT DAY                       | site_1   | 7110    | 7638       | 7285       | 7606        | 0         |
+| Bad cards must make.            | NEXT DAY                       | site_2   | 7520    | 7287       | 7669       | 7483        | 0         |
+| Bad cards must make.            | NEXT DAY                       | site_3   | 7463    | 7618       | 7296       | 7852        | 0         |
+| Bad cards must make.            | NEXT DAY                       | site_4   | 6737    | 6746       | 6760       | 6735        | 0         |
+| Bad cards must make.            | OVERNIGHT                      | site_0   | 5152    | 5338       | 5194       | 5287        | 0         |
+| Bad cards must make.            | OVERNIGHT                      | site_1   | 6062    | 5855       | 5958       | 5924        | 0         |
+| Bad cards must make.            | OVERNIGHT                      | site_2   | 5889    | 5916       | 6097       | 5874        | 0         |
+| Bad cards must make.            | OVERNIGHT                      | site_3   | 4987    | 5230       | 5100       | 5347        | 0         |
+| Bad cards must make.            | OVERNIGHT                      | site_4   | 4607    | 4361       | 4677       | 4275        | 0         |
+| Bad cards must make.            | REGULAR                        | site_0   | 5112    | 5388       | 5240       | 5321        | 0         |
+| Bad cards must make.            | REGULAR                        | site_1   | 4614    | 4367       | 4652       | 4235        | 0         |
+| Bad cards must make.            | REGULAR                        | site_2   | 5184    | 5242       | 5237       | 5412        | 0         |
+| Bad cards must make.            | REGULAR                        | site_3   | 6054    | 5995       | 5892       | 6013        | 0         |
+| Bad cards must make.            | REGULAR                        | site_4   | 6039    | 5788       | 5987       | 5852        | 0         |
+| Bad cards must make.            | TWO DAY                        | site_0   | 6041    | 5893       | 6050       | 6033        | 0         |
+| Bad cards must make.            | TWO DAY                        | site_1   | 6227    | 5893       | 6066       | 5801        | 0         |
+| Bad cards must make.            | TWO DAY                        | site_2   | 5115    | 5357       | 5044       | 5400        | 0         |
+| Bad cards must make.            | TWO DAY                        | site_3   | 4642    | 4226       | 4724       | 4263        | 0         |
+| Bad cards must make.            | TWO DAY                        | site_4   | 5072    | 5293       | 5185       | 5369        | 0         |
+| Conventional childr             | EXPRESS                        | site_0   | 7534    | 7337       | 7540       | 7501        | 0         |
+| Conventional childr             | EXPRESS                        | site_1   | 6625    | 6747       | 6728       | 6531        | 0         |
+| Conventional childr             | EXPRESS                        | site_2   | 6662    | 6782       | 6618       | 6771        | 0         |
+| Conventional childr             | EXPRESS                        | site_3   | 7651    | 7118       | 7570       | 7271        | 0         |
+| Conventional childr             | EXPRESS                        | site_4   | 7587    | 7469       | 7318       | 7716        | 0         |
+| Conventional childr             | LIBRARY                        | site_0   | 6093    | 5801       | 6100       | 5961        | 0         |
+| Conventional childr             | LIBRARY                        | site_1   | 5948    | 6054       | 5901       | 6124        | 0         |
+| Conventional childr             | LIBRARY                        | site_2   | 5232    | 5119       | 5301       | 5205        | 0         |
+| Conventional childr             | LIBRARY                        | site_3   | 4517    | 4591       | 4494       | 4570        | 0         |
+| Conventional childr             | LIBRARY                        | site_4   | 5309    | 5207       | 5269       | 5272        | 0         |
+| Conventional childr             | NEXT DAY                       | site_0   | 6661    | 6579       | 6660       | 6805        | 0         |
+| Conventional childr             | NEXT DAY                       | site_1   | 6578    | 6757       | 6567       | 6725        | 0         |
+| Conventional childr             | NEXT DAY                       | site_2   | 7675    | 7351       | 7808       | 7294        | 0         |
+| Conventional childr             | NEXT DAY                       | site_3   | 7426    | 7552       | 7375       | 7424        | 0         |
+| Conventional childr             | NEXT DAY                       | site_4   | 7684    | 7439       | 7510       | 7410        | 0         |
+| Conventional childr             | OVERNIGHT                      | site_0   | 4360    | 4569       | 4395       | 4715        | 0         |
+| Conventional childr             | OVERNIGHT                      | site_1   | 5229    | 5204       | 5391       | 5033        | 0         |
+| Conventional childr             | OVERNIGHT                      | site_2   | 6025    | 5862       | 6018       | 5987        | 0         |
+| Conventional childr             | OVERNIGHT                      | site_3   | 5887    | 6038       | 5876       | 6180        | 0         |
+| Conventional childr             | OVERNIGHT                      | site_4   | 5230    | 5163       | 5285       | 5185        | 0         |
+| Conventional childr             | REGULAR                        | site_0   | 5892    | 5959       | 5904       | 6048        | 0         |
+| Conventional childr             | REGULAR                        | site_1   | 5402    | 5166       | 5283       | 5055        | 0         |
+| Conventional childr             | REGULAR                        | site_2   | 4523    | 4650       | 4352       | 4512        | 0         |
+| Conventional childr             | REGULAR                        | site_3   | 5258    | 5369       | 5120       | 5161        | 0         |
+| Conventional childr             | REGULAR                        | site_4   | 6009    | 5896       | 6004       | 5974        | 0         |
+| Conventional childr             | TWO DAY                        | site_0   | 5182    | 5199       | 5233       | 5178        | 0         |
+| Conventional childr             | TWO DAY                        | site_1   | 5784    | 6065       | 5946       | 5931        | 0         |
+| Conventional childr             | TWO DAY                        | site_2   | 5894    | 5996       | 5818       | 6047        | 0         |
+| Conventional childr             | TWO DAY                        | site_3   | 5135    | 5135       | 5371       | 5168        | 0         |
+| Conventional childr             | TWO DAY                        | site_4   | 4347    | 4686       | 4377       | 4605        | 0         |
+| Doors canno                     | EXPRESS                        | site_0   | 7451    | 7564       | 7435       | 7522        | 0         |
+| Doors canno                     | EXPRESS                        | site_1   | 7474    | 7576       | 7431       | 7416        | 0         |
+| Doors canno                     | EXPRESS                        | site_2   | 6608    | 6883       | 6441       | 6892        | 0         |
+| Doors canno                     | EXPRESS                        | site_3   | 6628    | 6555       | 6806       | 6631        | 0         |
+| Doors canno                     | EXPRESS                        | site_4   | 7522    | 7382       | 7413       | 7596        | 0         |
+| Doors canno                     | LIBRARY                        | site_0   | 5090    | 5305       | 5345       | 5305        | 0         |
+| Doors canno                     | LIBRARY                        | site_1   | 5978    | 6177       | 5889       | 6098        | 0         |
+| Doors canno                     | LIBRARY                        | site_2   | 6094    | 5958       | 6004       | 5808        | 0         |
+| Doors canno                     | LIBRARY                        | site_3   | 5217    | 5208       | 5269       | 5309        | 0         |
+| Doors canno                     | LIBRARY                        | site_4   | 4397    | 4497       | 4453       | 4586        | 0         |
+| Doors canno                     | NEXT DAY                       | site_0   | 7661    | 7399       | 7456       | 7311        | 0         |
+| Doors canno                     | NEXT DAY                       | site_1   | 6521    | 6640       | 6727       | 6875        | 0         |
+| Doors canno                     | NEXT DAY                       | site_2   | 6752    | 6682       | 6823       | 6694        | 0         |
+| Doors canno                     | NEXT DAY                       | site_3   | 7333    | 7423       | 7426       | 7482        | 0         |
+| Doors canno                     | NEXT DAY                       | site_4   | 7453    | 7601       | 7627       | 7404        | 0         |
+| Doors canno                     | OVERNIGHT                      | site_0   | 5122    | 5250       | 5168       | 5250        | 0         |
+| Doors canno                     | OVERNIGHT                      | site_1   | 4590    | 4428       | 4592       | 4402        | 0         |
+| Doors canno                     | OVERNIGHT                      | site_2   | 5306    | 5281       | 5216       | 5191        | 0         |
+| Doors canno                     | OVERNIGHT                      | site_3   | 5937    | 5854       | 5917       | 5941        | 0         |
+| Doors canno                     | OVERNIGHT                      | site_4   | 6133    | 5891       | 5998       | 6005        | 0         |
+| Doors canno                     | REGULAR                        | site_0   | 5775    | 6092       | 5889       | 6208        | 0         |
+| Doors canno                     | REGULAR                        | site_1   | 6135    | 5793       | 6036       | 5904        | 0         |
+| Doors canno                     | REGULAR                        | site_2   | 5330    | 5202       | 5307       | 5084        | 0         |
+| Doors canno                     | REGULAR                        | site_3   | 4427    | 4572       | 4214       | 4680        | 0         |
+| Doors canno                     | REGULAR                        | site_4   | 5212    | 5214       | 5259       | 5236        | 0         |
+| Doors canno                     | TWO DAY                        | site_0   | 4537    | 4408       | 4458       | 4499        | 0         |
+| Doors canno                     | TWO DAY                        | site_1   | 5211    | 5153       | 5285       | 5276        | 0         |
+| Doors canno                     | TWO DAY                        | site_2   | 5891    | 5804       | 5827       | 5959        | 0         |
+| Doors canno                     | TWO DAY                        | site_3   | 5998    | 5884       | 6067       | 5869        | 0         |
+| Doors canno                     | TWO DAY                        | site_4   | 5175    | 5262       | 5236       | 5224        | 0         |
+| Important issues liv            | EXPRESS                        | site_0   | 6811    | 6833       | 6683       | 6657        | 0         |
+| Important issues liv            | EXPRESS                        | site_1   | 7734    | 7188       | 7578       | 7337        | 0         |
+| Important issues liv            | EXPRESS                        | site_2   | 7244    | 7644       | 7386       | 7625        | 0         |
+| Important issues liv            | EXPRESS                        | site_3   | 7612    | 7331       | 7685       | 7339        | 0         |
+| Important issues liv            | EXPRESS                        | site_4   | 6702    | 6666       | 6613       | 6670        | 0         |
+| Important issues liv            | LIBRARY                        | site_0   | 5418    | 5204       | 5255       | 5170        | 0         |
+| Important issues liv            | LIBRARY                        | site_1   | 4338    | 4596       | 4205       | 4745        | 0         |
+| Important issues liv            | LIBRARY                        | site_2   | 5257    | 5125       | 5337       | 5011        | 0         |
+| Important issues liv            | LIBRARY                        | site_3   | 5901    | 5984       | 6040       | 6041        | 0         |
+| Important issues liv            | LIBRARY                        | site_4   | 5912    | 6008       | 5933       | 5977        | 0         |
++---------------------------------+--------------------------------+----------+---------+------------+------------+-------------+-----------+

@@ -1,0 +1,104 @@
++---------------------------------+--------------------------------+----------+---------+------------+------------+-------------+-----------+
+| substr(w_warehouse_name, 1, 20) | sm_type                        | web_name | 30 days | 31-60 days | 61-90 days | 91-120 days | >120 days |
++---------------------------------+--------------------------------+----------+---------+------------+------------+-------------+-----------+
+| Bad cards must make.            | EXPRESS                        | site_0   | 1056    | 1044       | 1013       | 1044        | 0         |
+| Bad cards must make.            | EXPRESS                        | site_1   | 1026    | 1065       | 1038       | 1056        | 0         |
+| Bad cards must make.            | EXPRESS                        | site_2   | 1036    | 1039       | 1030       | 1038        | 0         |
+| Bad cards must make.            | EXPRESS                        | site_3   | 1027    | 981        | 1018       | 988         | 0         |
+| Bad cards must make.            | EXPRESS                        | site_4   | 994     | 1014       | 1013       | 1058        | 0         |
+| Bad cards must make.            | EXPRESS                        | site_5   | 1092    | 1042       | 1048       | 1003        | 0         |
+| Bad cards must make.            | EXPRESS                        | site_6   | 1041    | 1057       | 1051       | 1050        | 0         |
+| Bad cards must make.            | LIBRARY                        | site_0   | 776     | 751        | 759        | 744         | 0         |
+| Bad cards must make.            | LIBRARY                        | site_1   | 767     | 745        | 741        | 750         | 0         |
+| Bad cards must make.            | LIBRARY                        | site_2   | 772     | 766        | 739        | 809         | 0         |
+| Bad cards must make.            | LIBRARY                        | site_3   | 790     | 784        | 722        | 783         | 0         |
+| Bad cards must make.            | LIBRARY                        | site_4   | 752     | 763        | 774        | 820         | 0         |
+| Bad cards must make.            | LIBRARY                        | site_5   | 751     | 760        | 772        | 731         | 0         |
+| Bad cards must make.            | LIBRARY                        | site_6   | 781     | 759        | 802        | 735         | 0         |
+| Bad cards must make.            | NEXT DAY                       | site_0   | 1006    | 1033       | 1050       | 978         | 0         |
+| Bad cards must make.            | NEXT DAY                       | site_1   | 1010    | 1043       | 1027       | 976         | 0         |
+| Bad cards must make.            | NEXT DAY                       | site_2   | 979     | 991        | 999        | 1000        | 0         |
+| Bad cards must make.            | NEXT DAY                       | site_3   | 1060    | 1043       | 954        | 961         | 0         |
+| Bad cards must make.            | NEXT DAY                       | site_4   | 1042    | 1018       | 988        | 1007        | 0         |
+| Bad cards must make.            | NEXT DAY                       | site_5   | 1009    | 1048       | 1019       | 1067        | 0         |
+| Bad cards must make.            | NEXT DAY                       | site_6   | 966     | 1062       | 998        | 1086        | 0         |
+| Bad cards must make.            | OVERNIGHT                      | site_0   | 763     | 742        | 767        | 751         | 0         |
+| Bad cards must make.            | OVERNIGHT                      | site_1   | 779     | 798        | 795        | 740         | 0         |
+| Bad cards must make.            | OVERNIGHT                      | site_2   | 722     | 736        | 789        | 746         | 0         |
+| Bad cards must make.            | OVERNIGHT                      | site_3   | 772     | 753        | 771        | 799         | 0         |
+| Bad cards must make.            | OVERNIGHT                      | site_4   | 728     | 749        | 848        | 746         | 0         |
+| Bad cards must make.            | OVERNIGHT                      | site_5   | 786     | 743        | 759        | 798         | 0         |
+| Bad cards must make.            | OVERNIGHT                      | site_6   | 795     | 744        | 730        | 709         | 0         |
+| Bad cards must make.            | REGULAR                        | site_0   | 788     | 763        | 799        | 735         | 0         |
+| Bad cards must make.            | REGULAR                        | site_1   | 715     | 768        | 773        | 774         | 0         |
+| Bad cards must make.            | REGULAR                        | site_2   | 798     | 747        | 730        | 762         | 0         |
+| Bad cards must make.            | REGULAR                        | site_3   | 787     | 763        | 764        | 808         | 0         |
+| Bad cards must make.            | REGULAR                        | site_4   | 724     | 721        | 806        | 793         | 0         |
+| Bad cards must make.            | REGULAR                        | site_5   | 789     | 750        | 789        | 716         | 0         |
+| Bad cards must make.            | REGULAR                        | site_6   | 780     | 794        | 795        | 729         | 0         |
+| Bad cards must make.            | TWO DAY                        | site_0   | 783     | 773        | 807        | 780         | 0         |
+| Bad cards must make.            | TWO DAY                        | site_1   | 788     | 778        | 777        | 781         | 0         |
+| Bad cards must make.            | TWO DAY                        | site_2   | 780     | 720        | 780        | 820         | 0         |
+| Bad cards must make.            | TWO DAY                        | site_3   | 762     | 767        | 788        | 761         | 0         |
+| Bad cards must make.            | TWO DAY                        | site_4   | 759     | 745        | 827        | 777         | 0         |
+| Bad cards must make.            | TWO DAY                        | site_5   | 764     | 778        | 727        | 746         | 0         |
+| Bad cards must make.            | TWO DAY                        | site_6   | 802     | 790        | 781        | 766         | 0         |
+| Conventional childr             | EXPRESS                        | site_0   | 1051    | 1008       | 1004       | 1031        | 0         |
+| Conventional childr             | EXPRESS                        | site_1   | 1064    | 1043       | 1006       | 1074        | 0         |
+| Conventional childr             | EXPRESS                        | site_2   | 1058    | 1042       | 1058       | 998         | 0         |
+| Conventional childr             | EXPRESS                        | site_3   | 1016    | 1018       | 998        | 990         | 0         |
+| Conventional childr             | EXPRESS                        | site_4   | 974     | 1038       | 1065       | 1068        | 0         |
+| Conventional childr             | EXPRESS                        | site_5   | 1014    | 992        | 1009       | 995         | 0         |
+| Conventional childr             | EXPRESS                        | site_6   | 1026    | 997        | 1027       | 1000        | 0         |
+| Conventional childr             | LIBRARY                        | site_0   | 766     | 813        | 784        | 734         | 0         |
+| Conventional childr             | LIBRARY                        | site_1   | 748     | 773        | 823        | 795         | 0         |
+| Conventional childr             | LIBRARY                        | site_2   | 764     | 767        | 803        | 807         | 0         |
+| Conventional childr             | LIBRARY                        | site_3   | 742     | 726        | 766        | 735         | 0         |
+| Conventional childr             | LIBRARY                        | site_4   | 773     | 767        | 780        | 729         | 0         |
+| Conventional childr             | LIBRARY                        | site_5   | 817     | 775        | 776        | 750         | 0         |
+| Conventional childr             | LIBRARY                        | site_6   | 790     | 754        | 755        | 709         | 0         |
+| Conventional childr             | NEXT DAY                       | site_0   | 998     | 985        | 1055       | 1079        | 0         |
+| Conventional childr             | NEXT DAY                       | site_1   | 1060    | 1016       | 983        | 1009        | 0         |
+| Conventional childr             | NEXT DAY                       | site_2   | 1021    | 1005       | 1043       | 1067        | 0         |
+| Conventional childr             | NEXT DAY                       | site_3   | 970     | 1079       | 1025       | 1063        | 0         |
+| Conventional childr             | NEXT DAY                       | site_4   | 1027    | 1062       | 1066       | 1002        | 0         |
+| Conventional childr             | NEXT DAY                       | site_5   | 1061    | 1047       | 1060       | 1017        | 0         |
+| Conventional childr             | NEXT DAY                       | site_6   | 1010    | 1049       | 1018       | 1024        | 0         |
+| Conventional childr             | OVERNIGHT                      | site_0   | 746     | 762        | 798        | 719         | 0         |
+| Conventional childr             | OVERNIGHT                      | site_1   | 735     | 826        | 804        | 822         | 0         |
+| Conventional childr             | OVERNIGHT                      | site_2   | 830     | 762        | 727        | 780         | 0         |
+| Conventional childr             | OVERNIGHT                      | site_3   | 757     | 777        | 784        | 776         | 0         |
+| Conventional childr             | OVERNIGHT                      | site_4   | 786     | 760        | 774        | 800         | 0         |
+| Conventional childr             | OVERNIGHT                      | site_5   | 802     | 811        | 757        | 780         | 0         |
+| Conventional childr             | OVERNIGHT                      | site_6   | 778     | 787        | 774        | 735         | 0         |
+| Conventional childr             | REGULAR                        | site_0   | 754     | 820        | 750        | 795         | 0         |
+| Conventional childr             | REGULAR                        | site_1   | 793     | 733        | 789        | 736         | 0         |
+| Conventional childr             | REGULAR                        | site_2   | 765     | 732        | 806        | 737         | 0         |
+| Conventional childr             | REGULAR                        | site_3   | 742     | 711        | 730        | 783         | 0         |
+| Conventional childr             | REGULAR                        | site_4   | 787     | 727        | 738        | 793         | 0         |
+| Conventional childr             | REGULAR                        | site_5   | 739     | 838        | 796        | 797         | 0         |
+| Conventional childr             | REGULAR                        | site_6   | 805     | 817        | 759        | 757         | 0         |
+| Conventional childr             | TWO DAY                        | site_0   | 786     | 821        | 736        | 772         | 0         |
+| Conventional childr             | TWO DAY                        | site_1   | 743     | 776        | 772        | 762         | 0         |
+| Conventional childr             | TWO DAY                        | site_2   | 781     | 784        | 746        | 743         | 0         |
+| Conventional childr             | TWO DAY                        | site_3   | 706     | 783        | 727        | 741         | 0         |
+| Conventional childr             | TWO DAY                        | site_4   | 729     | 790        | 807        | 782         | 0         |
+| Conventional childr             | TWO DAY                        | site_5   | 794     | 777        | 721        | 873         | 0         |
+| Conventional childr             | TWO DAY                        | site_6   | 803     | 758        | 759        | 758         | 0         |
+| Doors canno                     | EXPRESS                        | site_0   | 1024    | 1082       | 1018       | 1010        | 0         |
+| Doors canno                     | EXPRESS                        | site_1   | 1044    | 1053       | 1046       | 950         | 0         |
+| Doors canno                     | EXPRESS                        | site_2   | 954     | 1045       | 1034       | 1096        | 0         |
+| Doors canno                     | EXPRESS                        | site_3   | 1043    | 996        | 1033       | 1000        | 0         |
+| Doors canno                     | EXPRESS                        | site_4   | 1022    | 1018       | 1009       | 1033        | 0         |
+| Doors canno                     | EXPRESS                        | site_5   | 1031    | 1083       | 1031       | 992         | 0         |
+| Doors canno                     | EXPRESS                        | site_6   | 1078    | 980        | 1007       | 1045        | 0         |
+| Doors canno                     | LIBRARY                        | site_0   | 737     | 760        | 806        | 775         | 0         |
+| Doors canno                     | LIBRARY                        | site_1   | 793     | 803        | 785        | 727         | 0         |
+| Doors canno                     | LIBRARY                        | site_2   | 746     | 749        | 740        | 835         | 0         |
+| Doors canno                     | LIBRARY                        | site_3   | 754     | 800        | 819        | 813         | 0         |
+| Doors canno                     | LIBRARY                        | site_4   | 771     | 783        | 736        | 775         | 0         |
+| Doors canno                     | LIBRARY                        | site_5   | 771     | 743        | 775        | 767         | 0         |
+| Doors canno                     | LIBRARY                        | site_6   | 761     | 809        | 753        | 776         | 0         |
+| Doors canno                     | NEXT DAY                       | site_0   | 1037    | 973        | 1045       | 1037        | 0         |
+| Doors canno                     | NEXT DAY                       | site_1   | 998     | 974        | 998        | 993         | 0         |
++---------------------------------+--------------------------------+----------+---------+------------+------------+-------------+-----------+

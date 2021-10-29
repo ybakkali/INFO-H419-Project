@@ -1,0 +1,104 @@
++--------------------------------+----------------------+-----------------------+------------------+----------+-----------+
+| c_last_name                    | c_first_name         | substr(s_city, 1, 30) | ss_ticket_number | amt      | profit    |
++--------------------------------+----------------------+-----------------------+------------------+----------+-----------+
+| Aaron                          | Brandon              | Midway                | 4795929          | 7048.58  | -15673.68 |
+| Aaron                          | Charles              | Midway                | 5027201          | 1983.82  | -3776.36  |
+| Aaron                          | Christina            | Midway                | 1031067          | 289.40   | -5835.50  |
+| Aaron                          | Cody                 | Midway                | 4528506          | 10109.03 | -11439.52 |
+| Aaron                          | Elmer                | Oak Grove             | 5952657          | 3259.84  | -3843.85  |
+| Aaron                          | Frank                | Fairview              | 5275578          | 100.35   | -6981.21  |
+| Aaron                          | Frank                | Five Points           | 1609612          | 59.14    | -4964.00  |
+| Aaron                          | Frank                | Oak Grove             | 3305093          | 258.72   | -15265.75 |
+| Aaron                          | Genevieve            | Five Points           | 1977429          | 1250.02  | -9211.94  |
+| Aaron                          | George               | Fairview              | 4948946          | 132.06   | -3454.70  |
+| Aaron                          | Guy                  | Oak Grove             | 5422176          | 1699.67  | -13206.20 |
+| Aaron                          | Henry                | Midway                | 4172494          | 2082.54  | -44.95    |
+| Aaron                          | Henry                | Oak Grove             | 530301           | 0.00     | -11190.86 |
+| Aaron                          | James                | Fairview              | 5907317          | 1959.64  | -1389.74  |
+| Aaron                          | James                | Oak Grove             | 196629           | 5092.73  | -17360.64 |
+| Aaron                          | John                 | Midway                | 5422056          | 0.00     | -12849.60 |
+| Aaron                          | John                 | Midway                | 130160           | 0.00     | 2413.90   |
+| Aaron                          | John                 | Oak Grove             | 2363735          | 3600.65  | -12758.50 |
+| Aaron                          | John                 | Oak Grove             | 3967354          | 3550.38  | -5188.78  |
+| Aaron                          | John                 | Oak Grove             | 5938528          | 297.56   | -1143.13  |
+| Aaron                          | Jon                  | Midway                | 5749638          | 3061.98  | -7370.55  |
+| Aaron                          | Jon                  | Oak Grove             | 1373644          | 110.11   | -4763.62  |
+| Aaron                          | Joyce                | Oak Grove             | 438445           | 28.32    | -7646.24  |
+| Aaron                          | Justin               | Fairview              | 2598910          | 0.00     | -8163.41  |
+| Aaron                          | Justin               | Five Points           | 4925116          | 3912.04  | -18014.44 |
+| Aaron                          | Karen                | Midway                | 3654074          | 1120.93  | -13849.09 |
+| Aaron                          | Larry                | Midway                | 4920569          | 2256.71  | -6437.43  |
+| Aaron                          | Margaret             | Midway                | 2585963          | 466.06   | -14309.97 |
+| Aaron                          | Margaret             | Midway                | 1075898          | 675.40   | -12502.16 |
+| Aaron                          | Margaret             | Midway                | 1075898          | 0.00     | NULL      |
+| Aaron                          | Martha               | Oak Grove             | 564594           | 220.32   | -10525.48 |
+| Aaron                          | Michael              | Five Points           | 1394274          | 7111.96  | -11102.22 |
+| Aaron                          | Robert               | Five Points           | 3667273          | 1486.21  | -15667.63 |
+| Aaron                          | Robert               | Five Points           | 2473261          | 225.00   | -4914.67  |
+| Aaron                          | Robert               | Midway                | 2113953          | 417.15   | -11985.94 |
+| Aaron                          | Robert               | Oak Grove             | 4026088          | 150.61   | -9382.17  |
+| Aaron                          | Ruby                 | Midway                | 3885783          | 690.62   | -20041.74 |
+| Aaron                          | Ruth                 | Midway                | 669397           | 884.58   | -15011.66 |
+| Aaron                          | Suzann               | Five Points           | 3475936          | 5236.06  | -4627.92  |
+| Aaron                          | Suzann               | Oak Grove             | 2185227          | 7100.15  | -10669.58 |
+| Aaron                          | Terrell              | Five Points           | 5613255          | 74.03    | -7876.25  |
+| Aaron                          | Terrell              | Oak Grove             | 5150252          | 0.80     | 6251.56   |
+| Aaron                          | Tony                 | Midway                | 4714080          | 0.00     | -11812.54 |
+| Aaron                          | Tony                 | Midway                | 34005            | 1012.00  | -7594.81  |
+| Aaron                          | Tony                 | Midway                | 5973988          | 0.00     | -1182.31  |
+| Aaron                          | NULL                 | Midway                | 5266558          | 10090.94 | -12202.84 |
+| Aaron                          | NULL                 | Midway                | 1114777          | 3195.38  | -1736.70  |
+| Aaron                          | NULL                 | Oak Grove             | 1944272          | 18.65    | -16362.90 |
+| Abbott                         | Aaron                | Oak Grove             | 3217640          | 2632.84  | -14319.05 |
+| Abbott                         | Alan                 | Midway                | 3573315          | 437.21   | -5617.37  |
+| Abbott                         | Alan                 | Oak Grove             | 1606563          | 196.12   | -3792.90  |
+| Abbott                         | Allen                | Fairview              | 559989           | 4117.42  | -13304.72 |
+| Abbott                         | Allen                | Midway                | 5204506          | 2031.38  | -21366.06 |
+| Abbott                         | Andres               | Fairview              | 2636748          | 321.28   | -3770.46  |
+| Abbott                         | Andres               | Oak Grove             | 972748           | 12.37    | -6109.52  |
+| Abbott                         | Angela               | Midway                | 1675842          | 23.37    | -4695.54  |
+| Abbott                         | Angelica             | Oak Grove             | 2540162          | 1672.17  | -8625.71  |
+| Abbott                         | Ann                  | Oak Grove             | 1947427          | 3673.70  | -26946.04 |
+| Abbott                         | Anna                 | Midway                | 2758408          | 926.84   | -3727.39  |
+| Abbott                         | Anna                 | Midway                | 2126746          | 0.00     | 5036.05   |
+| Abbott                         | Anna                 | Oak Grove             | 5371785          | 2377.09  | -10366.01 |
+| Abbott                         | Barbara              | Midway                | 4626270          | 457.56   | -10642.36 |
+| Abbott                         | Barbara              | Midway                | 554583           | 1899.71  | -9321.04  |
+| Abbott                         | Barbara              | Oak Grove             | 2941548          | 714.98   | -9459.11  |
+| Abbott                         | Bonnie               | Five Points           | 4918559          | 2033.33  | -12661.46 |
+| Abbott                         | Bonnie               | Five Points           | 3632681          | 1131.86  | -4557.59  |
+| Abbott                         | Bonnie               | Midway                | 1962141          | 1550.77  | -3044.94  |
+| Abbott                         | Caitlin              | Oak Grove             | 261917           | 5.67     | -2810.83  |
+| Abbott                         | Calvin               | Fairview              | 984815           | 3422.78  | -7738.00  |
+| Abbott                         | Calvin               | Fairview              | 984815           | 0.00     | NULL      |
+| Abbott                         | Carole               | Five Points           | 1141711          | 2413.16  | 2568.25   |
+| Abbott                         | Carole               | Oak Grove             | 2486727          | 164.47   | -8297.79  |
+| Abbott                         | Chadwick             | Oak Grove             | 362691           | 6498.31  | -3600.82  |
+| Abbott                         | Chang                | Oak Grove             | 1078238          | 2226.36  | -14212.86 |
+| Abbott                         | Clement              | Fairview              | 3410688          | 3735.16  | -19203.12 |
+| Abbott                         | Daria                | Five Points           | 5236192          | 0.00     | -6690.19  |
+| Abbott                         | Daria                | Oak Grove             | 4104873          | 54.77    | -9521.28  |
+| Abbott                         | Darron               | Fairview              | 4616756          | 4846.13  | -5441.66  |
+| Abbott                         | Darron               | Midway                | 3404037          | 2440.77  | -15668.27 |
+| Abbott                         | Darron               | Midway                | 4652270          | 458.98   | -3368.82  |
+| Abbott                         | Darron               | Midway                | 4652270          | 0.00     | 310.00    |
+| Abbott                         | David                | Five Points           | 2246457          | 1984.81  | -3874.04  |
+| Abbott                         | Denise               | Fairview              | 4637308          | 2062.68  | -13161.91 |
+| Abbott                         | Dennis               | Five Points           | 1399685          | 839.89   | -15343.26 |
+| Abbott                         | Dennis               | Five Points           | 1399685          | NULL     | NULL      |
+| Abbott                         | Dennis               | Oak Grove             | 608519           | 0.00     | -653.94   |
+| Abbott                         | Dominic              | Five Points           | 4213772          | 2101.10  | -7556.17  |
+| Abbott                         | Donald               | Five Points           | 1475948          | 8742.85  | -21244.27 |
+| Abbott                         | Donald               | Midway                | 193732           | 97.91    | -16999.90 |
+| Abbott                         | Donald               | Oak Grove             | 475516           | 0.00     | -1256.65  |
+| Abbott                         | Elizabeth            | Fairview              | 4660278          | 6219.16  | -14097.11 |
+| Abbott                         | Elna                 | Fairview              | 2156165          | 6776.54  | -12957.99 |
+| Abbott                         | Erika                | Midway                | 630196           | 227.20   | -16338.78 |
+| Abbott                         | Esther               | Five Points           | 1789050          | 1146.37  | -13325.92 |
+| Abbott                         | Esther               | Five Points           | 2834341          | 4448.58  | -11487.40 |
+| Abbott                         | Eugene               | Five Points           | 2658732          | 1276.94  | -10950.69 |
+| Abbott                         | Evangeline           | Five Points           | 2985861          | 853.02   | -13141.45 |
+| Abbott                         | Evangeline           | Oak Grove             | 4652791          | 4017.80  | -13004.66 |
+| Abbott                         | Fred                 | Midway                | 9040             | 430.19   | -11521.31 |
+| Abbott                         | Fred                 | Midway                | 4899207          | 843.49   | -3067.44  |
++--------------------------------+----------------------+-----------------------+------------------+----------+-----------+

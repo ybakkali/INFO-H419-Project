@@ -1,0 +1,104 @@
++--------------------------------+----------------------+-----------------+----------------+------------------+---------+-----------+
+| c_last_name                    | c_first_name         | ca_city         | bought_city    | ss_ticket_number | amt     | profit    |
++--------------------------------+----------------------+-----------------+----------------+------------------+---------+-----------+
+| Aaron                          | Charles              | Jamestown       | Springdale     | 1983178          | 647.86  | -2497.93  |
+| Aaron                          | George               | Five Points     | Clinton        | 1148602          | 41.66   | -6291.02  |
+| Aaron                          | Larry                | Midway          | Mount Olive    | 2161599          | 1801.34 | -14776.69 |
+| Aaron                          | Ruby                 | Florence        | Friendship     | 584721           | 522.90  | -6950.40  |
+| Aaron                          | Valerie              | Highland Park   | Centerville    | 1500555          | 996.62  | -4236.98  |
+| Aaron                          | Velma                | Providence      | Newtown        | 775061           | 292.47  | -6789.41  |
+| Aaron                          | NULL                 | Hardy           | Clifton        | 2283871          | 9466.07 | -13102.09 |
+| Abbott                         | Arnoldo              | Mount Olive     | Franklin       | 1800676          | 2743.00 | -18432.13 |
+| Abbott                         | Ashley               | Clifton         | Woodlawn       | 2336470          | 0.00    | -8714.43  |
+| Abbott                         | Carl                 | White Oak       | Wilson         | 1537723          | 118.86  | -2603.76  |
+| Abbott                         | Christian            | White Oak       | Concord        | 1572005          | 180.05  | -13700.38 |
+| Abbott                         | Christopher          | Five Forks      | Winslow        | 1849736          | 847.48  | 1924.68   |
+| Abbott                         | Christopher          | Milo            | Centerville    | 320145           | 454.04  | 1457.33   |
+| Abbott                         | David                | Shady Grove     | Arlington      | 1533661          | 130.56  | 1152.53   |
+| Abbott                         | Hans                 | Glendale        | Belmont        | 362444           | 4301.92 | -8303.58  |
+| Abbott                         | Harriet              | Wesley          | Five Forks     | 893510           | 6715.42 | -8339.31  |
+| Abbott                         | Jason                | Oak Grove       | Woodville      | 450172           | 2567.78 | -5288.14  |
+| Abbott                         | Jeffrey              | Clifton         | Hopewell       | 2247398          | 2061.15 | -11421.89 |
+| Abbott                         | Jessica              | Unionville      | Glenwood       | 789999           | 6428.78 | -24217.07 |
+| Abbott                         | Lorraine             | Texas           | Green Acres    | 1898443          | 115.09  | -2383.73  |
+| Abbott                         | Louis                | Woodland        | Crossroads     | 681663           | 12.39   | -2785.57  |
+| Abbott                         | Mark                 | Walnut Grove    | Salem          | 941903           | 1502.35 | -9177.86  |
+| Abbott                         | Michael              | Summit          | Sunnyside      | 851431           | 3401.55 | -18775.67 |
+| Abbott                         | Michele              | Riverdale       | Springfield    | 2045778          | 0.00    | -11781.90 |
+| Abbott                         | Penny                | Jackson         | Fairfield      | 1060690          | 1.96    | -10300.34 |
+| Abbott                         | Phillip              | Sulphur Springs | Bunker Hill    | 628788           | 0.00    | 699.77    |
+| Abbott                         | Shawn                | Millbrook       | Centerville    | 887672           | 1941.29 | -13923.08 |
+| Abbott                         | Sheryl               | Lebanon         | Spring Hill    | 2298851          | 0.00    | -4637.97  |
+| Abbott                         | Sueann               | New Hope        | Little River   | 2276701          | 218.41  | -9838.56  |
+| Abbott                         | Sylvia               | Ashland         | Lakewood       | 119324           | 1244.69 | -12732.32 |
+| Abbott                         | William              | Deerfield       | Wilson         | 741764           | 6076.09 | 1499.04   |
+| Abel                           | David                | Riverside       | Five Forks     | 1698224          | 1525.17 | -6728.54  |
+| Abel                           | Doris                | Greenfield      | Riverview      | 623332           | 3549.63 | -15719.60 |
+| Abel                           | Ida                  | Marion          | Highland       | 1441745          | 2393.93 | -2381.01  |
+| Abel                           | Jacob                | Flint           | Wildwood       | 1138075          | 3454.22 | -24726.03 |
+| Abel                           | Kathleen             | Forest Hills    | Lakeview       | 316124           | 4191.02 | -12910.11 |
+| Abel                           | Richard              | Lakewood        | Tracy          | 2242735          | 8180.68 | -4318.13  |
+| Abernathy                      | Carolyn              | Tracy           | Jackson        | 2117206          | 162.52  | -3008.26  |
+| Abernathy                      | Deborah              | Oakland         | Hopewell       | 954314           | 1642.13 | -6843.87  |
+| Abernathy                      | Eduardo              | Lakeview        | Pine Grove     | 1648627          | 2208.29 | -11743.41 |
+| Abernathy                      | Josephine            | Hamilton        | Greenfield     | 285025           | 3394.54 | -17545.68 |
+| Abernathy                      | Joyce                | Union           | Union Hill     | 1318465          | 3492.74 | -12805.32 |
+| Abernathy                      | Mabel                | Maple Grove     | Concord        | 55057            | 1796.07 | -7858.87  |
+| Abernathy                      | Robert               | Cedar Grove     | Bethel         | 544171           | 8755.85 | -17758.29 |
+| Abernathy                      | Tamara               | Bridgeport      | Riverside      | 223480           | 8792.21 | -11984.84 |
+| Abernathy                      | Veronica             | Highland Park   | Mountain View  | 1536431          | 2479.25 | -16240.93 |
+| Abernathy                      | Veronica             | Highland Park   | Woodlawn       | 2205446          | 4113.19 | -7589.50  |
+| Abernathy                      | Wallace              | Union           | Bunker Hill    | 1404018          | 254.42  | -3028.22  |
+| Abernathy                      | NULL                 | Mount Olive     | Wildwood       | 737143           | 890.02  | -7993.00  |
+| Abner                          | Debra                | Georgetown      | Howell         | 721133           | 0.00    | -25777.70 |
+| Abner                          | Della                | Riverdale       | Georgetown     | 1205903          | 1258.15 | -12183.97 |
+| Abner                          | Francis              | Red Hill        | Five Points    | 284869           | 5055.10 | -15127.94 |
+| Abner                          | Russell              | River Oaks      | Woodville      | 2052866          | 1245.25 | -437.64   |
+| Abney                          | Anthony              | Fairfield       | Point Pleasant | 367607           | 3520.06 | -7322.66  |
+| Abney                          | Carolyn              | Red Bank        | Lebanon        | 1461227          | 681.90  | -22028.52 |
+| Abney                          | George               | Mount Vernon    | Woodland       | 732862           | 0.00    | -10768.88 |
+| Abney                          | Louis                | Sunnyside       | Spring Hill    | 763382           | 5345.19 | -22181.77 |
+| Abraham                        | Anita                | Shady Grove     | Ashland        | 141384           | 2507.49 | -18309.17 |
+| Abraham                        | Fredrick             | Maple Grove     | Union          | 1297825          | 165.21  | -14576.27 |
+| Abraham                        | Glenn                | Highland        | Greenwood      | 677381           | 0.00    | -11891.17 |
+| Abraham                        | Glenn                | Highland        | Lincoln        | 1911746          | 57.79   | -3830.94  |
+| Abraham                        | Jerry                | Oakwood         | Price          | 1409721          | 0.00    | -1556.23  |
+| Abraham                        | Michael              | Woodville       | Oakland        | 232898           | 112.42  | -10340.65 |
+| Abraham                        | Yvonne               | Riverview       | Newport        | 1906633          | 4135.45 | -12957.38 |
+| Abraham                        | NULL                 | Lincoln         | Fairfield      | 449702           | 3017.68 | -7536.03  |
+| Abrams                         | Amy                  | Highland        | Burns          | 300219           | 2851.50 | -20798.25 |
+| Abrams                         | Bryan                | Antioch         | Belmont        | 88291            | 2754.74 | -17325.12 |
+| Abrams                         | Charles              | Bethel          | Walnut Grove   | 1372425          | 2657.83 | -5012.52  |
+| Abrams                         | Charles              | Farmington      | Weldon         | 2152189          | 6596.21 | -12571.68 |
+| Abrams                         | Marcia               | Macedonia       | Greenville     | 1962553          | 1241.69 | -14634.68 |
+| Abrams                         | Margaret             | Bridgeport      | Florence       | 1906700          | 3100.33 | -8218.27  |
+| Abrams                         | Patricia             | Shady Grove     | Antioch        | 242835           | 36.56   | -7236.60  |
+| Abrams                         | Philip               | Pine Grove      | Forest Hills   | 606173           | 49.02   | -7644.85  |
+| Abrams                         | Samuel               | Ashland         | Salem          | 16118            | 5505.85 | -15729.62 |
+| Abreu                          | Duane                | Clinton         | Plainview      | 515965           | 1162.83 | -19992.89 |
+| Abreu                          | Edward               | Antioch         | Oak Hill       | 1867245          | 2683.26 | -13182.05 |
+| Abreu                          | Elizabeth            | Hamilton        | Antioch        | 2083315          | 1506.74 | -10338.61 |
+| Abreu                          | John                 | Woodland        | Mount Pleasant | 1605522          | 1667.62 | -2430.98  |
+| Abreu                          | Mabel                | Arlington       | Woodlawn       | 2030784          | 1559.62 | -5193.28  |
+| Acevedo                        | Donald               | Shady Grove     | Kingston       | 845866           | 680.95  | -9354.65  |
+| Acevedo                        | Dorothy              | Harvey          | Shady Grove    | 359059           | 293.47  | -3884.02  |
+| Acevedo                        | Janelle              | Red Hill        | Oak Hill       | 2290838          | 1796.04 | -13597.24 |
+| Acevedo                        | Josie                | Pine Grove      | Marion         | 1957398          | 1503.58 | -15402.65 |
+| Acevedo                        | Kenneth              | Newtown         | Liberty        | 2038178          | 3914.02 | -7209.73  |
+| Acevedo                        | Marie                | Friendship      | Concord        | 1852721          | 4545.50 | -11113.46 |
+| Acevedo                        | Micheal              | Springhill      | Farmington     | 195052           | 0.00    | 695.41    |
+| Acevedo                        | Patrice              | Bridgeport      | Mount Vernon   | 249265           | 2275.24 | -9477.56  |
+| Acevedo                        | Phillip              | Five Forks      | Union Hill     | 1720801          | 741.13  | 522.52    |
+| Acevedo                        | Richard              | Bunker Hill     | Friendship     | 797860           | 2795.73 | -8037.17  |
+| Acevedo                        | Russell              | Mount Vernon    | Five Forks     | 1127609          | 115.34  | -10262.27 |
+| Acevedo                        | Sharon               | Newport         | Marion         | 142240           | 1984.45 | -15255.19 |
+| Acevedo                        | Thomas               | Sulphur Springs | Highland Park  | 1306925          | 2267.80 | -11004.34 |
+| Acevedo                        | William              | Spring Hill     | Antioch        | 8903             | 427.76  | -12883.91 |
+| Acker                          | Brian                | Mount Olive     | Colfax         | 36959            | 1295.57 | -10427.33 |
+| Acker                          | Dorothy              | Wyoming         | Stringtown     | 1904246          | 175.14  | -9519.36  |
+| Acker                          | Jonathan             | Cedar Grove     | Oakdale        | 1091675          | 1267.86 | -17172.19 |
+| Acker                          | Steven               | Unionville      | Belleview      | 1923979          | 2321.37 | -15240.19 |
+| Ackerman                       | Abraham              | Red Hill        | Langdon        | 899872           | 61.07   | -5634.19  |
+| Ackerman                       | Brian                | Buckingham      | Friendship     | 767589           | 3449.63 | -6253.92  |
+| Ackerman                       | Clinton              | Georgetown      | Maple Grove    | 1990997          | 2732.16 | -17638.68 |
++--------------------------------+----------------------+-----------------+----------------+------------------+---------+-----------+

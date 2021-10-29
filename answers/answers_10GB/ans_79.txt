@@ -1,0 +1,104 @@
++--------------------------------+----------------------+-----------------------+------------------+----------+-----------+
+| c_last_name                    | c_first_name         | substr(s_city, 1, 30) | ss_ticket_number | amt      | profit    |
++--------------------------------+----------------------+-----------------------+------------------+----------+-----------+
+| Aaron                          | Bethany              | Oak Grove             | 672553           | 2701.04  | -8208.07  |
+| Aaron                          | Charlie              | Fairview              | 850313           | 3455.57  | -10755.18 |
+| Aaron                          | Chase                | Oak Grove             | 2121886          | 3223.38  | -15948.49 |
+| Aaron                          | Christina            | Fairview              | 1031067          | 289.40   | -5835.50  |
+| Aaron                          | Elmer                | Riverside             | 197855           | 2108.70  | -10015.43 |
+| Aaron                          | Emily                | Pleasant Hill         | 2269213          | 293.49   | -8316.09  |
+| Aaron                          | Genevieve            | Pleasant Hill         | 1977429          | 1250.02  | -9211.94  |
+| Aaron                          | Henry                | Oak Grove             | 1607790          | 1137.27  | -15163.81 |
+| Aaron                          | Jana                 | Pleasant Hill         | 1648120          | 3798.90  | -2932.50  |
+| Aaron                          | Jimmie               | Pleasant Hill         | 2378205          | 717.91   | -3448.24  |
+| Aaron                          | Jon                  | Riverside             | 276990           | 1856.82  | -5732.87  |
+| Aaron                          | Joseph               | Oak Grove             | 1065851          | 356.20   | -5895.55  |
+| Aaron                          | Judith               | Fairview              | 238210           | 1652.57  | -6480.55  |
+| Aaron                          | Justin               | Fairview              | 1120295          | 7589.72  | -12273.18 |
+| Aaron                          | Justin               | Pleasant Hill         | 840350           | 1086.45  | -4951.05  |
+| Aaron                          | Laurie               | Pleasant Hill         | 990949           | 5617.44  | -5465.66  |
+| Aaron                          | Neil                 | Fairview              | 1047426          | 826.97   | -11051.03 |
+| Aaron                          | Richard              | Midway                | 287716           | 6524.30  | -8460.22  |
+| Aaron                          | Robert               | Midway                | 2113953          | 417.15   | -11985.94 |
+| Aaron                          | Robert               | Pleasant Hill         | 2272094          | 1514.65  | -10570.52 |
+| Aaron                          | Rose                 | Fairview              | 648148           | 7620.59  | -8999.49  |
+| Abbott                         | Alan                 | Fairview              | 1606563          | 196.12   | -3792.90  |
+| Abbott                         | Arnoldo              | Riverside             | 1836207          | 1082.28  | -18534.72 |
+| Abbott                         | Arnoldo              | Riverside             | 755190           | 4588.62  | -5096.51  |
+| Abbott                         | Ashley               | Fairview              | 2192298          | 101.63   | 158.85    |
+| Abbott                         | Brenda               | Five Points           | 1672462          | 10177.90 | -20051.73 |
+| Abbott                         | Bruce                | Riverside             | 1149915          | 0.00     | -2865.91  |
+| Abbott                         | Caitlin              | Fairview              | 582351           | 74.66    | -12877.88 |
+| Abbott                         | Carl                 | Five Points           | 887594           | 2766.85  | -13151.49 |
+| Abbott                         | Carole               | Oak Grove             | 1141711          | 2413.16  | 2568.25   |
+| Abbott                         | Carole               | Pleasant Hill         | 2018962          | 782.10   | -13190.16 |
+| Abbott                         | Chang                | Five Points           | 1078238          | 2226.36  | -14212.86 |
+| Abbott                         | Charles              | Five Points           | 723840           | 3405.43  | -22197.04 |
+| Abbott                         | Clifton              | Fairview              | 2261893          | 3634.21  | -14439.19 |
+| Abbott                         | Dennis               | Riverside             | 1073182          | 193.74   | -17957.98 |
+| Abbott                         | Elizabeth            | Fairview              | 1879347          | 2295.84  | -4849.43  |
+| Abbott                         | Erika                | Oak Grove             | 506912           | 334.82   | -18792.44 |
+| Abbott                         | Erika                | Pleasant Hill         | 630196           | 227.20   | -16338.78 |
+| Abbott                         | Geneva               | Oak Grove             | 2255952          | 6264.21  | -12017.94 |
+| Abbott                         | Hans                 | Pleasant Hill         | 1586303          | 727.56   | -3233.22  |
+| Abbott                         | Jose                 | Fairview              | 8065             | 2782.94  | -18814.54 |
+| Abbott                         | Josefina             | Five Points           | 675822           | 1685.12  | -20554.25 |
+| Abbott                         | Josefina             | Pleasant Hill         | 1166332          | 11447.66 | -17101.21 |
+| Abbott                         | Joseph               | Five Points           | 1180170          | 504.56   | -15554.84 |
+| Abbott                         | Joseph               | Five Points           | 1180170          | 0.00     | -5473.77  |
+| Abbott                         | Joseph               | Oak Grove             | 751752           | 1573.15  | -15112.85 |
+| Abbott                         | Joseph               | Pleasant Hill         | 1713697          | 7739.74  | -11292.42 |
+| Abbott                         | Joseph               | Pleasant Hill         | 1013007          | 763.70   | -7864.15  |
+| Abbott                         | Judy                 | Riverside             | 752064           | 133.33   | 5024.90   |
+| Abbott                         | Kathleen             | Midway                | 196306           | 3034.60  | -14536.58 |
+| Abbott                         | Kathlyn              | Fairview              | 825018           | 2478.69  | -4704.40  |
+| Abbott                         | Kenneth              | Pleasant Hill         | 1582878          | 1897.51  | -13553.68 |
+| Abbott                         | Lenora               | Fairview              | 339753           | 0.00     | -6539.47  |
+| Abbott                         | Mae                  | Pleasant Hill         | 956382           | 9.33     | -17454.00 |
+| Abbott                         | Michael              | Fairview              | 503626           | 906.76   | -10534.52 |
+| Abbott                         | Michael              | Oak Grove             | 515787           | 1053.59  | -11657.15 |
+| Abbott                         | Michael              | Pleasant Hill         | 1136452          | 5048.76  | -19267.32 |
+| Abbott                         | Nelson               | Midway                | 476260           | 4711.28  | -9304.50  |
+| Abbott                         | Nelson               | Riverside             | 998009           | 3286.37  | -7647.20  |
+| Abbott                         | Patrick              | Pleasant Hill         | 1253627          | 1421.05  | -10204.77 |
+| Abbott                         | Rafael               | Oak Grove             | 1463503          | 3692.75  | -10259.19 |
+| Abbott                         | Randall              | Oak Grove             | 1183151          | 1041.30  | -8849.69  |
+| Abbott                         | Robert               | Riverside             | 396406           | 374.17   | -6608.08  |
+| Abbott                         | Rodney               | Midway                | 1361841          | 2839.62  | -9535.76  |
+| Abbott                         | Rosie                | Five Points           | 1739989          | 1520.02  | -3734.29  |
+| Abbott                         | Ryan                 | Oak Grove             | 1140001          | 1211.60  | -11279.24 |
+| Abbott                         | Stella               | Pleasant Hill         | 911290           | 1006.23  | -10411.57 |
+| Abbott                         | Stella               | Pleasant Hill         | 911290           | 0.00     | 60.83     |
+| Abbott                         | Sueann               | Riverside             | 1185548          | 5510.87  | -17754.49 |
+| Abbott                         | Tamara               | Fairview              | 1881263          | 1640.99  | -4853.72  |
+| Abbott                         | Timothy              | Oak Grove             | 751533           | 10323.52 | -6746.17  |
+| Abbott                         | Travis               | Fairview              | 2266975          | 1445.46  | -10801.17 |
+| Abbott                         | Violet               | Five Points           | 2292459          | 92.64    | -12403.97 |
+| Abbott                         | Wayne                | Fairview              | 1922173          | 1471.17  | -5067.97  |
+| Abbott                         | Willie               | Pleasant Hill         | 259501           | 942.24   | -5378.45  |
+| Abel                           | Alberto              | Riverside             | 311910           | 5941.39  | -11556.46 |
+| Abel                           | Betty                | Oak Grove             | 2357016          | 4773.18  | -20300.73 |
+| Abel                           | Clay                 | Pleasant Hill         | 1620140          | 3704.89  | -21286.98 |
+| Abel                           | Dorinda              | Midway                | 1139540          | 113.79   | -4805.78  |
+| Abel                           | Janet                | Pleasant Hill         | 616172           | 3223.72  | -8689.35  |
+| Abel                           | John                 | Pleasant Hill         | 1858866          | 0.00     | -6091.50  |
+| Abel                           | Marilyn              | Five Points           | 578285           | 126.06   | -2416.79  |
+| Abel                           | Micheal              | Oak Grove             | 1295714          | 57.59    | -9272.66  |
+| Abel                           | Paul                 | Midway                | 2188561          | 89.22    | -5939.77  |
+| Abel                           | Traci                | Fairview              | 1195962          | 768.80   | -8561.39  |
+| Abell                          | Erica                | Five Points           | 2063841          | 0.00     | -3652.34  |
+| Abell                          | Roy                  | Fairview              | 252787           | 2382.39  | -15236.26 |
+| Abernathy                      | Albert               | Fairview              | 658977           | 408.78   | 656.16    |
+| Abernathy                      | Charles              | Five Points           | 864017           | 9037.23  | -21607.67 |
+| Abernathy                      | Christine            | Fairview              | 1500220          | 2250.01  | -6636.27  |
+| Abernathy                      | Deborah              | Oak Grove             | 1605396          | 10111.40 | -16544.14 |
+| Abernathy                      | Eduardo              | Riverside             | 1458319          | 5620.72  | -18836.90 |
+| Abernathy                      | John                 | Oak Grove             | 517673           | 3308.11  | -14679.68 |
+| Abernathy                      | Robert               | Pleasant Hill         | 889804           | 259.78   | -8034.75  |
+| Abernathy                      | Rosemarie            | Midway                | 1302775          | 6868.09  | -12327.85 |
+| Abernathy                      | Rosemarie            | Pleasant Hill         | 1802110          | 6074.78  | -14135.91 |
+| Abernathy                      | Timothy              | Five Points           | 198236           | 202.23   | -4091.88  |
+| Abernathy                      | Timothy              | Pleasant Hill         | 1987100          | 22331.63 | -25417.23 |
+| Abernathy                      | Trina                | Pleasant Hill         | 189661           | 4042.95  | -6673.09  |
+| Abernathy                      | Verda                | Oak Grove             | 1388451          | 2391.53  | -13097.41 |
++--------------------------------+----------------------+-----------------------+------------------+----------+-----------+
