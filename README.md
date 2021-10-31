@@ -3,7 +3,7 @@
 ## TPC project
 
 ### Part 1: TPC-DS benchmark
-- [Report](Part1/Report.pdf)
+- [Report](Part%201/report/Report.pdf)
 
 ### Part 2: TPC-DI benchmark
 - [Report](Part2/Report.pdf)
