@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <transformation>
   <info>
-    <name>DimTrade</name>
+    <name>Financial</name>
     <description/>
     <extended_description/>
     <trans_version/>
     <trans_type>Normal</trans_type>
+    <trans_status>0</trans_status>
     <directory>/</directory>
     <parameters>
     </parameters>
@@ -427,9 +428,9 @@
     <clusterschemas>
     </clusterschemas>
     <created_user>-</created_user>
-    <created_date>2021/12/21 16:40:05.389</created_date>
+    <created_date>2021/12/21 19:33:01.947</created_date>
     <modified_user>-</modified_user>
-    <modified_date>2021/12/21 16:40:05.389</modified_date>
+    <modified_date>2021/12/21 19:33:01.947</modified_date>
     <key_for_session_key>H4sIAAAAAAAAAAMAAAAAAAAAAAA=</key_for_session_key>
     <is_key_private>N</is_key_private>
   </info>
@@ -456,112 +457,58 @@
   </connection>
   <order>
     <hop>
-      <from>Trade</from>
-      <to>Join inputs</to>
+      <from>FIN_WARE</from>
+      <to>if FIN</to>
       <enabled>Y</enabled>
     </hop>
     <hop>
-      <from>TradeHistory</from>
-      <to>Join inputs</to>
+      <from>CoNameOrCIK</from>
+      <to>Join on CIK</to>
       <enabled>Y</enabled>
     </hop>
     <hop>
-      <from>StatusType</from>
-      <to>Join Status</to>
+      <from>CoNameOrCIK</from>
+      <to>Join on Name</to>
       <enabled>Y</enabled>
     </hop>
     <hop>
-      <from>Join inputs</from>
-      <to>Join Status</to>
+      <from>DimCompany 1</from>
+      <to>Join on CIK</to>
       <enabled>Y</enabled>
     </hop>
     <hop>
-      <from>Join Status</from>
-      <to>Join Type</to>
+      <from>DimCompany 2</from>
+      <to>Join on Name</to>
       <enabled>Y</enabled>
     </hop>
     <hop>
-      <from>TradeType</from>
-      <to>Join Type</to>
+      <from>if FIN</from>
+      <to>CoNameOrCIK</to>
       <enabled>Y</enabled>
     </hop>
     <hop>
-      <from>Join Type</from>
-      <to>BatchID</to>
+      <from>Join on CIK</from>
+      <to>Dummy (do nothing)</to>
       <enabled>Y</enabled>
     </hop>
     <hop>
-      <from>BatchID</from>
-      <to>Create fields</to>
+      <from>Join on Name</from>
+      <to>Dummy (do nothing)</to>
       <enabled>Y</enabled>
     </hop>
     <hop>
-      <from>Dim Security</from>
-      <to>Join Dim Security</to>
+      <from>Dummy (do nothing)</from>
+      <to>Filter Date</to>
       <enabled>Y</enabled>
     </hop>
     <hop>
-      <from>Create fields</from>
-      <to>Join Dim Security</to>
-      <enabled>Y</enabled>
-    </hop>
-    <hop>
-      <from>Dim Account</from>
-      <to>Join Dim Account</to>
-      <enabled>Y</enabled>
-    </hop>
-    <hop>
-      <from>Join Dim Security</from>
-      <to>Join Dim Account</to>
-      <enabled>Y</enabled>
-    </hop>
-    <hop>
-      <from>Join Dim Account</from>
-      <to>DimTrade Table</to>
+      <from>Filter Date</from>
+      <to>Financial Table</to>
       <enabled>Y</enabled>
     </hop>
   </order>
   <step>
-    <name>BatchID</name>
-    <type>Constant</type>
-    <description/>
-    <distribute>Y</distribute>
-    <custom_distribution/>
-    <copies>1</copies>
-    <partitioning>
-      <method>none</method>
-      <schema_name/>
-    </partitioning>
-    <fields>
-      <field>
-        <name>BatchID</name>
-        <type>Integer</type>
-        <format/>
-        <currency/>
-        <decimal/>
-        <group/>
-        <nullif>1</nullif>
-        <length>-1</length>
-        <precision>-1</precision>
-        <set_empty_string>N</set_empty_string>
-      </field>
-    </fields>
-    <attributes/>
-    <cluster_schema/>
-    <remotesteps>
-      <input>
-      </input>
-      <output>
-      </output>
-    </remotesteps>
-    <GUI>
-      <xloc>464</xloc>
-      <yloc>224</yloc>
-      <draw>Y</draw>
-    </GUI>
-  </step>
-  <step>
-    <name>DimTrade Table</name>
+    <name>Financial Table</name>
     <type>HadoopFileOutputPlugin</type>
     <description/>
     <distribute>Y</distribute>
@@ -585,7 +532,7 @@
     <fileNameField/>
     <create_parent_folder>N</create_parent_folder>
     <file>
-      <name>hdfs://localhost:20500/data/DimTrade/DimTrade</name>
+      <name>hdfs://localhost:20500/data/Financial/Financial</name>
       <source_configuration_name>test</source_configuration_name>
       <servlet_output>N</servlet_output>
       <do_not_open_new_file_init>Y</do_not_open_new_file_init>
@@ -604,126 +551,6 @@
     </file>
     <fields>
       <field>
-        <name>T_ID</name>
-        <type>Integer</type>
-        <format/>
-        <currency/>
-        <decimal/>
-        <group/>
-        <nullif/>
-        <trim_type>none</trim_type>
-        <length>-1</length>
-        <precision>0</precision>
-      </field>
-      <field>
-        <name>sk_brokerid</name>
-        <type>Integer</type>
-        <format/>
-        <currency/>
-        <decimal/>
-        <group/>
-        <nullif/>
-        <trim_type>none</trim_type>
-        <length>11</length>
-        <precision>0</precision>
-      </field>
-      <field>
-        <name>sk_createdateid</name>
-        <type>Date</type>
-        <format/>
-        <currency/>
-        <decimal/>
-        <group/>
-        <nullif/>
-        <trim_type>none</trim_type>
-        <length>-1</length>
-        <precision>-1</precision>
-      </field>
-      <field>
-        <name>sk_createtimeid</name>
-        <type>Date</type>
-        <format/>
-        <currency/>
-        <decimal/>
-        <group/>
-        <nullif/>
-        <trim_type>none</trim_type>
-        <length>-1</length>
-        <precision>-1</precision>
-      </field>
-      <field>
-        <name>sk_closedateid</name>
-        <type>Date</type>
-        <format/>
-        <currency/>
-        <decimal/>
-        <group/>
-        <nullif/>
-        <trim_type>none</trim_type>
-        <length>-1</length>
-        <precision>-1</precision>
-      </field>
-      <field>
-        <name>sk_closetimeid</name>
-        <type>Date</type>
-        <format/>
-        <currency/>
-        <decimal/>
-        <group/>
-        <nullif/>
-        <trim_type>none</trim_type>
-        <length>-1</length>
-        <precision>-1</precision>
-      </field>
-      <field>
-        <name>ST_NAME</name>
-        <type>String</type>
-        <format/>
-        <currency/>
-        <decimal/>
-        <group/>
-        <nullif/>
-        <trim_type>none</trim_type>
-        <length>10</length>
-        <precision>-1</precision>
-      </field>
-      <field>
-        <name>TT_NAME</name>
-        <type>String</type>
-        <format/>
-        <currency/>
-        <decimal/>
-        <group/>
-        <nullif/>
-        <trim_type>none</trim_type>
-        <length>12</length>
-        <precision>-1</precision>
-      </field>
-      <field>
-        <name>T_IS_CASH</name>
-        <type>String</type>
-        <format/>
-        <currency/>
-        <decimal/>
-        <group/>
-        <nullif/>
-        <trim_type>none</trim_type>
-        <length>-1</length>
-        <precision>-1</precision>
-      </field>
-      <field>
-        <name>sk_securityid</name>
-        <type>Integer</type>
-        <format/>
-        <currency/>
-        <decimal/>
-        <group/>
-        <nullif/>
-        <trim_type>none</trim_type>
-        <length>11</length>
-        <precision>0</precision>
-      </field>
-      <field>
         <name>sk_companyid</name>
         <type>Integer</type>
         <format/>
@@ -736,7 +563,7 @@
         <precision>0</precision>
       </field>
       <field>
-        <name>T_QTY</name>
+        <name>Year</name>
         <type>String</type>
         <format/>
         <currency/>
@@ -744,116 +571,152 @@
         <group/>
         <nullif/>
         <trim_type>none</trim_type>
-        <length>-1</length>
+        <length>4</length>
         <precision>-1</precision>
       </field>
       <field>
-        <name>T_BID_PRICE</name>
-        <type>Number</type>
+        <name>Quarter</name>
+        <type>String</type>
         <format/>
         <currency/>
         <decimal/>
         <group/>
         <nullif/>
         <trim_type>none</trim_type>
-        <length>-1</length>
-        <precision>2</precision>
+        <length>1</length>
+        <precision>-1</precision>
       </field>
       <field>
-        <name>sk_customerid</name>
-        <type>Integer</type>
+        <name>QtrStartDate</name>
+        <type>String</type>
         <format/>
         <currency/>
         <decimal/>
         <group/>
         <nullif/>
         <trim_type>none</trim_type>
-        <length>11</length>
-        <precision>0</precision>
+        <length>8</length>
+        <precision>-1</precision>
       </field>
       <field>
-        <name>sk_accountid</name>
-        <type>Integer</type>
+        <name>Revenue</name>
+        <type>String</type>
         <format/>
         <currency/>
         <decimal/>
         <group/>
         <nullif/>
         <trim_type>none</trim_type>
-        <length>11</length>
-        <precision>0</precision>
+        <length>17</length>
+        <precision>-1</precision>
       </field>
       <field>
-        <name>T_EXEC_NAME</name>
-        <type>Integer</type>
+        <name>Earnings</name>
+        <type>String</type>
         <format/>
         <currency/>
         <decimal/>
         <group/>
         <nullif/>
         <trim_type>none</trim_type>
-        <length>-1</length>
-        <precision>0</precision>
+        <length>17</length>
+        <precision>-1</precision>
       </field>
       <field>
-        <name>T_TRADE_PRICE</name>
-        <type>Number</type>
+        <name>EPS</name>
+        <type>String</type>
         <format/>
         <currency/>
         <decimal/>
         <group/>
         <nullif/>
         <trim_type>none</trim_type>
-        <length>-1</length>
-        <precision>2</precision>
+        <length>12</length>
+        <precision>-1</precision>
       </field>
       <field>
-        <name>T_CHRG</name>
-        <type>Number</type>
+        <name>DilutedEPS</name>
+        <type>String</type>
         <format/>
         <currency/>
         <decimal/>
         <group/>
         <nullif/>
         <trim_type>none</trim_type>
-        <length>-1</length>
-        <precision>2</precision>
+        <length>12</length>
+        <precision>-1</precision>
       </field>
       <field>
-        <name>T_COMM</name>
-        <type>Number</type>
+        <name>Margin</name>
+        <type>String</type>
         <format/>
         <currency/>
         <decimal/>
         <group/>
         <nullif/>
         <trim_type>none</trim_type>
-        <length>-1</length>
-        <precision>2</precision>
+        <length>12</length>
+        <precision>-1</precision>
       </field>
       <field>
-        <name>T_TAX</name>
-        <type>Number</type>
+        <name>Inventory</name>
+        <type>String</type>
         <format/>
         <currency/>
         <decimal/>
         <group/>
         <nullif/>
         <trim_type>none</trim_type>
-        <length>-1</length>
-        <precision>2</precision>
+        <length>17</length>
+        <precision>-1</precision>
       </field>
       <field>
-        <name>BatchID</name>
-        <type>Integer</type>
+        <name>Assets</name>
+        <type>String</type>
         <format/>
         <currency/>
         <decimal/>
         <group/>
         <nullif/>
         <trim_type>none</trim_type>
-        <length>-1</length>
-        <precision>0</precision>
+        <length>17</length>
+        <precision>-1</precision>
+      </field>
+      <field>
+        <name>Liabilities</name>
+        <type>String</type>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+        <nullif/>
+        <trim_type>none</trim_type>
+        <length>17</length>
+        <precision>-1</precision>
+      </field>
+      <field>
+        <name>ShOut</name>
+        <type>String</type>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+        <nullif/>
+        <trim_type>none</trim_type>
+        <length>13</length>
+        <precision>-1</precision>
+      </field>
+      <field>
+        <name>DilutedShOut</name>
+        <type>String</type>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+        <nullif/>
+        <trim_type>none</trim_type>
+        <length>13</length>
+        <precision>-1</precision>
       </field>
     </fields>
     <NamedCluster>
@@ -1054,230 +917,16 @@
       </output>
     </remotesteps>
     <GUI>
-      <xloc>1024</xloc>
-      <yloc>224</yloc>
+      <xloc>768</xloc>
+      <yloc>240</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
   <step>
-    <name>Join Status</name>
-    <type>StreamLookup</type>
-    <description/>
-    <distribute>Y</distribute>
-    <custom_distribution/>
-    <copies>1</copies>
-    <partitioning>
-      <method>none</method>
-      <schema_name/>
-    </partitioning>
-    <from>StatusType</from>
-    <input_sorted>N</input_sorted>
-    <preserve_memory>Y</preserve_memory>
-    <sorted_list>N</sorted_list>
-    <integer_pair>N</integer_pair>
-    <lookup>
-      <key>
-        <name>T_ST_ID</name>
-        <field>ST_ID</field>
-      </key>
-      <value>
-        <name>ST_NAME</name>
-        <rename>ST_NAME</rename>
-        <default/>
-        <type>String</type>
-      </value>
-    </lookup>
-    <attributes/>
-    <cluster_schema/>
-    <remotesteps>
-      <input>
-      </input>
-      <output>
-      </output>
-    </remotesteps>
-    <GUI>
-      <xloc>256</xloc>
-      <yloc>224</yloc>
-      <draw>Y</draw>
-    </GUI>
-  </step>
-  <step>
-    <name>Join Type</name>
-    <type>StreamLookup</type>
-    <description/>
-    <distribute>Y</distribute>
-    <custom_distribution/>
-    <copies>1</copies>
-    <partitioning>
-      <method>none</method>
-      <schema_name/>
-    </partitioning>
-    <from>TradeType</from>
-    <input_sorted>N</input_sorted>
-    <preserve_memory>Y</preserve_memory>
-    <sorted_list>N</sorted_list>
-    <integer_pair>N</integer_pair>
-    <lookup>
-      <key>
-        <name>T_TT_ID</name>
-        <field>TT_ID</field>
-      </key>
-      <value>
-        <name>TT_NAME</name>
-        <rename>TT_NAME</rename>
-        <default/>
-        <type>String</type>
-      </value>
-    </lookup>
-    <attributes/>
-    <cluster_schema/>
-    <remotesteps>
-      <input>
-      </input>
-      <output>
-      </output>
-    </remotesteps>
-    <GUI>
-      <xloc>368</xloc>
-      <yloc>224</yloc>
-      <draw>Y</draw>
-    </GUI>
-  </step>
-  <step>
-    <name>Join inputs</name>
-    <type>StreamLookup</type>
-    <description/>
-    <distribute>Y</distribute>
-    <custom_distribution/>
-    <copies>1</copies>
-    <partitioning>
-      <method>none</method>
-      <schema_name/>
-    </partitioning>
-    <from>TradeHistory</from>
-    <input_sorted>N</input_sorted>
-    <preserve_memory>Y</preserve_memory>
-    <sorted_list>N</sorted_list>
-    <integer_pair>N</integer_pair>
-    <lookup>
-      <key>
-        <name>T_ID</name>
-        <field>TH_T_ID</field>
-      </key>
-      <value>
-        <name>TH_DTS</name>
-        <rename>TH_DTS</rename>
-        <default/>
-        <type>Date</type>
-      </value>
-      <value>
-        <name>TH_ST_ID</name>
-        <rename>TH_ST_ID</rename>
-        <default/>
-        <type>String</type>
-      </value>
-    </lookup>
-    <attributes/>
-    <cluster_schema/>
-    <remotesteps>
-      <input>
-      </input>
-      <output>
-      </output>
-    </remotesteps>
-    <GUI>
-      <xloc>144</xloc>
-      <yloc>224</yloc>
-      <draw>Y</draw>
-    </GUI>
-  </step>
-  <step>
-    <name>StatusType</name>
-    <type>TableInput</type>
-    <description/>
-    <distribute>Y</distribute>
-    <custom_distribution/>
-    <copies>1</copies>
-    <partitioning>
-      <method>none</method>
-      <schema_name/>
-    </partitioning>
-    <connection>TPC_DI</connection>
-    <sql>SELECT *
-FROM StatusType;</sql>
-    <limit>0</limit>
-    <lookup/>
-    <execute_each_row>N</execute_each_row>
-    <variables_active>N</variables_active>
-    <lazy_conversion_active>N</lazy_conversion_active>
-    <cached_row_meta_active>N</cached_row_meta_active>
-    <row-meta>
-      <value-meta>
-        <type>String</type>
-        <storagetype>normal</storagetype>
-        <name>st_id</name>
-        <length>4</length>
-        <precision>-1</precision>
-        <origin>StatusType</origin>
-        <comments>st_id</comments>
-        <conversion_Mask/>
-        <decimal_symbol>,</decimal_symbol>
-        <grouping_symbol>.</grouping_symbol>
-        <currency_symbol/>
-        <trim_type>none</trim_type>
-        <case_insensitive>N</case_insensitive>
-        <collator_disabled>Y</collator_disabled>
-        <collator_strength>0</collator_strength>
-        <sort_descending>N</sort_descending>
-        <output_padding>N</output_padding>
-        <date_format_lenient>N</date_format_lenient>
-        <date_format_locale>fr_BE</date_format_locale>
-        <date_format_timezone>Europe/Brussels</date_format_timezone>
-        <lenient_string_to_number>N</lenient_string_to_number>
-      </value-meta>
-      <value-meta>
-        <type>String</type>
-        <storagetype>normal</storagetype>
-        <name>st_name</name>
-        <length>10</length>
-        <precision>-1</precision>
-        <origin>StatusType</origin>
-        <comments>st_name</comments>
-        <conversion_Mask/>
-        <decimal_symbol>,</decimal_symbol>
-        <grouping_symbol>.</grouping_symbol>
-        <currency_symbol/>
-        <trim_type>none</trim_type>
-        <case_insensitive>N</case_insensitive>
-        <collator_disabled>Y</collator_disabled>
-        <collator_strength>0</collator_strength>
-        <sort_descending>N</sort_descending>
-        <output_padding>N</output_padding>
-        <date_format_lenient>N</date_format_lenient>
-        <date_format_locale>fr_BE</date_format_locale>
-        <date_format_timezone>Europe/Brussels</date_format_timezone>
-        <lenient_string_to_number>N</lenient_string_to_number>
-      </value-meta>
-    </row-meta>
-    <attributes/>
-    <cluster_schema/>
-    <remotesteps>
-      <input>
-      </input>
-      <output>
-      </output>
-    </remotesteps>
-    <GUI>
-      <xloc>256</xloc>
-      <yloc>128</yloc>
-      <draw>Y</draw>
-    </GUI>
-  </step>
-  <step>
-    <name>Trade</name>
+    <name>FIN_WARE</name>
     <type>TextFileInput</type>
     <description/>
-    <distribute>Y</distribute>
+    <distribute>N</distribute>
     <custom_distribution/>
     <copies>1</copies>
     <partitioning>
@@ -1288,7 +937,7 @@ FROM StatusType;</sql>
     <passing_through_fields>N</passing_through_fields>
     <accept_field/>
     <accept_stepname/>
-    <separator>|</separator>
+    <separator>;</separator>
     <enclosure>"</enclosure>
     <enclosure_breaks>N</enclosure_breaks>
     <escapechar/>
@@ -1307,671 +956,435 @@ FROM StatusType;</sql>
     <rownum>N</rownum>
     <rownumByFile>N</rownumByFile>
     <rownum_field/>
-    <format>mixed</format>
+    <format>Unix</format>
     <encoding/>
     <length>Characters</length>
     <add_to_result_filenames>Y</add_to_result_filenames>
     <file>
-      <name>/home/yahya/Bureau/INFO-H419-Project/Data/Batch1/Trade.txt</name>
+      <name>/home/yahya/Bureau/INFO-H419-Project/Data/Batch1/merged_finwire.csv</name>
       <filemask/>
       <exclude_filemask/>
       <file_required>N</file_required>
       <include_subfolders>N</include_subfolders>
-      <type>CSV</type>
+      <type>Fixed</type>
       <compression>None</compression>
     </file>
     <filters>
     </filters>
     <fields>
       <field>
-        <name>T_ID</name>
-        <type>Integer</type>
-        <format>#</format>
-        <currency/>
-        <decimal>.</decimal>
-        <group>,</group>
-        <nullif/>
-        <ifnull/>
-        <position>-1</position>
-        <length>-1</length>
-        <precision>0</precision>
-        <trim_type>both</trim_type>
-        <repeat>N</repeat>
-      </field>
-      <field>
-        <name>T_DTS</name>
+        <name>PTS</name>
         <type>Date</type>
-        <format>yyyy-MM-dd HH:mm:ss</format>
-        <currency/>
-        <decimal>.</decimal>
-        <group>,</group>
-        <nullif/>
-        <ifnull/>
-        <position>-1</position>
-        <length>-1</length>
-        <precision>-1</precision>
-        <trim_type>both</trim_type>
-        <repeat>N</repeat>
-      </field>
-      <field>
-        <name>T_ST_ID</name>
-        <type>String</type>
-        <format/>
+        <format>yyyyMMdd-HHmmss</format>
         <currency/>
         <decimal/>
         <group/>
         <nullif/>
         <ifnull/>
-        <position>-1</position>
-        <length>-1</length>
-        <precision>-1</precision>
-        <trim_type>both</trim_type>
-        <repeat>N</repeat>
-      </field>
-      <field>
-        <name>T_TT_ID</name>
-        <type>String</type>
-        <format/>
-        <currency/>
-        <decimal/>
-        <group/>
-        <nullif/>
-        <ifnull/>
-        <position>-1</position>
-        <length>-1</length>
-        <precision>-1</precision>
-        <trim_type>both</trim_type>
-        <repeat>N</repeat>
-      </field>
-      <field>
-        <name>T_IS_CASH</name>
-        <type>String</type>
-        <format>#</format>
-        <currency/>
-        <decimal>.</decimal>
-        <group>,</group>
-        <nullif/>
-        <ifnull/>
-        <position>-1</position>
-        <length>-1</length>
-        <precision>0</precision>
-        <trim_type>both</trim_type>
-        <repeat>N</repeat>
-      </field>
-      <field>
-        <name>T_S_SYMB</name>
-        <type>String</type>
-        <format/>
-        <currency/>
-        <decimal/>
-        <group/>
-        <nullif/>
-        <ifnull/>
-        <position>-1</position>
-        <length>-1</length>
-        <precision>-1</precision>
-        <trim_type>both</trim_type>
-        <repeat>N</repeat>
-      </field>
-      <field>
-        <name>T_QTY</name>
-        <type>None</type>
-        <format>#</format>
-        <currency/>
-        <decimal>.</decimal>
-        <group>,</group>
-        <nullif/>
-        <ifnull/>
-        <position>-1</position>
-        <length>-1</length>
-        <precision>0</precision>
-        <trim_type>both</trim_type>
-        <repeat>N</repeat>
-      </field>
-      <field>
-        <name>T_BID_PRICE</name>
-        <type>Number</type>
-        <format>#.#</format>
-        <currency/>
-        <decimal>.</decimal>
-        <group>,</group>
-        <nullif/>
-        <ifnull/>
-        <position>-1</position>
-        <length>-1</length>
-        <precision>2</precision>
-        <trim_type>both</trim_type>
-        <repeat>N</repeat>
-      </field>
-      <field>
-        <name>T_CA_ID</name>
-        <type>Integer</type>
-        <format>#</format>
-        <currency/>
-        <decimal>.</decimal>
-        <group>,</group>
-        <nullif/>
-        <ifnull/>
-        <position>-1</position>
-        <length>-1</length>
-        <precision>0</precision>
-        <trim_type>both</trim_type>
-        <repeat>N</repeat>
-      </field>
-      <field>
-        <name>T_EXEC_NAME</name>
-        <type>Integer</type>
-        <format>#</format>
-        <currency/>
-        <decimal>.</decimal>
-        <group>,</group>
-        <nullif/>
-        <ifnull/>
-        <position>-1</position>
-        <length>-1</length>
-        <precision>0</precision>
-        <trim_type>both</trim_type>
-        <repeat>N</repeat>
-      </field>
-      <field>
-        <name>T_TRADE_PRICE</name>
-        <type>Number</type>
-        <format>#.#</format>
-        <currency/>
-        <decimal>.</decimal>
-        <group>,</group>
-        <nullif/>
-        <ifnull/>
-        <position>-1</position>
-        <length>-1</length>
-        <precision>2</precision>
-        <trim_type>both</trim_type>
-        <repeat>N</repeat>
-      </field>
-      <field>
-        <name>T_CHRG</name>
-        <type>Number</type>
-        <format>#.#</format>
-        <currency/>
-        <decimal>.</decimal>
-        <group>,</group>
-        <nullif/>
-        <ifnull/>
-        <position>-1</position>
-        <length>-1</length>
-        <precision>2</precision>
-        <trim_type>both</trim_type>
-        <repeat>N</repeat>
-      </field>
-      <field>
-        <name>T_COMM</name>
-        <type>Number</type>
-        <format>#.#</format>
-        <currency/>
-        <decimal>.</decimal>
-        <group>,</group>
-        <nullif/>
-        <ifnull/>
-        <position>-1</position>
-        <length>-1</length>
-        <precision>2</precision>
-        <trim_type>both</trim_type>
-        <repeat>N</repeat>
-      </field>
-      <field>
-        <name>T_TAX</name>
-        <type>Number</type>
-        <format>#.#</format>
-        <currency/>
-        <decimal>.</decimal>
-        <group>,</group>
-        <nullif/>
-        <ifnull/>
-        <position>-1</position>
-        <length>-1</length>
-        <precision>2</precision>
-        <trim_type>both</trim_type>
-        <repeat>N</repeat>
-      </field>
-    </fields>
-    <limit>0</limit>
-    <error_ignored>N</error_ignored>
-    <skip_bad_files>N</skip_bad_files>
-    <file_error_field/>
-    <file_error_message_field/>
-    <error_line_skipped>N</error_line_skipped>
-    <error_count_field/>
-    <error_fields_field/>
-    <error_text_field/>
-    <bad_line_files_destination_directory/>
-    <bad_line_files_extension>warning</bad_line_files_extension>
-    <error_line_files_destination_directory/>
-    <error_line_files_extension>error</error_line_files_extension>
-    <line_number_files_destination_directory/>
-    <line_number_files_extension>line</line_number_files_extension>
-    <date_format_lenient>Y</date_format_lenient>
-    <date_format_locale>en_US</date_format_locale>
-    <shortFileFieldName/>
-    <pathFieldName/>
-    <hiddenFieldName/>
-    <lastModificationTimeFieldName/>
-    <uriNameFieldName/>
-    <rootUriNameFieldName/>
-    <extensionFieldName/>
-    <sizeFieldName/>
-    <attributes/>
-    <cluster_schema/>
-    <remotesteps>
-      <input>
-      </input>
-      <output>
-      </output>
-    </remotesteps>
-    <GUI>
-      <xloc>144</xloc>
-      <yloc>128</yloc>
-      <draw>Y</draw>
-    </GUI>
-  </step>
-  <step>
-    <name>TradeHistory</name>
-    <type>TextFileInput</type>
-    <description/>
-    <distribute>Y</distribute>
-    <custom_distribution/>
-    <copies>1</copies>
-    <partitioning>
-      <method>none</method>
-      <schema_name/>
-    </partitioning>
-    <accept_filenames>N</accept_filenames>
-    <passing_through_fields>N</passing_through_fields>
-    <accept_field/>
-    <accept_stepname/>
-    <separator>|</separator>
-    <enclosure>"</enclosure>
-    <enclosure_breaks>N</enclosure_breaks>
-    <escapechar/>
-    <header>N</header>
-    <nr_headerlines>1</nr_headerlines>
-    <footer>N</footer>
-    <nr_footerlines>1</nr_footerlines>
-    <line_wrapped>N</line_wrapped>
-    <nr_wraps>1</nr_wraps>
-    <layout_paged>N</layout_paged>
-    <nr_lines_per_page>80</nr_lines_per_page>
-    <nr_lines_doc_header>0</nr_lines_doc_header>
-    <noempty>Y</noempty>
-    <include>N</include>
-    <include_field/>
-    <rownum>N</rownum>
-    <rownumByFile>N</rownumByFile>
-    <rownum_field/>
-    <format>mixed</format>
-    <encoding/>
-    <length>Characters</length>
-    <add_to_result_filenames>Y</add_to_result_filenames>
-    <file>
-      <name>/home/yahya/Bureau/INFO-H419-Project/Data/Batch1/TradeHistory.txt</name>
-      <filemask/>
-      <exclude_filemask/>
-      <file_required>N</file_required>
-      <include_subfolders>N</include_subfolders>
-      <name/>
-      <filemask/>
-      <exclude_filemask/>
-      <file_required>N</file_required>
-      <include_subfolders>N</include_subfolders>
-      <type>CSV</type>
-      <compression>None</compression>
-    </file>
-    <filters>
-    </filters>
-    <fields>
-      <field>
-        <name>TH_T_ID</name>
-        <type>Integer</type>
-        <format>#</format>
-        <currency>$</currency>
-        <decimal>.</decimal>
-        <group>,</group>
-        <nullif>-</nullif>
-        <ifnull/>
-        <position>-1</position>
-        <length>-1</length>
-        <precision>0</precision>
-        <trim_type>none</trim_type>
-        <repeat>N</repeat>
-      </field>
-      <field>
-        <name>TH_DTS</name>
-        <type>Date</type>
-        <format>yyyy-MM-dd HH:mm:ss</format>
-        <currency>$</currency>
-        <decimal>.</decimal>
-        <group>,</group>
-        <nullif>-</nullif>
-        <ifnull/>
-        <position>-1</position>
-        <length>-1</length>
-        <precision>-1</precision>
-        <trim_type>none</trim_type>
-        <repeat>N</repeat>
-      </field>
-      <field>
-        <name>TH_ST_ID</name>
-        <type>None</type>
-        <format/>
-        <currency>$</currency>
-        <decimal>.</decimal>
-        <group>,</group>
-        <nullif>-</nullif>
-        <ifnull/>
-        <position>-1</position>
-        <length>-1</length>
-        <precision>-1</precision>
-        <trim_type>none</trim_type>
-        <repeat>N</repeat>
-      </field>
-    </fields>
-    <limit>0</limit>
-    <error_ignored>N</error_ignored>
-    <skip_bad_files>N</skip_bad_files>
-    <file_error_field/>
-    <file_error_message_field/>
-    <error_line_skipped>N</error_line_skipped>
-    <error_count_field/>
-    <error_fields_field/>
-    <error_text_field/>
-    <bad_line_files_destination_directory/>
-    <bad_line_files_extension>warning</bad_line_files_extension>
-    <error_line_files_destination_directory/>
-    <error_line_files_extension>error</error_line_files_extension>
-    <line_number_files_destination_directory/>
-    <line_number_files_extension>line</line_number_files_extension>
-    <date_format_lenient>Y</date_format_lenient>
-    <date_format_locale>en_US</date_format_locale>
-    <shortFileFieldName/>
-    <pathFieldName/>
-    <hiddenFieldName/>
-    <lastModificationTimeFieldName/>
-    <uriNameFieldName/>
-    <rootUriNameFieldName/>
-    <extensionFieldName/>
-    <sizeFieldName/>
-    <attributes/>
-    <cluster_schema/>
-    <remotesteps>
-      <input>
-      </input>
-      <output>
-      </output>
-    </remotesteps>
-    <GUI>
-      <xloc>144</xloc>
-      <yloc>304</yloc>
-      <draw>Y</draw>
-    </GUI>
-  </step>
-  <step>
-    <name>TradeType</name>
-    <type>TableInput</type>
-    <description/>
-    <distribute>Y</distribute>
-    <custom_distribution/>
-    <copies>1</copies>
-    <partitioning>
-      <method>none</method>
-      <schema_name/>
-    </partitioning>
-    <connection>TPC_DI</connection>
-    <sql>SELECT *
-FROM TradeType;</sql>
-    <limit>0</limit>
-    <lookup/>
-    <execute_each_row>N</execute_each_row>
-    <variables_active>N</variables_active>
-    <lazy_conversion_active>N</lazy_conversion_active>
-    <cached_row_meta_active>N</cached_row_meta_active>
-    <row-meta>
-      <value-meta>
-        <type>String</type>
-        <storagetype>normal</storagetype>
-        <name>tt_id</name>
-        <length>3</length>
-        <precision>-1</precision>
-        <origin>TradeType</origin>
-        <comments>tt_id</comments>
-        <conversion_Mask/>
-        <decimal_symbol>,</decimal_symbol>
-        <grouping_symbol>.</grouping_symbol>
-        <currency_symbol/>
-        <trim_type>none</trim_type>
-        <case_insensitive>N</case_insensitive>
-        <collator_disabled>Y</collator_disabled>
-        <collator_strength>0</collator_strength>
-        <sort_descending>N</sort_descending>
-        <output_padding>N</output_padding>
-        <date_format_lenient>N</date_format_lenient>
-        <date_format_locale>fr_BE</date_format_locale>
-        <date_format_timezone>Europe/Brussels</date_format_timezone>
-        <lenient_string_to_number>N</lenient_string_to_number>
-      </value-meta>
-      <value-meta>
-        <type>String</type>
-        <storagetype>normal</storagetype>
-        <name>tt_name</name>
-        <length>12</length>
-        <precision>-1</precision>
-        <origin>TradeType</origin>
-        <comments>tt_name</comments>
-        <conversion_Mask/>
-        <decimal_symbol>,</decimal_symbol>
-        <grouping_symbol>.</grouping_symbol>
-        <currency_symbol/>
-        <trim_type>none</trim_type>
-        <case_insensitive>N</case_insensitive>
-        <collator_disabled>Y</collator_disabled>
-        <collator_strength>0</collator_strength>
-        <sort_descending>N</sort_descending>
-        <output_padding>N</output_padding>
-        <date_format_lenient>N</date_format_lenient>
-        <date_format_locale>fr_BE</date_format_locale>
-        <date_format_timezone>Europe/Brussels</date_format_timezone>
-        <lenient_string_to_number>N</lenient_string_to_number>
-      </value-meta>
-      <value-meta>
-        <type>Integer</type>
-        <storagetype>normal</storagetype>
-        <name>tt_is_sell</name>
-        <length>1</length>
-        <precision>0</precision>
-        <origin>TradeType</origin>
-        <comments>tt_is_sell</comments>
-        <conversion_Mask>####0;-####0</conversion_Mask>
-        <decimal_symbol>,</decimal_symbol>
-        <grouping_symbol>.</grouping_symbol>
-        <currency_symbol/>
-        <trim_type>none</trim_type>
-        <case_insensitive>N</case_insensitive>
-        <collator_disabled>Y</collator_disabled>
-        <collator_strength>0</collator_strength>
-        <sort_descending>N</sort_descending>
-        <output_padding>N</output_padding>
-        <date_format_lenient>N</date_format_lenient>
-        <date_format_locale>fr_BE</date_format_locale>
-        <date_format_timezone>Europe/Brussels</date_format_timezone>
-        <lenient_string_to_number>N</lenient_string_to_number>
-      </value-meta>
-      <value-meta>
-        <type>Integer</type>
-        <storagetype>normal</storagetype>
-        <name>tt_is_mrkt</name>
-        <length>1</length>
-        <precision>0</precision>
-        <origin>TradeType</origin>
-        <comments>tt_is_mrkt</comments>
-        <conversion_Mask>####0;-####0</conversion_Mask>
-        <decimal_symbol>,</decimal_symbol>
-        <grouping_symbol>.</grouping_symbol>
-        <currency_symbol/>
-        <trim_type>none</trim_type>
-        <case_insensitive>N</case_insensitive>
-        <collator_disabled>Y</collator_disabled>
-        <collator_strength>0</collator_strength>
-        <sort_descending>N</sort_descending>
-        <output_padding>N</output_padding>
-        <date_format_lenient>N</date_format_lenient>
-        <date_format_locale>fr_BE</date_format_locale>
-        <date_format_timezone>Europe/Brussels</date_format_timezone>
-        <lenient_string_to_number>N</lenient_string_to_number>
-      </value-meta>
-    </row-meta>
-    <attributes/>
-    <cluster_schema/>
-    <remotesteps>
-      <input>
-      </input>
-      <output>
-      </output>
-    </remotesteps>
-    <GUI>
-      <xloc>368</xloc>
-      <yloc>128</yloc>
-      <draw>Y</draw>
-    </GUI>
-  </step>
-  <step>
-    <name>Create fields</name>
-    <type>ScriptValueMod</type>
-    <description/>
-    <distribute>Y</distribute>
-    <custom_distribution/>
-    <copies>1</copies>
-    <partitioning>
-      <method>none</method>
-      <schema_name/>
-    </partitioning>
-    <compatible>N</compatible>
-    <optimizationLevel>9</optimizationLevel>
-    <jsScripts>
-      <jsScript>
-        <jsScript_type>0</jsScript_type>
-        <jsScript_name>Script 1</jsScript_name>
-        <jsScript_script>var sk_createdateid = 0, sk_createtimeid = 0
-if ((TH_ST_ID == 'SBMT' &amp;&amp; (T_TT_ID == 'TMB'|| T_TT_ID == 'TMS')) || (TH_ST_ID == 'PNDG')){
-	sk_createdateid = TH_DTS.getTime();
-	sk_createtimeid = TH_DTS.getTime();
-}
-
-var sk_closedateid = 0, sk_closetimeid = 0
-if (TH_ST_ID == 'CMPT' || TH_ST_ID == 'CNCL'){
-	sk_closedateid = TH_DTS.getTime();
-	sk_closetimeid = TH_DTS.getTime();
-}</jsScript_script>
-      </jsScript>
-    </jsScripts>
-    <fields>
-      <field>
-        <name>sk_createdateid</name>
-        <rename>sk_createdateid</rename>
-        <type>Date</type>
-        <length>-1</length>
-        <precision>-1</precision>
-        <replace>N</replace>
-      </field>
-      <field>
-        <name>sk_createtimeid</name>
-        <rename>sk_createtimeid</rename>
-        <type>Date</type>
-        <length>-1</length>
-        <precision>-1</precision>
-        <replace>N</replace>
-      </field>
-      <field>
-        <name>sk_closedateid</name>
-        <rename>sk_closedateid</rename>
-        <type>Date</type>
-        <length>-1</length>
-        <precision>-1</precision>
-        <replace>N</replace>
-      </field>
-      <field>
-        <name>sk_closetimeid</name>
-        <rename>sk_closetimeid</rename>
-        <type>Date</type>
-        <length>-1</length>
-        <precision>-1</precision>
-        <replace>N</replace>
-      </field>
-    </fields>
-    <attributes/>
-    <cluster_schema/>
-    <remotesteps>
-      <input>
-      </input>
-      <output>
-      </output>
-    </remotesteps>
-    <GUI>
-      <xloc>560</xloc>
-      <yloc>224</yloc>
-      <draw>Y</draw>
-    </GUI>
-  </step>
-  <step>
-    <name>Dim Security</name>
-    <type>TableInput</type>
-    <description/>
-    <distribute>Y</distribute>
-    <custom_distribution/>
-    <copies>1</copies>
-    <partitioning>
-      <method>none</method>
-      <schema_name/>
-    </partitioning>
-    <connection>TPC_DI</connection>
-    <sql>SELECT *
-FROM DimSecurity;</sql>
-    <limit>0</limit>
-    <lookup/>
-    <execute_each_row>N</execute_each_row>
-    <variables_active>N</variables_active>
-    <lazy_conversion_active>N</lazy_conversion_active>
-    <cached_row_meta_active>N</cached_row_meta_active>
-    <row-meta>
-      <value-meta>
-        <type>Integer</type>
-        <storagetype>normal</storagetype>
-        <name>sk_securityid</name>
-        <length>11</length>
-        <precision>0</precision>
-        <origin>Dim Security</origin>
-        <comments>sk_securityid</comments>
-        <conversion_Mask>####0;-####0</conversion_Mask>
-        <decimal_symbol>,</decimal_symbol>
-        <grouping_symbol>.</grouping_symbol>
-        <currency_symbol/>
-        <trim_type>none</trim_type>
-        <case_insensitive>N</case_insensitive>
-        <collator_disabled>Y</collator_disabled>
-        <collator_strength>0</collator_strength>
-        <sort_descending>N</sort_descending>
-        <output_padding>N</output_padding>
-        <date_format_lenient>N</date_format_lenient>
-        <date_format_locale>fr_BE</date_format_locale>
-        <date_format_timezone>Europe/Brussels</date_format_timezone>
-        <lenient_string_to_number>N</lenient_string_to_number>
-      </value-meta>
-      <value-meta>
-        <type>String</type>
-        <storagetype>normal</storagetype>
-        <name>symbol</name>
+        <position>0</position>
         <length>15</length>
         <precision>-1</precision>
-        <origin>Dim Security</origin>
-        <comments>symbol</comments>
-        <conversion_Mask/>
+        <trim_type>none</trim_type>
+        <repeat>N</repeat>
+      </field>
+      <field>
+        <name>RecType</name>
+        <type>String</type>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+        <nullif/>
+        <ifnull/>
+        <position>15</position>
+        <length>3</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+        <repeat>N</repeat>
+      </field>
+      <field>
+        <name>Year</name>
+        <type>String</type>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+        <nullif/>
+        <ifnull/>
+        <position>18</position>
+        <length>4</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+        <repeat>N</repeat>
+      </field>
+      <field>
+        <name>Quarter</name>
+        <type>String</type>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+        <nullif/>
+        <ifnull/>
+        <position>22</position>
+        <length>1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+        <repeat>N</repeat>
+      </field>
+      <field>
+        <name>QtrStartDate</name>
+        <type>String</type>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+        <nullif/>
+        <ifnull/>
+        <position>23</position>
+        <length>8</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+        <repeat>N</repeat>
+      </field>
+      <field>
+        <name>PostingDate</name>
+        <type>String</type>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+        <nullif/>
+        <ifnull/>
+        <position>31</position>
+        <length>8</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+        <repeat>N</repeat>
+      </field>
+      <field>
+        <name>Revenue</name>
+        <type>String</type>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+        <nullif/>
+        <ifnull/>
+        <position>39</position>
+        <length>17</length>
+        <precision>-1</precision>
+        <trim_type>both</trim_type>
+        <repeat>N</repeat>
+      </field>
+      <field>
+        <name>Earnings</name>
+        <type>String</type>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+        <nullif/>
+        <ifnull/>
+        <position>56</position>
+        <length>17</length>
+        <precision>-1</precision>
+        <trim_type>both</trim_type>
+        <repeat>N</repeat>
+      </field>
+      <field>
+        <name>EPS</name>
+        <type>String</type>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+        <nullif/>
+        <ifnull/>
+        <position>73</position>
+        <length>12</length>
+        <precision>-1</precision>
+        <trim_type>both</trim_type>
+        <repeat>N</repeat>
+      </field>
+      <field>
+        <name>DilutedEPS</name>
+        <type>String</type>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+        <nullif/>
+        <ifnull/>
+        <position>85</position>
+        <length>12</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+        <repeat>N</repeat>
+      </field>
+      <field>
+        <name>Margin</name>
+        <type>String</type>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+        <nullif/>
+        <ifnull/>
+        <position>97</position>
+        <length>12</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+        <repeat>N</repeat>
+      </field>
+      <field>
+        <name>Inventory</name>
+        <type>String</type>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+        <nullif/>
+        <ifnull/>
+        <position>109</position>
+        <length>17</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+        <repeat>N</repeat>
+      </field>
+      <field>
+        <name>Assets</name>
+        <type>String</type>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+        <nullif/>
+        <ifnull/>
+        <position>126</position>
+        <length>17</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+        <repeat>N</repeat>
+      </field>
+      <field>
+        <name>Liabilities</name>
+        <type>String</type>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+        <nullif/>
+        <ifnull/>
+        <position>143</position>
+        <length>17</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+        <repeat>N</repeat>
+      </field>
+      <field>
+        <name>ShOut</name>
+        <type>String</type>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+        <nullif/>
+        <ifnull/>
+        <position>160</position>
+        <length>13</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+        <repeat>N</repeat>
+      </field>
+      <field>
+        <name>DilutedShOut</name>
+        <type>String</type>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+        <nullif/>
+        <ifnull/>
+        <position>173</position>
+        <length>13</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+        <repeat>N</repeat>
+      </field>
+      <field>
+        <name>CoNameOrCIK</name>
+        <type>String</type>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+        <nullif/>
+        <ifnull/>
+        <position>186</position>
+        <length>60</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+        <repeat>N</repeat>
+      </field>
+    </fields>
+    <limit>0</limit>
+    <error_ignored>N</error_ignored>
+    <skip_bad_files>N</skip_bad_files>
+    <file_error_field/>
+    <file_error_message_field/>
+    <error_line_skipped>N</error_line_skipped>
+    <error_count_field/>
+    <error_fields_field/>
+    <error_text_field/>
+    <bad_line_files_destination_directory/>
+    <bad_line_files_extension>warning</bad_line_files_extension>
+    <error_line_files_destination_directory/>
+    <error_line_files_extension>error</error_line_files_extension>
+    <line_number_files_destination_directory/>
+    <line_number_files_extension>line</line_number_files_extension>
+    <date_format_lenient>Y</date_format_lenient>
+    <date_format_locale>en_US</date_format_locale>
+    <shortFileFieldName/>
+    <pathFieldName/>
+    <hiddenFieldName/>
+    <lastModificationTimeFieldName/>
+    <uriNameFieldName/>
+    <rootUriNameFieldName/>
+    <extensionFieldName/>
+    <sizeFieldName/>
+    <attributes/>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>112</xloc>
+      <yloc>240</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>if FIN</name>
+    <type>FilterRows</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <send_true_to>CoNameOrCIK</send_true_to>
+    <send_false_to/>
+    <compare>
+      <condition>
+        <negated>N</negated>
+        <leftvalue>RecType</leftvalue>
+        <function>=</function>
+        <rightvalue/>
+        <value>
+          <name>constant</name>
+          <type>String</type>
+          <text>FIN</text>
+          <length>-1</length>
+          <precision>-1</precision>
+          <isnull>N</isnull>
+          <mask/>
+        </value>
+      </condition>
+    </compare>
+    <attributes/>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>240</xloc>
+      <yloc>240</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>CoNameOrCIK</name>
+    <type>FilterRows</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <send_true_to>Join on CIK</send_true_to>
+    <send_false_to>Join on Name</send_false_to>
+    <compare>
+      <condition>
+        <negated>N</negated>
+        <leftvalue>CoNameOrCIK</leftvalue>
+        <function>REGEXP</function>
+        <rightvalue/>
+        <value>
+          <name>constant</name>
+          <type>String</type>
+          <text>^[0-9]*$</text>
+          <length>-1</length>
+          <precision>-1</precision>
+          <isnull>N</isnull>
+          <mask/>
+        </value>
+      </condition>
+    </compare>
+    <attributes/>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>384</xloc>
+      <yloc>240</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>DimCompany 1</name>
+    <type>TableInput</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <connection>TPC_DI</connection>
+    <sql>SELECT *
+FROM DimCompany;</sql>
+    <limit>0</limit>
+    <lookup/>
+    <execute_each_row>N</execute_each_row>
+    <variables_active>N</variables_active>
+    <lazy_conversion_active>N</lazy_conversion_active>
+    <cached_row_meta_active>N</cached_row_meta_active>
+    <row-meta>
+      <value-meta>
+        <type>Integer</type>
+        <storagetype>normal</storagetype>
+        <name>sk_companyid</name>
+        <length>11</length>
+        <precision>0</precision>
+        <origin>DimCompany 2</origin>
+        <comments>sk_companyid</comments>
+        <conversion_Mask>####0;-####0</conversion_Mask>
         <decimal_symbol>,</decimal_symbol>
         <grouping_symbol>.</grouping_symbol>
         <currency_symbol/>
@@ -1987,14 +1400,14 @@ FROM DimSecurity;</sql>
         <lenient_string_to_number>N</lenient_string_to_number>
       </value-meta>
       <value-meta>
-        <type>String</type>
+        <type>Integer</type>
         <storagetype>normal</storagetype>
-        <name>issue</name>
-        <length>6</length>
-        <precision>-1</precision>
-        <origin>Dim Security</origin>
-        <comments>issue</comments>
-        <conversion_Mask/>
+        <name>companyid</name>
+        <length>11</length>
+        <precision>0</precision>
+        <origin>DimCompany 2</origin>
+        <comments>companyid</comments>
+        <conversion_Mask>####0;-####0</conversion_Mask>
         <decimal_symbol>,</decimal_symbol>
         <grouping_symbol>.</grouping_symbol>
         <currency_symbol/>
@@ -2015,7 +1428,7 @@ FROM DimSecurity;</sql>
         <name>status</name>
         <length>10</length>
         <precision>-1</precision>
-        <origin>Dim Security</origin>
+        <origin>DimCompany 2</origin>
         <comments>status</comments>
         <conversion_Mask/>
         <decimal_symbol>,</decimal_symbol>
@@ -2036,9 +1449,9 @@ FROM DimSecurity;</sql>
         <type>String</type>
         <storagetype>normal</storagetype>
         <name>name</name>
-        <length>70</length>
+        <length>60</length>
         <precision>-1</precision>
-        <origin>Dim Security</origin>
+        <origin>DimCompany 2</origin>
         <comments>name</comments>
         <conversion_Mask/>
         <decimal_symbol>,</decimal_symbol>
@@ -2058,11 +1471,11 @@ FROM DimSecurity;</sql>
       <value-meta>
         <type>String</type>
         <storagetype>normal</storagetype>
-        <name>exchangeid</name>
-        <length>6</length>
+        <name>industry</name>
+        <length>50</length>
         <precision>-1</precision>
-        <origin>Dim Security</origin>
-        <comments>exchangeid</comments>
+        <origin>DimCompany 2</origin>
+        <comments>industry</comments>
         <conversion_Mask/>
         <decimal_symbol>,</decimal_symbol>
         <grouping_symbol>.</grouping_symbol>
@@ -2079,14 +1492,14 @@ FROM DimSecurity;</sql>
         <lenient_string_to_number>N</lenient_string_to_number>
       </value-meta>
       <value-meta>
-        <type>Integer</type>
+        <type>String</type>
         <storagetype>normal</storagetype>
-        <name>sk_companyid</name>
-        <length>11</length>
-        <precision>0</precision>
-        <origin>Dim Security</origin>
-        <comments>sk_companyid</comments>
-        <conversion_Mask>####0;-####0</conversion_Mask>
+        <name>sprating</name>
+        <length>4</length>
+        <precision>-1</precision>
+        <origin>DimCompany 2</origin>
+        <comments>sprating</comments>
+        <conversion_Mask/>
         <decimal_symbol>,</decimal_symbol>
         <grouping_symbol>.</grouping_symbol>
         <currency_symbol/>
@@ -2102,14 +1515,106 @@ FROM DimSecurity;</sql>
         <lenient_string_to_number>N</lenient_string_to_number>
       </value-meta>
       <value-meta>
-        <type>Integer</type>
+        <type>Boolean</type>
         <storagetype>normal</storagetype>
-        <name>sharesoutstanding</name>
+        <name>islowgrade</name>
+        <length>-1</length>
+        <precision>-1</precision>
+        <origin>DimCompany 2</origin>
+        <comments>islowgrade</comments>
+        <conversion_Mask/>
+        <decimal_symbol>,</decimal_symbol>
+        <grouping_symbol>.</grouping_symbol>
+        <currency_symbol/>
+        <trim_type>none</trim_type>
+        <case_insensitive>N</case_insensitive>
+        <collator_disabled>Y</collator_disabled>
+        <collator_strength>0</collator_strength>
+        <sort_descending>N</sort_descending>
+        <output_padding>N</output_padding>
+        <date_format_lenient>N</date_format_lenient>
+        <date_format_locale>fr_BE</date_format_locale>
+        <date_format_timezone>Europe/Brussels</date_format_timezone>
+        <lenient_string_to_number>N</lenient_string_to_number>
+      </value-meta>
+      <value-meta>
+        <type>String</type>
+        <storagetype>normal</storagetype>
+        <name>ceo</name>
+        <length>100</length>
+        <precision>-1</precision>
+        <origin>DimCompany 2</origin>
+        <comments>ceo</comments>
+        <conversion_Mask/>
+        <decimal_symbol>,</decimal_symbol>
+        <grouping_symbol>.</grouping_symbol>
+        <currency_symbol/>
+        <trim_type>none</trim_type>
+        <case_insensitive>N</case_insensitive>
+        <collator_disabled>Y</collator_disabled>
+        <collator_strength>0</collator_strength>
+        <sort_descending>N</sort_descending>
+        <output_padding>N</output_padding>
+        <date_format_lenient>N</date_format_lenient>
+        <date_format_locale>fr_BE</date_format_locale>
+        <date_format_timezone>Europe/Brussels</date_format_timezone>
+        <lenient_string_to_number>N</lenient_string_to_number>
+      </value-meta>
+      <value-meta>
+        <type>String</type>
+        <storagetype>normal</storagetype>
+        <name>addressline1</name>
+        <length>80</length>
+        <precision>-1</precision>
+        <origin>DimCompany 2</origin>
+        <comments>addressline1</comments>
+        <conversion_Mask/>
+        <decimal_symbol>,</decimal_symbol>
+        <grouping_symbol>.</grouping_symbol>
+        <currency_symbol/>
+        <trim_type>none</trim_type>
+        <case_insensitive>N</case_insensitive>
+        <collator_disabled>Y</collator_disabled>
+        <collator_strength>0</collator_strength>
+        <sort_descending>N</sort_descending>
+        <output_padding>N</output_padding>
+        <date_format_lenient>N</date_format_lenient>
+        <date_format_locale>fr_BE</date_format_locale>
+        <date_format_timezone>Europe/Brussels</date_format_timezone>
+        <lenient_string_to_number>N</lenient_string_to_number>
+      </value-meta>
+      <value-meta>
+        <type>String</type>
+        <storagetype>normal</storagetype>
+        <name>addressline2</name>
+        <length>80</length>
+        <precision>-1</precision>
+        <origin>DimCompany 2</origin>
+        <comments>addressline2</comments>
+        <conversion_Mask/>
+        <decimal_symbol>,</decimal_symbol>
+        <grouping_symbol>.</grouping_symbol>
+        <currency_symbol/>
+        <trim_type>none</trim_type>
+        <case_insensitive>N</case_insensitive>
+        <collator_disabled>Y</collator_disabled>
+        <collator_strength>0</collator_strength>
+        <sort_descending>N</sort_descending>
+        <output_padding>N</output_padding>
+        <date_format_lenient>N</date_format_lenient>
+        <date_format_locale>fr_BE</date_format_locale>
+        <date_format_timezone>Europe/Brussels</date_format_timezone>
+        <lenient_string_to_number>N</lenient_string_to_number>
+      </value-meta>
+      <value-meta>
+        <type>String</type>
+        <storagetype>normal</storagetype>
+        <name>postalcode</name>
         <length>12</length>
-        <precision>0</precision>
-        <origin>Dim Security</origin>
-        <comments>sharesoutstanding</comments>
-        <conversion_Mask>####0;-####0</conversion_Mask>
+        <precision>-1</precision>
+        <origin>DimCompany 2</origin>
+        <comments>postalcode</comments>
+        <conversion_Mask/>
         <decimal_symbol>,</decimal_symbol>
         <grouping_symbol>.</grouping_symbol>
         <currency_symbol/>
@@ -2125,13 +1630,82 @@ FROM DimSecurity;</sql>
         <lenient_string_to_number>N</lenient_string_to_number>
       </value-meta>
       <value-meta>
-        <type>Date</type>
+        <type>String</type>
         <storagetype>normal</storagetype>
-        <name>firsttrade</name>
-        <length>-1</length>
+        <name>city</name>
+        <length>25</length>
         <precision>-1</precision>
-        <origin>Dim Security</origin>
-        <comments>firsttrade</comments>
+        <origin>DimCompany 2</origin>
+        <comments>city</comments>
+        <conversion_Mask/>
+        <decimal_symbol>,</decimal_symbol>
+        <grouping_symbol>.</grouping_symbol>
+        <currency_symbol/>
+        <trim_type>none</trim_type>
+        <case_insensitive>N</case_insensitive>
+        <collator_disabled>Y</collator_disabled>
+        <collator_strength>0</collator_strength>
+        <sort_descending>N</sort_descending>
+        <output_padding>N</output_padding>
+        <date_format_lenient>N</date_format_lenient>
+        <date_format_locale>fr_BE</date_format_locale>
+        <date_format_timezone>Europe/Brussels</date_format_timezone>
+        <lenient_string_to_number>N</lenient_string_to_number>
+      </value-meta>
+      <value-meta>
+        <type>String</type>
+        <storagetype>normal</storagetype>
+        <name>stateprov</name>
+        <length>20</length>
+        <precision>-1</precision>
+        <origin>DimCompany 2</origin>
+        <comments>stateprov</comments>
+        <conversion_Mask/>
+        <decimal_symbol>,</decimal_symbol>
+        <grouping_symbol>.</grouping_symbol>
+        <currency_symbol/>
+        <trim_type>none</trim_type>
+        <case_insensitive>N</case_insensitive>
+        <collator_disabled>Y</collator_disabled>
+        <collator_strength>0</collator_strength>
+        <sort_descending>N</sort_descending>
+        <output_padding>N</output_padding>
+        <date_format_lenient>N</date_format_lenient>
+        <date_format_locale>fr_BE</date_format_locale>
+        <date_format_timezone>Europe/Brussels</date_format_timezone>
+        <lenient_string_to_number>N</lenient_string_to_number>
+      </value-meta>
+      <value-meta>
+        <type>String</type>
+        <storagetype>normal</storagetype>
+        <name>country</name>
+        <length>24</length>
+        <precision>-1</precision>
+        <origin>DimCompany 2</origin>
+        <comments>country</comments>
+        <conversion_Mask/>
+        <decimal_symbol>,</decimal_symbol>
+        <grouping_symbol>.</grouping_symbol>
+        <currency_symbol/>
+        <trim_type>none</trim_type>
+        <case_insensitive>N</case_insensitive>
+        <collator_disabled>Y</collator_disabled>
+        <collator_strength>0</collator_strength>
+        <sort_descending>N</sort_descending>
+        <output_padding>N</output_padding>
+        <date_format_lenient>N</date_format_lenient>
+        <date_format_locale>fr_BE</date_format_locale>
+        <date_format_timezone>Europe/Brussels</date_format_timezone>
+        <lenient_string_to_number>N</lenient_string_to_number>
+      </value-meta>
+      <value-meta>
+        <type>String</type>
+        <storagetype>normal</storagetype>
+        <name>description</name>
+        <length>150</length>
+        <precision>-1</precision>
+        <origin>DimCompany 2</origin>
+        <comments>description</comments>
         <conversion_Mask/>
         <decimal_symbol>,</decimal_symbol>
         <grouping_symbol>.</grouping_symbol>
@@ -2150,35 +1724,12 @@ FROM DimSecurity;</sql>
       <value-meta>
         <type>Date</type>
         <storagetype>normal</storagetype>
-        <name>firsttradeonexchange</name>
+        <name>foundingdate</name>
         <length>-1</length>
         <precision>-1</precision>
-        <origin>Dim Security</origin>
-        <comments>firsttradeonexchange</comments>
+        <origin>DimCompany 2</origin>
+        <comments>foundingdate</comments>
         <conversion_Mask/>
-        <decimal_symbol>,</decimal_symbol>
-        <grouping_symbol>.</grouping_symbol>
-        <currency_symbol/>
-        <trim_type>none</trim_type>
-        <case_insensitive>N</case_insensitive>
-        <collator_disabled>Y</collator_disabled>
-        <collator_strength>0</collator_strength>
-        <sort_descending>N</sort_descending>
-        <output_padding>N</output_padding>
-        <date_format_lenient>N</date_format_lenient>
-        <date_format_locale>fr_BE</date_format_locale>
-        <date_format_timezone>Europe/Brussels</date_format_timezone>
-        <lenient_string_to_number>N</lenient_string_to_number>
-      </value-meta>
-      <value-meta>
-        <type>Number</type>
-        <storagetype>normal</storagetype>
-        <name>dividend</name>
-        <length>10</length>
-        <precision>2</precision>
-        <origin>Dim Security</origin>
-        <comments>dividend</comments>
-        <conversion_Mask>####0.0#########;-####0.0#########</conversion_Mask>
         <decimal_symbol>,</decimal_symbol>
         <grouping_symbol>.</grouping_symbol>
         <currency_symbol/>
@@ -2199,7 +1750,7 @@ FROM DimSecurity;</sql>
         <name>iscurrent</name>
         <length>-1</length>
         <precision>-1</precision>
-        <origin>Dim Security</origin>
+        <origin>DimCompany 2</origin>
         <comments>iscurrent</comments>
         <conversion_Mask/>
         <decimal_symbol>,</decimal_symbol>
@@ -2222,7 +1773,7 @@ FROM DimSecurity;</sql>
         <name>batchid</name>
         <length>5</length>
         <precision>0</precision>
-        <origin>Dim Security</origin>
+        <origin>DimCompany 2</origin>
         <comments>batchid</comments>
         <conversion_Mask>####0;-####0</conversion_Mask>
         <decimal_symbol>,</decimal_symbol>
@@ -2245,7 +1796,7 @@ FROM DimSecurity;</sql>
         <name>effectivedate</name>
         <length>-1</length>
         <precision>-1</precision>
-        <origin>Dim Security</origin>
+        <origin>DimCompany 2</origin>
         <comments>effectivedate</comments>
         <conversion_Mask/>
         <decimal_symbol>,</decimal_symbol>
@@ -2268,7 +1819,7 @@ FROM DimSecurity;</sql>
         <name>enddate</name>
         <length>-1</length>
         <precision>-1</precision>
-        <origin>Dim Security</origin>
+        <origin>DimCompany 2</origin>
         <comments>enddate</comments>
         <conversion_Mask/>
         <decimal_symbol>,</decimal_symbol>
@@ -2295,61 +1846,13 @@ FROM DimSecurity;</sql>
       </output>
     </remotesteps>
     <GUI>
-      <xloc>704</xloc>
-      <yloc>128</yloc>
+      <xloc>480</xloc>
+      <yloc>80</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
   <step>
-    <name>Join Dim Security</name>
-    <type>StreamLookup</type>
-    <description/>
-    <distribute>Y</distribute>
-    <custom_distribution/>
-    <copies>1</copies>
-    <partitioning>
-      <method>none</method>
-      <schema_name/>
-    </partitioning>
-    <from>Dim Security</from>
-    <input_sorted>N</input_sorted>
-    <preserve_memory>Y</preserve_memory>
-    <sorted_list>N</sorted_list>
-    <integer_pair>N</integer_pair>
-    <lookup>
-      <key>
-        <name>T_S_SYMB</name>
-        <field>symbol</field>
-      </key>
-      <value>
-        <name>sk_securityid</name>
-        <rename>sk_securityid</rename>
-        <default/>
-        <type>Integer</type>
-      </value>
-      <value>
-        <name>sk_companyid</name>
-        <rename>sk_companyid</rename>
-        <default/>
-        <type>Integer</type>
-      </value>
-    </lookup>
-    <attributes/>
-    <cluster_schema/>
-    <remotesteps>
-      <input>
-      </input>
-      <output>
-      </output>
-    </remotesteps>
-    <GUI>
-      <xloc>704</xloc>
-      <yloc>224</yloc>
-      <draw>Y</draw>
-    </GUI>
-  </step>
-  <step>
-    <name>Dim Account</name>
+    <name>DimCompany 2</name>
     <type>TableInput</type>
     <description/>
     <distribute>Y</distribute>
@@ -2361,7 +1864,7 @@ FROM DimSecurity;</sql>
     </partitioning>
     <connection>TPC_DI</connection>
     <sql>SELECT *
-FROM DimAccount;</sql>
+FROM DimCompany;</sql>
     <limit>0</limit>
     <lookup/>
     <execute_each_row>N</execute_each_row>
@@ -2372,11 +1875,11 @@ FROM DimAccount;</sql>
       <value-meta>
         <type>Integer</type>
         <storagetype>normal</storagetype>
-        <name>sk_accountid</name>
+        <name>sk_companyid</name>
         <length>11</length>
         <precision>0</precision>
-        <origin>Dim Security 2</origin>
-        <comments>sk_accountid</comments>
+        <origin>DimCompany 2 2</origin>
+        <comments>sk_companyid</comments>
         <conversion_Mask>####0;-####0</conversion_Mask>
         <decimal_symbol>,</decimal_symbol>
         <grouping_symbol>.</grouping_symbol>
@@ -2395,57 +1898,11 @@ FROM DimAccount;</sql>
       <value-meta>
         <type>Integer</type>
         <storagetype>normal</storagetype>
-        <name>sk_brokerid</name>
+        <name>companyid</name>
         <length>11</length>
         <precision>0</precision>
-        <origin>Dim Security 2</origin>
-        <comments>sk_brokerid</comments>
-        <conversion_Mask>####0;-####0</conversion_Mask>
-        <decimal_symbol>,</decimal_symbol>
-        <grouping_symbol>.</grouping_symbol>
-        <currency_symbol/>
-        <trim_type>none</trim_type>
-        <case_insensitive>N</case_insensitive>
-        <collator_disabled>Y</collator_disabled>
-        <collator_strength>0</collator_strength>
-        <sort_descending>N</sort_descending>
-        <output_padding>N</output_padding>
-        <date_format_lenient>N</date_format_lenient>
-        <date_format_locale>fr_BE</date_format_locale>
-        <date_format_timezone>Europe/Brussels</date_format_timezone>
-        <lenient_string_to_number>N</lenient_string_to_number>
-      </value-meta>
-      <value-meta>
-        <type>Integer</type>
-        <storagetype>normal</storagetype>
-        <name>sk_customerid</name>
-        <length>11</length>
-        <precision>0</precision>
-        <origin>Dim Security 2</origin>
-        <comments>sk_customerid</comments>
-        <conversion_Mask>####0;-####0</conversion_Mask>
-        <decimal_symbol>,</decimal_symbol>
-        <grouping_symbol>.</grouping_symbol>
-        <currency_symbol/>
-        <trim_type>none</trim_type>
-        <case_insensitive>N</case_insensitive>
-        <collator_disabled>Y</collator_disabled>
-        <collator_strength>0</collator_strength>
-        <sort_descending>N</sort_descending>
-        <output_padding>N</output_padding>
-        <date_format_lenient>N</date_format_lenient>
-        <date_format_locale>fr_BE</date_format_locale>
-        <date_format_timezone>Europe/Brussels</date_format_timezone>
-        <lenient_string_to_number>N</lenient_string_to_number>
-      </value-meta>
-      <value-meta>
-        <type>Integer</type>
-        <storagetype>normal</storagetype>
-        <name>accountid</name>
-        <length>11</length>
-        <precision>0</precision>
-        <origin>Dim Security 2</origin>
-        <comments>accountid</comments>
+        <origin>DimCompany 2 2</origin>
+        <comments>companyid</comments>
         <conversion_Mask>####0;-####0</conversion_Mask>
         <decimal_symbol>,</decimal_symbol>
         <grouping_symbol>.</grouping_symbol>
@@ -2467,7 +1924,7 @@ FROM DimAccount;</sql>
         <name>status</name>
         <length>10</length>
         <precision>-1</precision>
-        <origin>Dim Security 2</origin>
+        <origin>DimCompany 2 2</origin>
         <comments>status</comments>
         <conversion_Mask/>
         <decimal_symbol>,</decimal_symbol>
@@ -2487,11 +1944,11 @@ FROM DimAccount;</sql>
       <value-meta>
         <type>String</type>
         <storagetype>normal</storagetype>
-        <name>accountdesc</name>
-        <length>50</length>
+        <name>name</name>
+        <length>60</length>
         <precision>-1</precision>
-        <origin>Dim Security 2</origin>
-        <comments>accountdesc</comments>
+        <origin>DimCompany 2 2</origin>
+        <comments>name</comments>
         <conversion_Mask/>
         <decimal_symbol>,</decimal_symbol>
         <grouping_symbol>.</grouping_symbol>
@@ -2508,14 +1965,267 @@ FROM DimAccount;</sql>
         <lenient_string_to_number>N</lenient_string_to_number>
       </value-meta>
       <value-meta>
-        <type>Integer</type>
+        <type>String</type>
         <storagetype>normal</storagetype>
-        <name>taxstatus</name>
-        <length>1</length>
-        <precision>0</precision>
-        <origin>Dim Security 2</origin>
-        <comments>taxstatus</comments>
-        <conversion_Mask>####0;-####0</conversion_Mask>
+        <name>industry</name>
+        <length>50</length>
+        <precision>-1</precision>
+        <origin>DimCompany 2 2</origin>
+        <comments>industry</comments>
+        <conversion_Mask/>
+        <decimal_symbol>,</decimal_symbol>
+        <grouping_symbol>.</grouping_symbol>
+        <currency_symbol/>
+        <trim_type>none</trim_type>
+        <case_insensitive>N</case_insensitive>
+        <collator_disabled>Y</collator_disabled>
+        <collator_strength>0</collator_strength>
+        <sort_descending>N</sort_descending>
+        <output_padding>N</output_padding>
+        <date_format_lenient>N</date_format_lenient>
+        <date_format_locale>fr_BE</date_format_locale>
+        <date_format_timezone>Europe/Brussels</date_format_timezone>
+        <lenient_string_to_number>N</lenient_string_to_number>
+      </value-meta>
+      <value-meta>
+        <type>String</type>
+        <storagetype>normal</storagetype>
+        <name>sprating</name>
+        <length>4</length>
+        <precision>-1</precision>
+        <origin>DimCompany 2 2</origin>
+        <comments>sprating</comments>
+        <conversion_Mask/>
+        <decimal_symbol>,</decimal_symbol>
+        <grouping_symbol>.</grouping_symbol>
+        <currency_symbol/>
+        <trim_type>none</trim_type>
+        <case_insensitive>N</case_insensitive>
+        <collator_disabled>Y</collator_disabled>
+        <collator_strength>0</collator_strength>
+        <sort_descending>N</sort_descending>
+        <output_padding>N</output_padding>
+        <date_format_lenient>N</date_format_lenient>
+        <date_format_locale>fr_BE</date_format_locale>
+        <date_format_timezone>Europe/Brussels</date_format_timezone>
+        <lenient_string_to_number>N</lenient_string_to_number>
+      </value-meta>
+      <value-meta>
+        <type>Boolean</type>
+        <storagetype>normal</storagetype>
+        <name>islowgrade</name>
+        <length>-1</length>
+        <precision>-1</precision>
+        <origin>DimCompany 2 2</origin>
+        <comments>islowgrade</comments>
+        <conversion_Mask/>
+        <decimal_symbol>,</decimal_symbol>
+        <grouping_symbol>.</grouping_symbol>
+        <currency_symbol/>
+        <trim_type>none</trim_type>
+        <case_insensitive>N</case_insensitive>
+        <collator_disabled>Y</collator_disabled>
+        <collator_strength>0</collator_strength>
+        <sort_descending>N</sort_descending>
+        <output_padding>N</output_padding>
+        <date_format_lenient>N</date_format_lenient>
+        <date_format_locale>fr_BE</date_format_locale>
+        <date_format_timezone>Europe/Brussels</date_format_timezone>
+        <lenient_string_to_number>N</lenient_string_to_number>
+      </value-meta>
+      <value-meta>
+        <type>String</type>
+        <storagetype>normal</storagetype>
+        <name>ceo</name>
+        <length>100</length>
+        <precision>-1</precision>
+        <origin>DimCompany 2 2</origin>
+        <comments>ceo</comments>
+        <conversion_Mask/>
+        <decimal_symbol>,</decimal_symbol>
+        <grouping_symbol>.</grouping_symbol>
+        <currency_symbol/>
+        <trim_type>none</trim_type>
+        <case_insensitive>N</case_insensitive>
+        <collator_disabled>Y</collator_disabled>
+        <collator_strength>0</collator_strength>
+        <sort_descending>N</sort_descending>
+        <output_padding>N</output_padding>
+        <date_format_lenient>N</date_format_lenient>
+        <date_format_locale>fr_BE</date_format_locale>
+        <date_format_timezone>Europe/Brussels</date_format_timezone>
+        <lenient_string_to_number>N</lenient_string_to_number>
+      </value-meta>
+      <value-meta>
+        <type>String</type>
+        <storagetype>normal</storagetype>
+        <name>addressline1</name>
+        <length>80</length>
+        <precision>-1</precision>
+        <origin>DimCompany 2 2</origin>
+        <comments>addressline1</comments>
+        <conversion_Mask/>
+        <decimal_symbol>,</decimal_symbol>
+        <grouping_symbol>.</grouping_symbol>
+        <currency_symbol/>
+        <trim_type>none</trim_type>
+        <case_insensitive>N</case_insensitive>
+        <collator_disabled>Y</collator_disabled>
+        <collator_strength>0</collator_strength>
+        <sort_descending>N</sort_descending>
+        <output_padding>N</output_padding>
+        <date_format_lenient>N</date_format_lenient>
+        <date_format_locale>fr_BE</date_format_locale>
+        <date_format_timezone>Europe/Brussels</date_format_timezone>
+        <lenient_string_to_number>N</lenient_string_to_number>
+      </value-meta>
+      <value-meta>
+        <type>String</type>
+        <storagetype>normal</storagetype>
+        <name>addressline2</name>
+        <length>80</length>
+        <precision>-1</precision>
+        <origin>DimCompany 2 2</origin>
+        <comments>addressline2</comments>
+        <conversion_Mask/>
+        <decimal_symbol>,</decimal_symbol>
+        <grouping_symbol>.</grouping_symbol>
+        <currency_symbol/>
+        <trim_type>none</trim_type>
+        <case_insensitive>N</case_insensitive>
+        <collator_disabled>Y</collator_disabled>
+        <collator_strength>0</collator_strength>
+        <sort_descending>N</sort_descending>
+        <output_padding>N</output_padding>
+        <date_format_lenient>N</date_format_lenient>
+        <date_format_locale>fr_BE</date_format_locale>
+        <date_format_timezone>Europe/Brussels</date_format_timezone>
+        <lenient_string_to_number>N</lenient_string_to_number>
+      </value-meta>
+      <value-meta>
+        <type>String</type>
+        <storagetype>normal</storagetype>
+        <name>postalcode</name>
+        <length>12</length>
+        <precision>-1</precision>
+        <origin>DimCompany 2 2</origin>
+        <comments>postalcode</comments>
+        <conversion_Mask/>
+        <decimal_symbol>,</decimal_symbol>
+        <grouping_symbol>.</grouping_symbol>
+        <currency_symbol/>
+        <trim_type>none</trim_type>
+        <case_insensitive>N</case_insensitive>
+        <collator_disabled>Y</collator_disabled>
+        <collator_strength>0</collator_strength>
+        <sort_descending>N</sort_descending>
+        <output_padding>N</output_padding>
+        <date_format_lenient>N</date_format_lenient>
+        <date_format_locale>fr_BE</date_format_locale>
+        <date_format_timezone>Europe/Brussels</date_format_timezone>
+        <lenient_string_to_number>N</lenient_string_to_number>
+      </value-meta>
+      <value-meta>
+        <type>String</type>
+        <storagetype>normal</storagetype>
+        <name>city</name>
+        <length>25</length>
+        <precision>-1</precision>
+        <origin>DimCompany 2 2</origin>
+        <comments>city</comments>
+        <conversion_Mask/>
+        <decimal_symbol>,</decimal_symbol>
+        <grouping_symbol>.</grouping_symbol>
+        <currency_symbol/>
+        <trim_type>none</trim_type>
+        <case_insensitive>N</case_insensitive>
+        <collator_disabled>Y</collator_disabled>
+        <collator_strength>0</collator_strength>
+        <sort_descending>N</sort_descending>
+        <output_padding>N</output_padding>
+        <date_format_lenient>N</date_format_lenient>
+        <date_format_locale>fr_BE</date_format_locale>
+        <date_format_timezone>Europe/Brussels</date_format_timezone>
+        <lenient_string_to_number>N</lenient_string_to_number>
+      </value-meta>
+      <value-meta>
+        <type>String</type>
+        <storagetype>normal</storagetype>
+        <name>stateprov</name>
+        <length>20</length>
+        <precision>-1</precision>
+        <origin>DimCompany 2 2</origin>
+        <comments>stateprov</comments>
+        <conversion_Mask/>
+        <decimal_symbol>,</decimal_symbol>
+        <grouping_symbol>.</grouping_symbol>
+        <currency_symbol/>
+        <trim_type>none</trim_type>
+        <case_insensitive>N</case_insensitive>
+        <collator_disabled>Y</collator_disabled>
+        <collator_strength>0</collator_strength>
+        <sort_descending>N</sort_descending>
+        <output_padding>N</output_padding>
+        <date_format_lenient>N</date_format_lenient>
+        <date_format_locale>fr_BE</date_format_locale>
+        <date_format_timezone>Europe/Brussels</date_format_timezone>
+        <lenient_string_to_number>N</lenient_string_to_number>
+      </value-meta>
+      <value-meta>
+        <type>String</type>
+        <storagetype>normal</storagetype>
+        <name>country</name>
+        <length>24</length>
+        <precision>-1</precision>
+        <origin>DimCompany 2 2</origin>
+        <comments>country</comments>
+        <conversion_Mask/>
+        <decimal_symbol>,</decimal_symbol>
+        <grouping_symbol>.</grouping_symbol>
+        <currency_symbol/>
+        <trim_type>none</trim_type>
+        <case_insensitive>N</case_insensitive>
+        <collator_disabled>Y</collator_disabled>
+        <collator_strength>0</collator_strength>
+        <sort_descending>N</sort_descending>
+        <output_padding>N</output_padding>
+        <date_format_lenient>N</date_format_lenient>
+        <date_format_locale>fr_BE</date_format_locale>
+        <date_format_timezone>Europe/Brussels</date_format_timezone>
+        <lenient_string_to_number>N</lenient_string_to_number>
+      </value-meta>
+      <value-meta>
+        <type>String</type>
+        <storagetype>normal</storagetype>
+        <name>description</name>
+        <length>150</length>
+        <precision>-1</precision>
+        <origin>DimCompany 2 2</origin>
+        <comments>description</comments>
+        <conversion_Mask/>
+        <decimal_symbol>,</decimal_symbol>
+        <grouping_symbol>.</grouping_symbol>
+        <currency_symbol/>
+        <trim_type>none</trim_type>
+        <case_insensitive>N</case_insensitive>
+        <collator_disabled>Y</collator_disabled>
+        <collator_strength>0</collator_strength>
+        <sort_descending>N</sort_descending>
+        <output_padding>N</output_padding>
+        <date_format_lenient>N</date_format_lenient>
+        <date_format_locale>fr_BE</date_format_locale>
+        <date_format_timezone>Europe/Brussels</date_format_timezone>
+        <lenient_string_to_number>N</lenient_string_to_number>
+      </value-meta>
+      <value-meta>
+        <type>Date</type>
+        <storagetype>normal</storagetype>
+        <name>foundingdate</name>
+        <length>-1</length>
+        <precision>-1</precision>
+        <origin>DimCompany 2 2</origin>
+        <comments>foundingdate</comments>
+        <conversion_Mask/>
         <decimal_symbol>,</decimal_symbol>
         <grouping_symbol>.</grouping_symbol>
         <currency_symbol/>
@@ -2536,7 +2246,7 @@ FROM DimAccount;</sql>
         <name>iscurrent</name>
         <length>-1</length>
         <precision>-1</precision>
-        <origin>Dim Security 2</origin>
+        <origin>DimCompany 2 2</origin>
         <comments>iscurrent</comments>
         <conversion_Mask/>
         <decimal_symbol>,</decimal_symbol>
@@ -2559,7 +2269,7 @@ FROM DimAccount;</sql>
         <name>batchid</name>
         <length>5</length>
         <precision>0</precision>
-        <origin>Dim Security 2</origin>
+        <origin>DimCompany 2 2</origin>
         <comments>batchid</comments>
         <conversion_Mask>####0;-####0</conversion_Mask>
         <decimal_symbol>,</decimal_symbol>
@@ -2582,7 +2292,7 @@ FROM DimAccount;</sql>
         <name>effectivedate</name>
         <length>-1</length>
         <precision>-1</precision>
-        <origin>Dim Security 2</origin>
+        <origin>DimCompany 2 2</origin>
         <comments>effectivedate</comments>
         <conversion_Mask/>
         <decimal_symbol>,</decimal_symbol>
@@ -2605,7 +2315,7 @@ FROM DimAccount;</sql>
         <name>enddate</name>
         <length>-1</length>
         <precision>-1</precision>
-        <origin>Dim Security 2</origin>
+        <origin>DimCompany 2 2</origin>
         <comments>enddate</comments>
         <conversion_Mask/>
         <decimal_symbol>,</decimal_symbol>
@@ -2632,13 +2342,13 @@ FROM DimAccount;</sql>
       </output>
     </remotesteps>
     <GUI>
-      <xloc>864</xloc>
-      <yloc>128</yloc>
+      <xloc>480</xloc>
+      <yloc>368</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
   <step>
-    <name>Join Dim Account</name>
+    <name>Join on CIK</name>
     <type>StreamLookup</type>
     <description/>
     <distribute>Y</distribute>
@@ -2648,33 +2358,33 @@ FROM DimAccount;</sql>
       <method>none</method>
       <schema_name/>
     </partitioning>
-    <from>Dim Account</from>
+    <from>DimCompany 1</from>
     <input_sorted>N</input_sorted>
     <preserve_memory>Y</preserve_memory>
     <sorted_list>N</sorted_list>
     <integer_pair>N</integer_pair>
     <lookup>
       <key>
-        <name>T_CA_ID</name>
-        <field>accountid</field>
+        <name>CoNameOrCIK</name>
+        <field>companyid</field>
       </key>
       <value>
-        <name>sk_accountid</name>
-        <rename>sk_accountid</rename>
+        <name>sk_companyid</name>
+        <rename>sk_companyid</rename>
         <default/>
         <type>Integer</type>
       </value>
       <value>
-        <name>sk_brokerid</name>
-        <rename>sk_brokerid</rename>
+        <name>effectivedate</name>
+        <rename>effectivedate</rename>
         <default/>
-        <type>Integer</type>
+        <type>None</type>
       </value>
       <value>
-        <name>sk_customerid</name>
-        <rename>sk_customerid</rename>
+        <name>enddate</name>
+        <rename>enddate</rename>
         <default/>
-        <type>Integer</type>
+        <type>None</type>
       </value>
     </lookup>
     <attributes/>
@@ -2686,8 +2396,134 @@ FROM DimAccount;</sql>
       </output>
     </remotesteps>
     <GUI>
-      <xloc>864</xloc>
-      <yloc>224</yloc>
+      <xloc>480</xloc>
+      <yloc>160</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>Join on Name</name>
+    <type>StreamLookup</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <from>DimCompany 2</from>
+    <input_sorted>N</input_sorted>
+    <preserve_memory>Y</preserve_memory>
+    <sorted_list>N</sorted_list>
+    <integer_pair>N</integer_pair>
+    <lookup>
+      <key>
+        <name>CoNameOrCIK</name>
+        <field>name</field>
+      </key>
+      <value>
+        <name>sk_companyid</name>
+        <rename>sk_companyid</rename>
+        <default/>
+        <type>Integer</type>
+      </value>
+      <value>
+        <name>effectivedate</name>
+        <rename>effectivedate</rename>
+        <default/>
+        <type>None</type>
+      </value>
+      <value>
+        <name>enddate</name>
+        <rename>enddate</rename>
+        <default/>
+        <type>None</type>
+      </value>
+    </lookup>
+    <attributes/>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>480</xloc>
+      <yloc>288</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>Dummy (do nothing)</name>
+    <type>Dummy</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <attributes/>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>560</xloc>
+      <yloc>240</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>Filter Date</name>
+    <type>FilterRows</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <send_true_to/>
+    <send_false_to/>
+    <compare>
+      <condition>
+        <negated>N</negated>
+        <conditions>
+          <condition>
+            <negated>N</negated>
+            <leftvalue>PTS</leftvalue>
+            <function>&gt;=</function>
+            <rightvalue>effectivedate</rightvalue>
+          </condition>
+          <condition>
+            <negated>N</negated>
+            <operator>AND</operator>
+            <leftvalue>PTS</leftvalue>
+            <function>&lt;=</function>
+            <rightvalue>enddate</rightvalue>
+          </condition>
+        </conditions>
+      </condition>
+    </compare>
+    <attributes/>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>672</xloc>
+      <yloc>240</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -2696,16 +2532,5 @@ FROM DimAccount;</sql>
   <slave-step-copy-partition-distribution>
   </slave-step-copy-partition-distribution>
   <slave_transformation>N</slave_transformation>
-  <attributes>
-    <group>
-      <name>METASTORE.NamedClusters</name>
-      <attribute>
-        <key>NamedCluster</key>
-        <value>{"namespace":"NamedClusters","id":"NamedCluster","name":"NamedCluster","description":"A NamedCluster","metaStoreName":null}</value>
-      </attribute>
-    </group>
-    <group>
-      <name>{"_":"Embedded MetaStore Elements","namespace":"NamedClusters","type":"NamedCluster"}</name>
-    </group>
-  </attributes>
+  <attributes/>
 </transformation>
