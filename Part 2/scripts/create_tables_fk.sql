@@ -130,7 +130,7 @@ tblproperties ('serialization.null.format'='');
 CREATE EXTERNAL TABLE DimTime
 (
     sk_timeid       DECIMAL(11),
-		TimeValue       TIMESTAMP,
+		TimeValue       STRING,
 		HourID          DECIMAL(2),
 		HourDesc        CHAR(20),
 		MinuteID        DECIMAL(2),

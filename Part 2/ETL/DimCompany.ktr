@@ -498,18 +498,8 @@
       <enabled>Y</enabled>
     </hop>
     <hop>
-      <from>if CMP</from>
-      <to>Gen LowGrade </to>
-      <enabled>Y</enabled>
-    </hop>
-    <hop>
       <from>Status</from>
       <to>Join Status</to>
-      <enabled>Y</enabled>
-    </hop>
-    <hop>
-      <from>if CMP</from>
-      <to>Dummy (do nothing)</to>
       <enabled>Y</enabled>
     </hop>
     <hop>
@@ -528,7 +518,7 @@
       <enabled>Y</enabled>
     </hop>
     <hop>
-      <from>Gen LowGrade </from>
+      <from>isLowGrade </from>
       <to>Join Status</to>
       <enabled>Y</enabled>
     </hop>
@@ -542,7 +532,85 @@
       <to>DimCompany</to>
       <enabled>Y</enabled>
     </hop>
+    <hop>
+      <from>if CMP</from>
+      <to>date format</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>date format</from>
+      <to>Select values</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>Select values</from>
+      <to>isLowGrade </to>
+      <enabled>Y</enabled>
+    </hop>
   </order>
+  <step>
+    <name>Add constants</name>
+    <type>Constant</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <fields>
+      <field>
+        <name>IsCurrent</name>
+        <type>String</type>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+        <nullif>true</nullif>
+        <length>-1</length>
+        <precision>-1</precision>
+        <set_empty_string>N</set_empty_string>
+      </field>
+      <field>
+        <name>EndDate</name>
+        <type>Date</type>
+        <format>yyyy-MM-dd</format>
+        <currency/>
+        <decimal/>
+        <group/>
+        <nullif>9999-12-31</nullif>
+        <length>-1</length>
+        <precision>-1</precision>
+        <set_empty_string>N</set_empty_string>
+      </field>
+      <field>
+        <name>BatchID</name>
+        <type>Integer</type>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+        <nullif>1</nullif>
+        <length>-1</length>
+        <precision>-1</precision>
+        <set_empty_string>N</set_empty_string>
+      </field>
+    </fields>
+    <attributes/>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>800</xloc>
+      <yloc>304</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
   <step>
     <name>Add sk_CompanyId</name>
     <type>Sequence</type>
@@ -573,7 +641,7 @@
       </output>
     </remotesteps>
     <GUI>
-      <xloc>592</xloc>
+      <xloc>576</xloc>
       <yloc>304</yloc>
       <draw>Y</draw>
     </GUI>
@@ -635,7 +703,7 @@
       </field>
       <field>
         <name>CIK</name>
-        <type>String</type>
+        <type>Integer</type>
         <format/>
         <currency/>
         <decimal/>
@@ -802,9 +870,9 @@
         <precision>-1</precision>
       </field>
       <field>
-        <name>FoundingDate</name>
+        <name>date</name>
         <type>Date</type>
-        <format>yyyyMMdd</format>
+        <format/>
         <currency/>
         <decimal/>
         <group/>
@@ -838,9 +906,9 @@
         <precision>0</precision>
       </field>
       <field>
-        <name>PTS</name>
+        <name>eff_date</name>
         <type>Date</type>
-        <format>yyyyMMdd</format>
+        <format/>
         <currency/>
         <decimal/>
         <group/>
@@ -1060,33 +1128,8 @@
       </output>
     </remotesteps>
     <GUI>
-      <xloc>944</xloc>
+      <xloc>912</xloc>
       <yloc>304</yloc>
-      <draw>Y</draw>
-    </GUI>
-  </step>
-  <step>
-    <name>Dummy (do nothing)</name>
-    <type>Dummy</type>
-    <description/>
-    <distribute>Y</distribute>
-    <custom_distribution/>
-    <copies>1</copies>
-    <partitioning>
-      <method>none</method>
-      <schema_name/>
-    </partitioning>
-    <attributes/>
-    <cluster_schema/>
-    <remotesteps>
-      <input>
-      </input>
-      <output>
-      </output>
-    </remotesteps>
-    <GUI>
-      <xloc>192</xloc>
-      <yloc>160</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -1142,8 +1185,8 @@
     <fields>
       <field>
         <name>PTS</name>
-        <type>Date</type>
-        <format>yyyyMMdd-HHmmss</format>
+        <type>String</type>
+        <format/>
         <currency/>
         <decimal/>
         <group/>
@@ -1415,13 +1458,13 @@
       </output>
     </remotesteps>
     <GUI>
-      <xloc>64</xloc>
+      <xloc>16</xloc>
       <yloc>304</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
   <step>
-    <name>Gen LowGrade </name>
+    <name>isLowGrade </name>
     <type>ScriptValueMod</type>
     <description/>
     <distribute>Y</distribute>
@@ -1464,7 +1507,7 @@ else isLowGrade = "true"
       </output>
     </remotesteps>
     <GUI>
-      <xloc>336</xloc>
+      <xloc>368</xloc>
       <yloc>304</yloc>
       <draw>Y</draw>
     </GUI>
@@ -1599,8 +1642,8 @@ else isLowGrade = "true"
       </output>
     </remotesteps>
     <GUI>
-      <xloc>720</xloc>
-      <yloc>480</yloc>
+      <xloc>688</xloc>
+      <yloc>208</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -1641,7 +1684,7 @@ else isLowGrade = "true"
       </output>
     </remotesteps>
     <GUI>
-      <xloc>720</xloc>
+      <xloc>688</xloc>
       <yloc>304</yloc>
       <draw>Y</draw>
     </GUI>
@@ -1667,12 +1710,6 @@ else isLowGrade = "true"
         <name>Status</name>
         <field>ST_ID</field>
       </key>
-      <value>
-        <name>ST_ID</name>
-        <rename>ST_ID</rename>
-        <default/>
-        <type>String</type>
-      </value>
       <value>
         <name>ST_NAME</name>
         <rename>ST_NAME</rename>
@@ -1810,7 +1847,7 @@ else isLowGrade = "true"
     </remotesteps>
     <GUI>
       <xloc>464</xloc>
-      <yloc>480</yloc>
+      <yloc>208</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -1825,7 +1862,7 @@ else isLowGrade = "true"
       <method>none</method>
       <schema_name/>
     </partitioning>
-    <send_true_to>Gen LowGrade </send_true_to>
+    <send_true_to>date format</send_true_to>
     <send_false_to>Dummy (do nothing)</send_false_to>
     <compare>
       <condition>
@@ -1853,14 +1890,14 @@ else isLowGrade = "true"
       </output>
     </remotesteps>
     <GUI>
-      <xloc>192</xloc>
+      <xloc>96</xloc>
       <yloc>304</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
   <step>
-    <name>Add constants</name>
-    <type>Constant</type>
+    <name>Select values</name>
+    <type>SelectValues</type>
     <description/>
     <distribute>Y</distribute>
     <custom_distribution/>
@@ -1870,41 +1907,97 @@ else isLowGrade = "true"
       <schema_name/>
     </partitioning>
     <fields>
-      <field>
-        <name>IsCurrent</name>
-        <type>String</type>
-        <format/>
-        <currency/>
-        <decimal/>
-        <group/>
-        <nullif>true</nullif>
-        <length>-1</length>
-        <precision>-1</precision>
-        <set_empty_string>N</set_empty_string>
-      </field>
-      <field>
-        <name>EndDate</name>
+      <select_unspecified>N</select_unspecified>
+      <meta>
+        <name>date</name>
+        <rename>date</rename>
         <type>Date</type>
-        <format>yyyy-MM-dd</format>
-        <currency/>
-        <decimal/>
-        <group/>
-        <nullif>9999-12-31</nullif>
+        <length>-2</length>
+        <precision>-2</precision>
+        <conversion_mask>yyyy-MM-dd</conversion_mask>
+        <date_format_lenient>false</date_format_lenient>
+        <date_format_locale/>
+        <date_format_timezone/>
+        <lenient_string_to_number>false</lenient_string_to_number>
+        <encoding/>
+        <decimal_symbol/>
+        <grouping_symbol/>
+        <currency_symbol/>
+        <storage_type/>
+      </meta>
+      <meta>
+        <name>eff_date</name>
+        <rename>eff_date</rename>
+        <type>Date</type>
+        <length>-2</length>
+        <precision>-2</precision>
+        <conversion_mask>yyyy-MM-dd</conversion_mask>
+        <date_format_lenient>false</date_format_lenient>
+        <date_format_locale/>
+        <date_format_timezone/>
+        <lenient_string_to_number>false</lenient_string_to_number>
+        <encoding/>
+        <decimal_symbol/>
+        <grouping_symbol/>
+        <currency_symbol/>
+        <storage_type/>
+      </meta>
+    </fields>
+    <attributes/>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>272</xloc>
+      <yloc>304</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>date format</name>
+    <type>ScriptValueMod</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <compatible>N</compatible>
+    <optimizationLevel>9</optimizationLevel>
+    <jsScripts>
+      <jsScript>
+        <jsScript_type>0</jsScript_type>
+        <jsScript_name>Script 1</jsScript_name>
+        <jsScript_script>//Script here
+var eff_date
+if (PTS != "") eff_date = PTS.substr(0,4) + "-" + PTS.substr(4,2) + "-" + PTS.substr(6,2)
+
+var date
+if (FoundingDate != "") date = FoundingDate.substr(0,4) + "-" + FoundingDate.substr(4,2) + "-" + FoundingDate.substr(6,2) </jsScript_script>
+      </jsScript>
+    </jsScripts>
+    <fields>
+      <field>
+        <name>date</name>
+        <rename>date</rename>
+        <type>String</type>
         <length>-1</length>
         <precision>-1</precision>
-        <set_empty_string>N</set_empty_string>
+        <replace>N</replace>
       </field>
       <field>
-        <name>BatchID</name>
-        <type>Integer</type>
-        <format/>
-        <currency/>
-        <decimal/>
-        <group/>
-        <nullif>1</nullif>
+        <name>eff_date</name>
+        <rename>eff_date</rename>
+        <type>String</type>
         <length>-1</length>
         <precision>-1</precision>
-        <set_empty_string>N</set_empty_string>
+        <replace>N</replace>
       </field>
     </fields>
     <attributes/>
@@ -1916,7 +2009,7 @@ else isLowGrade = "true"
       </output>
     </remotesteps>
     <GUI>
-      <xloc>848</xloc>
+      <xloc>176</xloc>
       <yloc>304</yloc>
       <draw>Y</draw>
     </GUI>
