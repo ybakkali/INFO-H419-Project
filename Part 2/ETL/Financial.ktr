@@ -1084,7 +1084,7 @@ FROM DimCompany;</sql>
         <name>sk_companyid</name>
         <length>11</length>
         <precision>0</precision>
-        <origin>DimCompany 2 2</origin>
+        <origin>DimCompany 2</origin>
         <comments>sk_companyid</comments>
         <conversion_Mask>####0;-####0</conversion_Mask>
         <decimal_symbol>,</decimal_symbol>
@@ -1107,7 +1107,7 @@ FROM DimCompany;</sql>
         <name>companyid</name>
         <length>11</length>
         <precision>0</precision>
-        <origin>DimCompany 2 2</origin>
+        <origin>DimCompany 2</origin>
         <comments>companyid</comments>
         <conversion_Mask>####0;-####0</conversion_Mask>
         <decimal_symbol>,</decimal_symbol>
@@ -1130,7 +1130,7 @@ FROM DimCompany;</sql>
         <name>status</name>
         <length>10</length>
         <precision>-1</precision>
-        <origin>DimCompany 2 2</origin>
+        <origin>DimCompany 2</origin>
         <comments>status</comments>
         <conversion_Mask/>
         <decimal_symbol>,</decimal_symbol>
@@ -1153,7 +1153,7 @@ FROM DimCompany;</sql>
         <name>name</name>
         <length>60</length>
         <precision>-1</precision>
-        <origin>DimCompany 2 2</origin>
+        <origin>DimCompany 2</origin>
         <comments>name</comments>
         <conversion_Mask/>
         <decimal_symbol>,</decimal_symbol>
@@ -1176,7 +1176,7 @@ FROM DimCompany;</sql>
         <name>industry</name>
         <length>50</length>
         <precision>-1</precision>
-        <origin>DimCompany 2 2</origin>
+        <origin>DimCompany 2</origin>
         <comments>industry</comments>
         <conversion_Mask/>
         <decimal_symbol>,</decimal_symbol>
@@ -1199,7 +1199,7 @@ FROM DimCompany;</sql>
         <name>sprating</name>
         <length>4</length>
         <precision>-1</precision>
-        <origin>DimCompany 2 2</origin>
+        <origin>DimCompany 2</origin>
         <comments>sprating</comments>
         <conversion_Mask/>
         <decimal_symbol>,</decimal_symbol>
@@ -1222,7 +1222,7 @@ FROM DimCompany;</sql>
         <name>islowgrade</name>
         <length>-1</length>
         <precision>-1</precision>
-        <origin>DimCompany 2 2</origin>
+        <origin>DimCompany 2</origin>
         <comments>islowgrade</comments>
         <conversion_Mask/>
         <decimal_symbol>,</decimal_symbol>
@@ -1245,7 +1245,7 @@ FROM DimCompany;</sql>
         <name>ceo</name>
         <length>100</length>
         <precision>-1</precision>
-        <origin>DimCompany 2 2</origin>
+        <origin>DimCompany 2</origin>
         <comments>ceo</comments>
         <conversion_Mask/>
         <decimal_symbol>,</decimal_symbol>
@@ -1268,7 +1268,7 @@ FROM DimCompany;</sql>
         <name>addressline1</name>
         <length>80</length>
         <precision>-1</precision>
-        <origin>DimCompany 2 2</origin>
+        <origin>DimCompany 2</origin>
         <comments>addressline1</comments>
         <conversion_Mask/>
         <decimal_symbol>,</decimal_symbol>
@@ -1291,7 +1291,7 @@ FROM DimCompany;</sql>
         <name>addressline2</name>
         <length>80</length>
         <precision>-1</precision>
-        <origin>DimCompany 2 2</origin>
+        <origin>DimCompany 2</origin>
         <comments>addressline2</comments>
         <conversion_Mask/>
         <decimal_symbol>,</decimal_symbol>
@@ -1314,7 +1314,7 @@ FROM DimCompany;</sql>
         <name>postalcode</name>
         <length>12</length>
         <precision>-1</precision>
-        <origin>DimCompany 2 2</origin>
+        <origin>DimCompany 2</origin>
         <comments>postalcode</comments>
         <conversion_Mask/>
         <decimal_symbol>,</decimal_symbol>
@@ -1337,7 +1337,7 @@ FROM DimCompany;</sql>
         <name>city</name>
         <length>25</length>
         <precision>-1</precision>
-        <origin>DimCompany 2 2</origin>
+        <origin>DimCompany 2</origin>
         <comments>city</comments>
         <conversion_Mask/>
         <decimal_symbol>,</decimal_symbol>
@@ -1360,7 +1360,7 @@ FROM DimCompany;</sql>
         <name>stateprov</name>
         <length>20</length>
         <precision>-1</precision>
-        <origin>DimCompany 2 2</origin>
+        <origin>DimCompany 2</origin>
         <comments>stateprov</comments>
         <conversion_Mask/>
         <decimal_symbol>,</decimal_symbol>
@@ -1383,7 +1383,7 @@ FROM DimCompany;</sql>
         <name>country</name>
         <length>24</length>
         <precision>-1</precision>
-        <origin>DimCompany 2 2</origin>
+        <origin>DimCompany 2</origin>
         <comments>country</comments>
         <conversion_Mask/>
         <decimal_symbol>,</decimal_symbol>
@@ -1406,7 +1406,7 @@ FROM DimCompany;</sql>
         <name>description</name>
         <length>150</length>
         <precision>-1</precision>
-        <origin>DimCompany 2 2</origin>
+        <origin>DimCompany 2</origin>
         <comments>description</comments>
         <conversion_Mask/>
         <decimal_symbol>,</decimal_symbol>
@@ -1429,7 +1429,7 @@ FROM DimCompany;</sql>
         <name>foundingdate</name>
         <length>-1</length>
         <precision>-1</precision>
-        <origin>DimCompany 2 2</origin>
+        <origin>DimCompany 2</origin>
         <comments>foundingdate</comments>
         <conversion_Mask/>
         <decimal_symbol>,</decimal_symbol>
@@ -1452,7 +1452,7 @@ FROM DimCompany;</sql>
         <name>iscurrent</name>
         <length>-1</length>
         <precision>-1</precision>
-        <origin>DimCompany 2 2</origin>
+        <origin>DimCompany 2</origin>
         <comments>iscurrent</comments>
         <conversion_Mask/>
         <decimal_symbol>,</decimal_symbol>
@@ -1475,7 +1475,7 @@ FROM DimCompany;</sql>
         <name>batchid</name>
         <length>5</length>
         <precision>0</precision>
-        <origin>DimCompany 2 2</origin>
+        <origin>DimCompany 2</origin>
         <comments>batchid</comments>
         <conversion_Mask>####0;-####0</conversion_Mask>
         <decimal_symbol>,</decimal_symbol>
@@ -1498,7 +1498,7 @@ FROM DimCompany;</sql>
         <name>effectivedate</name>
         <length>-1</length>
         <precision>-1</precision>
-        <origin>DimCompany 2 2</origin>
+        <origin>DimCompany 2</origin>
         <comments>effectivedate</comments>
         <conversion_Mask/>
         <decimal_symbol>,</decimal_symbol>
@@ -1521,7 +1521,7 @@ FROM DimCompany;</sql>
         <name>enddate</name>
         <length>-1</length>
         <precision>-1</precision>
-        <origin>DimCompany 2 2</origin>
+        <origin>DimCompany 2</origin>
         <comments>enddate</comments>
         <conversion_Mask/>
         <decimal_symbol>,</decimal_symbol>
@@ -2416,13 +2416,13 @@ FROM DimCompany;</sql>
         <name>effectivedate</name>
         <rename>effectivedate</rename>
         <default/>
-        <type>None</type>
+        <type>Date</type>
       </value>
       <value>
         <name>enddate</name>
         <rename>enddate</rename>
         <default/>
-        <type>None</type>
+        <type>Date</type>
       </value>
     </lookup>
     <attributes/>
@@ -2470,13 +2470,13 @@ FROM DimCompany;</sql>
         <name>effectivedate</name>
         <rename>effectivedate</rename>
         <default/>
-        <type>None</type>
+        <type>Date</type>
       </value>
       <value>
         <name>enddate</name>
         <rename>enddate</rename>
         <default/>
-        <type>None</type>
+        <type>Date</type>
       </value>
     </lookup>
     <attributes/>
@@ -2490,50 +2490,6 @@ FROM DimCompany;</sql>
     <GUI>
       <xloc>480</xloc>
       <yloc>288</yloc>
-      <draw>Y</draw>
-    </GUI>
-  </step>
-  <step>
-    <name>if FIN</name>
-    <type>FilterRows</type>
-    <description/>
-    <distribute>Y</distribute>
-    <custom_distribution/>
-    <copies>1</copies>
-    <partitioning>
-      <method>none</method>
-      <schema_name/>
-    </partitioning>
-    <send_true_to>date format</send_true_to>
-    <send_false_to/>
-    <compare>
-      <condition>
-        <negated>N</negated>
-        <leftvalue>RecType</leftvalue>
-        <function>=</function>
-        <rightvalue/>
-        <value>
-          <name>constant</name>
-          <type>String</type>
-          <text>FIN</text>
-          <length>-1</length>
-          <precision>-1</precision>
-          <isnull>N</isnull>
-          <mask/>
-        </value>
-      </condition>
-    </compare>
-    <attributes/>
-    <cluster_schema/>
-    <remotesteps>
-      <input>
-      </input>
-      <output>
-      </output>
-    </remotesteps>
-    <GUI>
-      <xloc>144</xloc>
-      <yloc>240</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -2626,6 +2582,50 @@ if (QtrStartDate != "") qtr_date = QtrStartDate.substr(0,4) + "-" + QtrStartDate
     </remotesteps>
     <GUI>
       <xloc>208</xloc>
+      <yloc>240</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>if FIN</name>
+    <type>FilterRows</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <send_true_to>date format</send_true_to>
+    <send_false_to/>
+    <compare>
+      <condition>
+        <negated>N</negated>
+        <leftvalue>RecType</leftvalue>
+        <function>=</function>
+        <rightvalue/>
+        <value>
+          <name>constant</name>
+          <type>String</type>
+          <text>FIN</text>
+          <length>-1</length>
+          <precision>-1</precision>
+          <isnull>N</isnull>
+          <mask/>
+        </value>
+      </condition>
+    </compare>
+    <attributes/>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>144</xloc>
       <yloc>240</yloc>
       <draw>Y</draw>
     </GUI>
