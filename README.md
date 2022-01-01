@@ -6,7 +6,7 @@
 - [Report](Part%201/report/Report.pdf)
 
 ### Part 2: TPC-DI benchmark
-- [Report](Part2/Report.pdf)
+- [Report](Part%202/report/Report.pdf)
  
 ## Contributors
 
