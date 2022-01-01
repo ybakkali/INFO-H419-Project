@@ -1,4 +1,4 @@
-# INFO-H419-Project
+# INFO-H419
 
 ## TPC project
 
